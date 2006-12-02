@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="description" content="The Debian KDE maintainers website" />
+	<meta name="keywords" content="debian, kde, qt" />
+	<meta name="author" content="The Debian KDE maintainers / Design by Andreas Viklund - http://andreasviklund.com/" />
+	<link rel="stylesheet" type="text/css" href="style.css" title="1024px style" media="screen,projection" />
+	<title>The Debian KDE maintainers website</title>
+</head>
+
+<body>
+	<div id="wrap">
+	
+		<div id="header">
+			<p id="toplinks">Skip to: <a href="#content">Content</a> | <a href="#sidebar">Navigation</a> | <a href="#footer">Footer</a></p>
+			
+			<h1><img src="images/KDEbian2-60x60.png" /><a href="index.html"> Debian <span class="fade">KDE Team</span></a></h1>
+			<!--<p id="slogan">packaging the best Desktop Enviroment...</p> -->
+		</div>
+
+		<div id="content">
+

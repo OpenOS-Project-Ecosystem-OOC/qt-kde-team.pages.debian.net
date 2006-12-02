@@ -1,0 +1,109 @@
+			<h2>Descriptions policy draft</h2>
+
+			<p>This is a proposal for the descriptions of the KDE packages in Debian. I
+			tried to <a
+			href="http://lists.kde.org/?t=110426692200003&amp;r=1&amp;w=2">contact upstream
+			in kde-devel</a> for a bit of help in this issue, but (maybe because of the
+			holidays) I didn't received many feedback. My suggestion is to agree on some
+			common brief guidelines, and make a list of packages that lack a description,
+			as <a
+			href="http://lists.kde.org/?l=kde-devel&amp;m=110429476924080&amp;w=2">Jess
+			Roncero suggested</a>. We can post the list in the KDE or Debian Wiki, and then
+			ask in kde-quality or debian-kde, so users can help with them.</p>
+			
+			<h3>The problem</h3>
+			<p>The descriptions actually are more or less like that (taken from
+			kaudiocreator, in kdemultimedia):</p>
+			
+	<pre>
+	Description: CD ripper and audio encoder frontend
+	KDE is a powerful Open Source graphical desktop environment
+	for Unix workstations. It combines ease of use, contemporary
+	functionality, and outstanding graphical design with the
+	technological superiority of the Unix operating system.
+	.
+	CD ripper and audio encoder frontend.
+	.
+	This package is part of the official KDE multimedia module.
+	</pre>
+			
+			<p>This haves two problems:</p>
+			
+			<ul>
+			<li>The KDE blurb is repeated again, and again, and the same for the reference
+			to the respective KDE module.</li>
+			<li>The <em>real</em> description is too short.</li>
+			</ul>
+			
+			<p>We should solve the second as mentioned above, trying to get the
+			descriptions from users or upstream developers. For the first, we can use this
+			proposed solution.</p>
+			
+			<h3>The solution</h3>
+			
+			<p>Proposed description for kaudiocreator:</p>
+			
+	<pre>
+	Description: CD ripper and audio encoder frontend for KDE
+	KAudioCreator is a tool for audio extraction (ripping) and encoding. It can
+	keep your WAV files, or convert them to Ogg/Vorbis, MP3, or FLAC. It also
+	searches CDDB to retrieve the information of the disk.
+	.
+	This package is part of KDE, as a component of the KDE multimedia module.
+	See the 'kde' and 'kdemultimedia' packages for more information.
+	</pre>
+			
+			<p>Of course, having a better description of the application, is not part of
+			the policy, is just common sense. ;-) What is important to highlight, is that
+			the <q>KDE is a powerful...</q> blurb, and the <q>this package is part
+			of...</q> final, are merged and simplified at the end. It's more logical to
+			have the description first, because those using KDE already know what it is,
+			and those who don't use it, don't care about it, and are just interested in the
+			application. Summarizing:</p>
+			
+			<ol>
+			<li>Description of the application. Always open to improvements and
+			corrections.</li>
+			<li><samp>This package is part of KDE, as a component of the KDE foo module. See
+			the 'kde' and 'kdefoo' packages for more information.</samp></li>
+			<li><samp>Homepage: http://foo.kde.org/</samp>. This probably doesn't make
+			sense for some modules (like this, multimedia), but the websites of KDE-Edu,
+			KDE-Accesibility, KDE-PIM, and maybe others, are interesting, and can be
+			promoted.</li>
+			</ol>
+			
+			<h3>Metapackages</h3>
+			
+			<p>The individual descriptions, rely a bit on the metapackages to describe the
+			context, so we can move the <q>KDE is...</q> blurb to them. This is a proposed
+			description for the packages in <samp>meta-kde</samp>:</p>
+			
+			<h5>kde</h5>
+	<pre>
+	Description: The K Desktop Environment official modules
+	KDE is a powerful Open Source graphical desktop environment
+	for Unix workstations. It combines ease of use, contemporary
+	functionality, and outstanding graphical design with the
+	technological superiority of the Unix operating system.
+	.
+	This package includes all the official modules released with KDE. This
+	includes multimedia, networking, personal information manager (PIM),
+	graphics, education, games, web development, and other artwork and
+	utilities.
+	</pre>
+			
+			<p>Notes: instead of saying "kdeadmin, kdeartwork, ..." (which is the same as
+			looking at the Depends), I prefer to say a really descriptive word.</p>
+			
+			<h5>kde-core</h5>
+	<pre>
+	Description: The K Desktop Environment core modules
+	KDE is a powerful Open Source graphical desktop environment
+	for Unix workstations. It combines ease of use, contemporary
+	functionality, and outstanding graphical design with the
+	technological superiority of the Unix operating system.
+	.
+	This package includes all the core official modules released with KDE. This
+	includes just the basic desktop (browser, file manager, text editor, control
+	center, panel, etc.) and important libraries and data.
+	</pre>

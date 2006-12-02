@@ -1,0 +1,9 @@
+
+			<h2>KDE4</h2>
+			<p>At this moment, we are busy trying to get KDE3 in the best shape possible for Etch. After Etch, we will start to work for KDE4.</p>
+			
+			<p>Also, at this moment most KDE libraries are still under heavy development, and the API gets changed weekly. The best way to do KDE4 development just now is getting kdelibs, kdepimlibs, ... from the SVN as explained in: http://wiki.kde.org/tiki-index.php?page=KDE3To4
+			</p>
+
+	
+

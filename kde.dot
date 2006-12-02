@@ -1,0 +1,34 @@
+digraph KDE {
+
+    margin="0.2";
+
+/** LEGEND **/
+    frob     [shape=rect, color=brown, fontcolor=brown] ;
+    njordan  [shape=rect, color=blue, fontcolor=blue] ;
+    noel     [shape=rect, color=magenta, fontcolor=magenta] ;
+    "QT-KDE" [shape=rect] ;
+
+/** DEPS **/
+
+    "qt-x11-free" -> { arts } ;
+
+    arts -> libs ;
+
+    libs -> { "graphics,\n admin, toys,\n network,\n office" } ;
+
+    libs -> base       -> { utils artwork addons } ;
+    libs -> multimedia -> { accessibility addons } ;
+    pim  -> sdk        -> { webdev kdevelop } ;
+    { pim games } -> addons
+    
+    libs -> { edu pim games i18n } ;
+
+/* frob's packages */
+    edu      [color=brown, fontcolor=brown] ;
+    pim      [color=brown, fontcolor=brown] ;
+    games    [color=brown, fontcolor=brown] ;
+/* njordan packages */
+    kdevelop [color=blue, fontcolor=blue] ;
+/* noel packages */
+    i18n     [color=magenta, fontcolor=magenta] ;
+}
