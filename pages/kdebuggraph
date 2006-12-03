@@ -1,9 +1,9 @@
 
 			<h2>Bug graph</h2>
 			<h3>Evolution of the numbers of bugs in the last week</h3>
-			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL_-week.png" />
+			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL_-week.png" alt="bug graph last week"/>
 			<h3>Evolution of the numbers of bugs in the last month</h3>
-			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL_-month.png" />
+			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL_-month.png" alt="bug graph last month" />
 			<h3>
 			<p>
 			More graphs located at <a href="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/">http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/</a>

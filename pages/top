@@ -18,7 +18,7 @@
 		<div id="header">
 			<p id="toplinks">Skip to: <a href="#content">Content</a> | <a href="#sidebar">Navigation</a> | <a href="#footer">Footer</a></p>
 			
-			<h1><img src="images/KDEbian2-60x60.png" /><a href="index.html"> Debian <span class="fade">KDE Team</span></a></h1>
+			<h1><img src="images/KDEbian2-60x60.png" alt="A logo" /><a href="index.html"> Debian <span class="fade">KDE Team</span></a></h1>
 			<!--<p id="slogan">packaging the best Desktop Enviroment...</p> -->
 		</div>
 
