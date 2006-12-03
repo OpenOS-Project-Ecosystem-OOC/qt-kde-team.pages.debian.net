@@ -38,10 +38,8 @@
 			
 			<h4 id="q2">2. When I remove one application, my whole KDE is deleted!</h4>
 			
-			<p>Make sure you understand what a metapackage is, and how are structured the
-			<a href="packages.html">KDE packages</a>. If you installed all KDE, for
-			example, running <kbd>apt-get install kde</kbd>, you have installed a
-			metapackage, and all its dependencies (kdebase, kdenetwork, kdegraphics, etc.),
+			<p>If you installed all KDE, for example, running <kbd>apt-get install kde</kbd>, 
+			you have installed a metapackage, and all its dependencies (kdebase, kdenetwork, kdegraphics, etc.),
 			but the metapackage itself is empty.</p>
 			
 			<p>If after this, you remove, for example, kfloppy, you will see that two more
