@@ -1,4 +1,3 @@
-<html><head><title></title></head><body>
 <h2>Usertags</h2>
 <p>
 Usertags is a new nice feature in the bug tracking system that can be used to tag bugs how you like to do it.
@@ -83,4 +82,3 @@ With these arguments, most views are created. A couple of examples:
 	<dd>Bugs related to special settings related to X. Including, but not limited to xinerama, transluciency, compiz, beryl and openGL in general</dd>
 </dl>
 
-</body></html>
