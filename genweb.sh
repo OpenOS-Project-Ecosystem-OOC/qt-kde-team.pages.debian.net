@@ -1,7 +1,7 @@
 #!/bin/bash    
 
 OUTPUT=output
-rm -rf pages/*~
+rm -rf pages/*~ output/*
 FILES=`ls pages/ | grep -v "style.css\|top\|bottom"`
 
 cp pages/style.css $OUTPUT/style.css
@@ -15,3 +15,5 @@ do
 	cat pages/$i >> $OUTPUT/$i.html
 	cat pages/bottom >> $OUTPUT/$i.html
 done
+
+chmod -R g+w $OUTPUT/*
