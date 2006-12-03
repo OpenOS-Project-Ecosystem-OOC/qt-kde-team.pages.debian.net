@@ -64,10 +64,9 @@
 			
 			<h4 id="q3">3. How do I install KDE?</h4>
 			
-			<p>If you want the desktop, and the basic applications, install kde-core, and
-			x-window-system-core. If you want the complete desktop, and all applications,
-			install kde instead. See the <a href="packages.html">overview of the KDE
-			packages</a> for more information.</p>
+			<p>If you want the desktop, and the basic applications, install <strong>kde-core</strong>, and
+			<strong>x-window-system-core</strong>. If you want the complete desktop, and all applications,
+			install <strong>kde</strong> instead.</p>
 			
 			
 			<h4 id="q4">4. I can't decrypt some messages with KMail</h4>
