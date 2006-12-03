@@ -7,6 +7,8 @@
 	<meta name="keywords" content="debian, kde, qt" />
 	<meta name="author" content="The Debian KDE maintainers / Design by Andreas Viklund - http://andreasviklund.com/" />
 	<link rel="stylesheet" type="text/css" href="style.css" title="1024px style" media="screen,projection" />
+	<link rel="shortcut icon" href="favicon.ico" />
+
 	<title>The Debian KDE maintainers website</title>
 </head>
 
