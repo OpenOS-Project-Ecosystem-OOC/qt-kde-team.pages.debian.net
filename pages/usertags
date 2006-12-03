@@ -1,0 +1,86 @@
+<html><head><title></title></head><body>
+<h2>Usertags</h2>
+<p>
+Usertags is a new nice feature in the bug tracking system that can be used to tag bugs how you like to do it.
+The tags are bound to a user, and a user is in this case a email address. Usertags can be used to create different views on bugs and it can also be used to track stuff across packages.
+</p>
+<p>
+The kde packagers mostly use the tags associated with debian-qt-kde@lists.debian.org to create views of related bugs or bugs with special needs. The special views are for larger programs like konqueror that have many different functions to show bugs only for one of the tasks. The special needs could be that the bug is relatet to interaction with a Microsoft Exchange server.
+</p>
+<h3>How to set usertags</h3>
+<p>
+Usertags are set by emails to control@bugs.debian.org just like ordinary tags. The syntax is a bit different and there is not a predefined set of tags, so beware of typos.</p>
+<pre>
+user debian-qt-kde@lists.debian.org
+usertag #1234 +kde-foo
+</pre>
+<p>Please only set the predefined tags already used by the kde packagers. If you find a need for a new tag, please approach the packagers before using it, or alternatively tag bugs as your own user.
+</p>
+
+<h3>How to view usertags</h3>
+<p>The usertags are viewed by handcrafting urls to the bug system, more specifically adding arguments to pkgreport.cgi. The different arguments are seperated by semicolon (;).<br />The following arguments are recognized</p>
+<dl>
+	<dt>pkg</dt>
+	<dd>include all bugs by binary package</dd>
+	<dt>src</dt>
+	<dd>include all bugs by source package</dd>
+	<dt>maint</dt>
+	<dd>include all bugs by package maintainer (email address)</dd>
+	<dt>dist</dt>
+	<dd>include bugs that applies to distribution (stable, testing, unstable)</dd>
+	<dt>users</dt>
+	<dd>Set the user for usertags. Multiple users can be seperated with colon (:)</dd>
+	<dt>tag</dt>
+	<dd>include bugs with the following tags. Can be specified multiple times or alternatively tags can be comma (,) seperated</dd>
+	<dt>exclude</dt>
+	<dd>exclude bugs with the following tags. Can be specified multiple times or alternatively tags can be comma (,) seperated</dd>
+</dl>
+<p>
+With these arguments, most views are created. A couple of examples:
+</p>
+<dl>
+	<dt>http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kmail-imap;dist=unstable</dt>
+	<dd>Bugs in unstable tagged kmail-imap by the user debian-qt-kde@lists.debian.org</dd>
+	<dt>http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=konqueror;users=debian-qt-kde@lists.debian.org;exclude=konqueror-filemanager;exclude=konqueror-webbrowser;dist=unstable</dt>
+	<dd>Bugs in unstable in binary package konqueror not tagged konqueror-filemanegor or konqueror-webbrowser by the user debian-qt-kde@lists.debian.org</dd>
+</dl>
+
+
+<h3><a name="used" />The usertags used by the kde packagers</h3>
+<p>Some usertags are in the kde packages only used in specific source packages. Other usertags are used across all source packages.</p>
+<h4>kdepim</h4>
+<dl>
+	<dt>kmail-imap</dt>
+	<dd>Imap-related bugs in konqueror</dd>
+	<dt>kmail-ssl</dt>
+	<dd>bugs in kmail related to ssl-connections</dd>
+</dl>
+<h4>kdebase</h4>
+<dl>
+	<dt>konqueror-webbrowser</dt>
+	<dd>Bugs in konqueror as browser on world wide web. Mostly crashes on webpages and bad rendering</dd>
+	<dt>konqueror-filemanager</dt>
+	<dd>Bugs in konqueror related to its use as a filemanager</dd>
+</dl>
+<h4>kdenetwork</h4>
+<dl>
+	<dt>kopete-msn</dt>
+	<dd>kopete as a client for msn network</dd>
+	<dt>kopete-icq</dt>
+	<dd>kopete as a icq client</dd>
+	<dt>kopete-irc</dt>
+	<dd>kopete as irc client</dd>
+</dl>
+<h4>Tags across source packages</h4>
+<dl>
+	<dt>kde-needs-ldap</dt>
+	<dd>Bugs related to interaction with a ldap server</dd>
+	<dt>kde-needs-exchange</dt>
+	<dd>Bugs related to interaction with a Exchange server</dd>
+	<dt>kde-needs-home-on-nfs</dt>
+	<dd>Bugs related to having home on a kind of network file system</dd>
+	<dt>kde-fancy-x</dt>
+	<dd>Bugs related to special settings related to X. Including, but not limited to xinerama, transluciency, compiz, beryl and openGL in general</dd>
+</dl>
+
+</body></html>

@@ -6,6 +6,10 @@
 			<ul>
 				<li><a href="qtkde.html">General info</a></li>
 				<li><a href="http://qa.debian.org/developer.php?login=debian-qt-kde@lists.debian.org">Package list</a></li>
+				<li><a href="bugs.html">Handle and search bugs</a>
+					<ul>
+					<li><a href="usertags.html">Use of usertags</a></li>
+					</ul></li>
 			</ul>
 			
 			<h2>Debian KDE Extras Team</h2>
@@ -21,6 +25,7 @@
 				<li><a href="kde4.html">KDE4</a></li>
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
 				<li><a href="btslink.html">bts-link</a></li>
+				<li><a href="kde-bugzilla-survival-guide.html">Survival guide to kde bugzilla</a></li>
 				<li><a href="#">How to package kde applications</a></li>
 				<li><a href="#">SVN quick guide</a></li>
 				

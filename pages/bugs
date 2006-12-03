@@ -1,0 +1,129 @@
+<h2>Bug triaging</h2>
+<p>
+The following strategy is the one mostly used on bug triaging among the kde packagers:<br />
+</p>
+<ul>
+<li>Try to reproduce. Don't use more than 5 minutes in trying to understand what submitter means</li>
+<li>If it is reproducible, fix it in the kde packaging, if it is packaging bug. Report it upstream if it is upstream bug. Write a patch if it is appropriate.</li>
+<li>If it is unreproducible, ask the submitter for more info about how to reproduce and a step by step guide. Tag the bug unreproducible and moreinfo</li>
+<li>If it contains a useless backtrace, ask submitter to provide a better backtrace by installing relevant -dbg packages</li>
+<li>Wait for submitter to reply. Repeat the last steps with submitter until it is clear and reproducible</li>
+<li>If no response from submitter, close the bug after approx. 4 weeks</li>
+</ul>
+<p>
+Some of the importaint steps was 1) remember to tag +moreinfo unreproducible when asking for moreinfo and remember to mark the bug as forwarded.
+</p>
+<h3>Bug tagging and forwarding</h3>
+<p>
+Bug tagging is done by mails to control. When a comment is needed, it can be in the same mail, just remember to email the right people. The following is a example of a mail describing who to mail (the 3 To: lines) and the content of the mail (The rest of the mail starting from tag)
+</p>
+<pre>
+To: 1234-submitter@bugs.debian.org
+To: 1234@bugs.debian.org
+To: control@bugs.debian.org
+
+tag 1234 +moreinfo unreproducible
+thanks
+
+Hi!
+I have tried to reproduce your bug with the help of your instructions.
+I am unfortunately not able to reproduce it. Does it still apply? If yes,
+please provide detailed steps on how to reproduce.
+
+/Sune
+</pre>
+<p>
+Someones from the kde team will try to go over the moreinfo bugs regularily and either close them or remove the moreinfo-tag
+</p>
+<h3>Closing bugs</h3>
+<p>
+A bug is normally versioned closed. That way, the bugs can be tracked thru the different distributions. It is importaint that the version a bug is closed in is a version that has existed in debian.<br />
+Moreinfo-bugs are closed after 4 weeks with out more info from submitter. The list of bugs tagged moreinfo is <a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?maint=debian-qt-kde@lists.debian.org;dist=unstable;include=moreinfo;pend-exc=done;pend-exc=forwarded">here</a><br />
+A bug is closed by a mail to nnn-done@bugs.debian.org with Version: 4:1.3.4-6 as first line. Then a empty line and finally a explanation why the bug is closed.<br />
+Like this
+</p>
+<pre>
+To: 1234-done@bugs.debian.org
+
+Version: 4:3.5.0-3
+
+This bug is fixed half year ago upstream in http://bugs.upstream/37489
+The fix have made debian long time ago. Closing this bug.
+
+/Sune
+</pre>
+<p>
+Happy bug closing!
+</p>
+
+<h2>Links to bts</h2>
+<p>
+This is a attempt to try to group the bugs in sections of relevance - or just in smaller sections.
+A package like konqueror has many different functions and not all people use all of these functions.
+</p>
+<p>
+Some links are to source packages, other pages are to binary packages and then again some to only parts of a binary package.
+</p>
+<p>
+The third level is manually tagged so it might be inaccurate.
+</p>
+<p>
+<a href="usertags.html">For more on bug tagging</a> and <a href="usertags.html#used">for used usertags in kde packages</a> there are special pages available
+</p>
+<ul>
+	<li><a href="http://bugs.debian.org/src:kdepim">Bugs in kdepim</a>
+	<ul>
+		<li><a href="http://bugs.debian.org/kmail">Bugs in kmail</a>
+		<ul>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kmail-imap;dist=unstable">Imap-related bugs in kmail</a></li>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=kmail;users=debian-qt-kde@lists.debian.org;exclude=kmail-imap;dist=unstable">All other kmail bugs</a></li>
+		</ul>
+		</li>
+		<li><a href="http://bugs.debian.org/kontact">Bugs in kontact</a></li>
+		<li><a href="http://bugs.debian.org/kpilot">Bugs in kpilot</a></li>
+
+
+
+	</ul>
+	</li>
+	<li><a href="http://bugs.debian.org/src:kdebase">Bugs in kdebase</a>
+	<ul>
+		<li><a href="http://bugs.debian.org/konqueror">Bugs in konqueror</a>
+		<ul>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=konqeror-filemanager;dist=unstable">Konqueror as file manager</a></li>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=konqeror-webbrowser;dist=unstable">Konqueror as webbrowser</a></li>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=konqueror;users=debian-qt-kde@lists.debian.org;exclude=konqueror-filemanager;exclude=konqueror-webbrowser;dist=unstable">All other bugs in konqueror</a></li>
+		</ul>
+		</li>
+		<li><a href="http://bugs.debian.org/kdm">bugs in kdm</a></li>
+	</ul>
+	</li>
+	<li><a href="http://bugs.debian.org/src:kdenetwork">Bugs in kdenetwork</a>
+	<ul>
+		<li><a href="http://bugs.debian.org/kopete">Bugs in kopete</a>
+		<ul>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kopete-msn;dist=unstable">Bugs related to kopete as msn cliens</a></li>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kopete-icq;dist=unstable">Bugs related to kopete as icq cliens</a></li>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kopete-irc;dist=unstable">Bugs related to kopete as irc cliens</a></li>
+			<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?pkg=kopete;users=debian-qt-kde@lists.debian.org;exclude=kopete-msn;exclude=kopete-irc;exclude=kopete-icq;dist=unstable">Other kopete bugs</a></li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<h3>Other categories</h3>
+<p>
+Some bugs needs something special to be reproduced (and fixed). These are tagged manually as well.
+</p>
+<ul>
+	<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kde-needs-ldap;dist=unstable">Needs somekind of interaction with ldap server</a></li>
+	<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kde-needs-exchange;dist=unstable">Interaction with exchange-server</a></li>
+	<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kde-needs-home-on-nfs;dist=unstable">Needs home on nfs or other network file systems</a></li>
+	<li><a href="http://bugs.debian.org/cgi-bin/pkgreport.cgi?users=debian-qt-kde@lists.debian.org;tag=kde-fancy-x;dist=unstable">Needs fancy X-settings (trancluciency, composite and similar)</a></li>
+
+
+
+</ul>
+</body>
+</html>
