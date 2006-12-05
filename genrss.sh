@@ -32,7 +32,7 @@ cat <<__EOHEAD__
                 </image>
 __EOHEAD__
 
-tail -n +${NEWS_START} ${FILE} | head -n +${NEWS_START} | sed 's,<p>,<item>,g;s,</p>,</description></item>,g;s,<strong>,<title>,g;s,</strong>,</title>,g;s,<br />,<link>http://pkg-kde.alioth.debian.org/</link><description>,g'
+tail -n +${NEWS_START} ${FILE} | head -n +${NEWS_END} | sed 's,<p>,<item>,g;s,</p>,</description></item>,g;s,<strong>,<title>,g;s,</strong>,</title>,g;s,<br />,<link>http://pkg-kde.alioth.debian.org/</link><description>,g'
 
 cat << __EOFOOT__
         </channel>
