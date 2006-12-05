@@ -8,6 +8,7 @@
 	<meta name="author" content="The Debian KDE maintainers / Design by Andreas Viklund - http://andreasviklund.com/" />
 	<link rel="stylesheet" type="text/css" href="style.css" title="1024px style" media="screen,projection" />
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
+	<link rel="alternate" title="Debian KDE news feed" href="http://pkg-kde.alioth.debian.org/rss.xml" type="application/rss+xml" />
 
 	<title>The Debian KDE maintainers website</title>
 </head>
