@@ -1,0 +1,31 @@
+<h2>Report good bugs</h2>
+
+
+<h4>Backtraces<h4/>
+<p>
+KCrash is a application that shows backtraces that can help debugging. For different reasons, mostly storage space reasons, the debugging symbols are not in the standard kde packages. This gives backtraces like the following snippet which are utterly useless:
+</p>
+<pre>
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+(no debugging symbols found)
+[Thread debugging using libthread_db enabled]
+[New Thread -1239619360 (LWP 31316)]
+[KCrash handler]
+#6  0x0810b343 in QBitmap::~QBitmap ()
+#7  0xb6afe25a in QListView::drawContentsOffset () from
+/usr/lib/libqt-mt.so.3
+#8  0xb6b31a09 in QScrollView::viewportPaintEvent ()
+   from /usr/lib/libqt-mt.so.3
+</pre>
+<p>
+The debugging symbols needs to be installed. The debugging symbols are found in packages with a name like SOURCEPACKAGE-dbg, for example to debug crashes in konqueror, kdebase-dbg (and kdelibs-dbg) is needed.
+</p>
