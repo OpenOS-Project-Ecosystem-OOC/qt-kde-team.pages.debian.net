@@ -17,7 +17,7 @@
 			If you have installed backports of some package onto Debian Stable, and your backport package overwrote a stable package which the KDE stable packages depend on, then you may not be able to install KDE on your system, until you remove the backported package. <strong>This is also highly unsupported</strong>
 			</p>
 
-			<h4 id="q1">1. I can't compile Qt/KDE applications! I get this: configure error:
+			<h4 id="q3">3. I can't compile Qt/KDE applications! I get this: configure error:
 			Qt not found</h4>
 			
 			<p>A very common problem when compiling KDE programs (or other ones which use
@@ -52,7 +52,7 @@
 			
 			
 			
-			<h4 id="q2">2. When I remove one application, my whole KDE is deleted!</h4>
+			<h4 id="q4">4. When I remove one application, my whole KDE is deleted!</h4>
 			
 			<p>If you installed all KDE, for example, running <kbd>apt-get install kde</kbd>, 
 			you have installed a metapackage, and all its dependencies (kdebase, kdenetwork, kdegraphics, etc.),
@@ -76,14 +76,14 @@
 			
 			
 			
-			<h4 id="q3">3. How do I install KDE?</h4>
+			<h4 id="q5">5. How do I install KDE?</h4>
 			
 			<p>If you want the desktop, and the basic applications, install <strong>kde-core</strong>, and
 			<strong>x-window-system-core</strong>. If you want the complete desktop, and all applications,
 			install <strong>kde</strong> instead.</p>
 			
 			
-			<h4 id="q4">4. I can't decrypt some messages with KMail</h4>
+			<h4 id="q6">6. I can't decrypt some messages with KMail</h4>
 			
 			<p>You probably are missing the gnupg-agent package. Read the document about <a
 			href="http://kmail.kde.org/kmail-pgpmime-howto.html">using OpenPGP and
@@ -92,10 +92,11 @@
 			After that, configure GPG as explained in the HOWTO. Restart X to make sure
 			<code>/etc/X11/Xsession.d/90gpg-agent</code> is run.</p>
 
-			<h4 id="q5">5. How do I use sudo as backend instead of su for kdesu</h4>
+			<h4 id="q7">7. How do I use sudo as backend instead of su for kdesu</h4>
 			<p>
-			It is quite easy. Just as a user, write the following in a terminal
+			It is quite easy. Just as a user, add the following to ~/.kde/share/config/kdesurc
 			</p>
 			<pre>
-			kwriteconfig --group super-user-command --key super-user-command sudo
+			[super-user-command]
+			super-user-command=sudo
 			</pre>
