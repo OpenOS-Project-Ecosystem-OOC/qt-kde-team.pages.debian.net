@@ -1,6 +1,14 @@
 
 			<h2>Welcome!</h2>
-			<p><img src="images/konqui.jpg" width="152" height="184" alt="Konqui" class="left photo" />This is the home page of the teams normally known as the  <strong><span class="gray">Debian Qt/KDE Maintainers</span></strong> and <strong><span class="gray">Debian KDE Extras Team</span></strong> . We are a group of people with a common goal in mind: bringing the better KDE possible to Debian.</p>
+
+			<p><img src="images/konqui.jpg" width="152" height="184" alt="Konqui" class="left photo" />This is the home page of two closely related teams:</p>
+
+         <ul>
+            <li><a href="qtkde.html">Debian Qt/KDE Maintainers</a></li>
+            <li><a href="kdeextras.html">Debian KDE Extras Team</a></li>
+         </ul>
+
+         <p>We are a group of people with a common goal in mind: bringing the best KDE possible to Debian.</p>
 			
 			<h2>Latest news:</h2>
 

@@ -20,9 +20,8 @@
 			</ul>
 			
 			
-			<h2>Misc</h2>
+			<h2>Working notes</h2>
 			<ul>
-				<li><a href="faq.html">FAQ</a></li>
 				<li><a href="kde4.html">KDE4</a></li>
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
 				<li><a href="btslink.html">bts-link</a></li>
@@ -31,6 +30,14 @@
 				<li><a href="#">How to package kde applications</a></li>
 				-->
 				<li><a href="pkgkdesvn.html">pkg-kde SVN quick guide</a></li>
+            <li><a href="web-maintenance.html">Web maintenance</a></li>
+         </ul>
+
+
+         <h2>Misc</h2>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="https://alioth.debian.org/project/memberlist.php?group_id=30221">Current members</a></li>
+            <li><a href="join.html">Get involved!</a></li>
 			</ul>
 
 		</div>

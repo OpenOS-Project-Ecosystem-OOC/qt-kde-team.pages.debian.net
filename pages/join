@@ -1,0 +1,42 @@
+<h2>How to help pkg-kde team</h2>
+
+
+<p>So, you would like to help us bringing the best KDE experience possible to Debian users? That sounds great! We present here some ways to get involved.</p>
+
+
+<h4>Meet us on IRC</h4>
+
+<p>First, you should join IRC channel <tt>#debian-qt-kde</tt> on <tt>irc.debian.org</tt>. This is the place where we meet and work on KDE-related packages in Debian. It is a good starting point: you'll be able to work on what you're interested on, discuss your ideas, fix bugs, etc.</p>
+
+
+<h4>Subscribe to mailing lists</h4>
+
+<p>You can also subscribe to some of our mailing lists:</p>
+
+<dl>
+    <dt><a href="http://lists.debian.org/debian-qt-kde/">debian-qt-kde</a></dt>
+    <dd>Discussion and coordination among maintainers of Debian's Qt, KDE and dependent or related packages.</dd>
+
+    <dt><a href="http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras">pkg-kde-extras</a></dt>
+    <dd>List for the maintainers of stuff under pkg-kde/kde-extras. (<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-extras/">Archives</a>)</dd>
+
+    <dt><a href="http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-talk">pkg-kde-talk</a></dt>
+    <dd>This list is a coordination channel for the upcoming KDE Packaging Team. (<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/">Archives</a>)</dd>
+
+    <dt><a href="http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-commits">pkg-kde-commits</a></dt>
+    <dd>This list receives commit logs from svn.debian.org/pkg-kde. (<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-commits/">Archives</a>)</dd>
+
+    <dt><a href="http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-bugs-fwd">pkg-kde-bugs-fwd</a></dt>
+    <dd>This list receives traffic from bugs.kde.org affecting forwarded bugs. (<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-bugs-fwd/">Archives</a>)</dd>
+</dl>
+
+
+<h4>Join the project</h4>
+
+<p>If you like what we do, and intend to work on KDE for Debian for a somewhat longer time, you should become a member of the <a href="https://alioth.debian.org/projects/pkg-kde/">Debian Qt/KDE Maintainers</a> project on Alioth.</p>
+
+<p><a href="https://alioth.debian.org/account/register.php">Alioth</a> is Debian's forge. If you don't have an account yet, go and <a href="https://alioth.debian.org/account/register.php">register</a>. Afterwards, <a href="https://alioth.debian.org/account/login.php">log in</a> and <a href="https://alioth.debian.org/project/request.php?group_id=30221">request to join our team</a>.</p>
+
+<p>One of the team administrators will (probably ;-) approve your request. If you are not a member of any other project, you might have to wait up to 24 hours in order your account be granted the appropiate permissions.</p>
+
+<p>Have a lot of fun!</p>
