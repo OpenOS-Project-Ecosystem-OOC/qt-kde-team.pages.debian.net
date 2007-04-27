@@ -14,7 +14,7 @@
 
                <li>There are two ways to update the webpages:
                   <ol style="list-style-type: lower-alpha;">
-                     <li>scp the pages in `output/' to `/var/lib/gforge/chroot/home/groups/pkg-kde/web/v2/output/' in alioth (you can use the fish IOslave).</li>
-                     <li>ssh to alioth, and run `genweb.sh' there.</li>
+                     <li>scp the pages in `output/' to `/var/lib/gforge/chroot/home/groups/pkg-kde/htdocs/' in alioth (you can use the fish IOslave).</li>
+                     <li>ssh to alioth, and run `genweb.sh' on a working copy there, and cp/mv the pages to htdocs (make sure the group has write permissions, so that other people can update the pages later).</li>
                   </ol></li>
             </ol>
