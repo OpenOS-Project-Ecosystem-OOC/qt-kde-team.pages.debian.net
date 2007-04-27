@@ -37,6 +37,6 @@
 
 <p><a href="https://alioth.debian.org/account/register.php">Alioth</a> is Debian's forge. If you don't have an account yet, go and <a href="https://alioth.debian.org/account/register.php">register</a>. Afterwards, <a href="https://alioth.debian.org/account/login.php">log in</a> and <a href="https://alioth.debian.org/project/request.php?group_id=30221">request to join our team</a>.</p>
 
-<p>One of the team administrators will (probably ;-) approve your request. If you are not a member of any other project, you might have to wait up to 24 hours in order your account be granted the appropiate permissions.</p>
+<p>One of the team administrators will (probably ;-) approve your request. If you are not a member of any other project, you might have to wait up to 24 hours in order your account be granted the appropiate permissions.  The administrador will also give you writing access to the repository areas you need (by editing <tt>pkg-kde/scripts/svn-hooks/commit-access-control.cfg</tt> and then <tt>svn up</tt>'ing <tt>/svn/pkg-kde/hooks</tt> on Alioth).</p>
 
 <p>Have a lot of fun!</p>
