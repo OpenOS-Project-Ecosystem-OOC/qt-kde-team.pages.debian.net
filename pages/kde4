@@ -1,17 +1,18 @@
 
          <h2>KDE4</h2>
 
-         <p>We did our best trying to get KDE3 in the best shape possible for
-         Etch.  We will keep packaging new minor releases (such as KDE 3.5.7),
-         which will be available on unstable/testing repositories.</p>
+         <p>We did our best trying to get KDE 3.5.5 in the best shape possible
+         for Debian 4.0 (Etch).  We will keep packaging new minor releases
+         (such as KDE 3.5.6, 3.5.7, etc), which will be available on 
+         unstable/testing repositories.</p>
 
-         <p>According to <a
+         <p>Besides that, we are already working on KDE 4, which according to
+         the <a
          href="http://techbase.kde.org/Schedules/KDE4/4.0_Release_Schedule">KDE
-         4.0 release schedule</a>, KDE 4 should be released on October 23,
-         2007, and we are already working on it.</p>
+         4.0 release schedule</a>, should be released on October 23, 2007.</p>
 
          <p>The kdelibs API is "soft-frozen", and the first alphas are getting
-         out. While we are already packaging the software to detect and fix
+         out. While we are already packaging the software in order to detect and fix
          problems, the packages will not be uploaded to the experimental
          repository until KDE 4 reaches beta status (about end of June).
          We will also have Qt 4.3 then. We might also publish <a
