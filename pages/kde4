@@ -1,15 +1,24 @@
 
-			<h2>KDE4</h2>
-			<p>At this moment, we are busy trying to get KDE3 in the best shape 
-			possible for Etch. After Etch, we will start to work for KDE4.</p>
-			
-			<p>Also, at this moment most KDE libraries are still under heavy 
-			development, and the API gets changed weekly. The best way to do KDE4 
-			development just now is getting kdelibs, kdepimlibs, ... from the SVN 
-			as explained in the <a href="http://wiki.kde.org/tiki-index.php?page=KDE3To4">KDE wiki</a>
-			</p>
+         <h2>KDE4</h2>
 
-			<p>If you want to help in this task, you're welcome!</p>
+         <p>We did our best trying to get KDE3 in the best shape possible for
+         Etch.  We will keep packaging new minor releases (such as KDE 3.5.7),
+         which will be available on unstable/testing repositories.</p>
 
-	
+         <p>According to <a
+         href="http://techbase.kde.org/Schedules/KDE4/4.0_Release_Schedule">KDE
+         4.0 release schedule</a>, KDE 4 should be released on October 23,
+         2007, and we are already working on it.</p>
+
+         <p>The kdelibs API is "soft-frozen", and the first alphas are getting
+         out. While we are already packaging the software to detect and fix
+         problems, the packages will not be uploaded to the experimental
+         repository until KDE 4 reaches beta status (about end of June).
+         We will also have Qt 4.3 then. We might also publish <a
+         href="http://debian-live.alioth.debian.org/">Debian live-CD</a>'s
+         with some of the beta releases.</p>
+
+         <p>If you want to help in this task, you're welcome!</p>
+
+
 
