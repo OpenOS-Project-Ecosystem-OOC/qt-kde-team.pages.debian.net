@@ -1,0 +1,22 @@
+<h1>Working with svn and the team</h1>
+<h2> - or how not to step on peoples toes</h1>
+
+<p>The target group of this page is for people who have gained svn access and might be a bit afraid on using svn - and especially if someone else might not be happy about what you do</p>
+
+<p>A general nice rule is to drop by on irc in #debian-qt-kde and ask "is anyone working on $foo - is it okay if I do it". Most of the time, you will be fully allowed to do it.</p>
+
+<h3>The different parts of pkg-kde svn</h3>
+<ul>
+<li><b>peoples/*</b> - unless you have a agreement with the persons, stay out of here.</li>
+<li><b>kde-extras/</b> - please ask the uploaders first. You will probably get a yes.</li>
+<li><b>www</b> - depending on the changes, a discussion might be needed on irc. You can always use drafts/</li>
+<li><b>scripts</b> - unless you really know what you are doing, stay out of here</li>
+<li><b>branches, trunk, tags</b> - this is the core modules. Tags is normally only touched by the people who actually do the final upload. Feel free to temporarily branch stuff off for testing. Also feel free to commit stuff you think will be needed. And don't take it hard if you get (temporarily) reverted. If in doubt, ask first.</li>
+</ul>
+
+<h3>Commit messages</h3>
+<p>Try to make commit messages clear. And especially mark it when you are in doubt and want special proofreading on your commit. Please also mark it in the changelog.</p>
+
+<h3>General rule</h3>
+<p>Don't be afraid. It is svn. It tracks changes. Bad changes can always be reverted. If you are in doubt or don't like your commits reverted, please ask first. Else just <i>happy committing</i>
+<p>Commits might be discussed on pkg-kde-talk. Please be sure to be subscribed.</p>
