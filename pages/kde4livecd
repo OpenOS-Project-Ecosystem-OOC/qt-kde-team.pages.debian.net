@@ -18,3 +18,6 @@
 	 <tr><td>amd64</td><td><a href="http://tyge.sslug.dk/~sune/debian-kde4beta4-live-cd-amd64.iso">sslug</a></td></tr>
 	 <tr><td>i386</td><td><a href="http://tyge.sslug.dk/~sune/iso/foo.iso">sslug</a></td></tr>
 	 </table>
+	 <pre>
+8637dd633dff9861b67bd01475adecee  debian-kde4beta4-live-cd-amd64.iso
+</pre>
