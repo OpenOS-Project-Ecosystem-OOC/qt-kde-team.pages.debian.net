@@ -1,7 +1,7 @@
 
          <h2>KDE4 beta4 live CD </h2>
 
-         <p>We now have live CDs available with KDE4 beta4. Thanks to the <a href="http://live.debian.net">Debian Live</a>
+         <p>We now have live CDs available with KDE4 beta4. Thanks to the <a href="http://debian-live.alioth.debian.org/">Debian Live</a>
 	 project, it is quite easy to create customizable live CDs.</p>
 	 <p>The CDs are currently available for i386 and amd64 architectures</p>
 
