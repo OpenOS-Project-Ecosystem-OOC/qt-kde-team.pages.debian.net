@@ -8,13 +8,13 @@
 	 <h3>Technical details</h3>
 	 <p><b>login</b>: user<br><b>password</b>: live</p>
 	 <p>Changing your keyboard layout is done by passing the following boot option to the 
-	 bootloader: keyb=fr - for some values of fr</p>
+	 bootloader: keyb=fr - for some values of fr ("de" for german, "en" for english and so on)</p>
 
 	 <h3>Locations:</h3>
 	 <p>Please choose a manual roundrobin to try to load balance between the hosts</p>
 	 <table>
-	 <tr><td>amd64</td><td><a href="http://pkg-kde.alioth.debian.org/iso/foo.iso">alioth</a></td></tr>
+	 <tr><td>amd64</td><td><a href="http://pkg-kde.alioth.debian.org/isos/debian-kde4beta4-live-cd-amd64.iso">alioth</a></td></tr>
 	 <tr><td>i386</td><td><a href="http://pkg-kde.alioth.debian.org/iso/foo.iso">alioth</a></td></tr>
-	 <tr><td>amd64</td><td><a href="http://tyge.sslug.dk/~sune/iso/foo.iso">sslug</a></td></tr>
+	 <tr><td>amd64</td><td><a href="http://tyge.sslug.dk/~sune/debian-kde4beta4-live-cd-amd64.iso">sslug</a></td></tr>
 	 <tr><td>i386</td><td><a href="http://tyge.sslug.dk/~sune/iso/foo.iso">sslug</a></td></tr>
 	 </table>
