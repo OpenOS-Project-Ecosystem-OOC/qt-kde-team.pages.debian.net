@@ -1,7 +1,7 @@
 
- <h2>KDE4 beta4 live CD </h2>
+	<h2>KDE4 beta4 live CD </h2>
 
-     <p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
+	<p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
 	 project, it is quite easy to create customizable live CDs. We have
 	 created live CDs with current KDE4 beta4 for i386 and amd64 architectures</p>
 
@@ -26,23 +26,16 @@
 	 href="http://pkg-kde.alioth.debian.org/isos/debian-kde4beta4-live-cd-i386.iso">alioth</a></td><td><a
 	 href="http://tyge.sslug.dk/~sune/iso/debian-kde4beta4-live-cd-i386.iso">sslug</a></td<</tr>
 	 </table>
-     </blockquote>
+	</blockquote>
 
-    <h3>MD5SUM</h3>
-    <p>After downloading the iso image, you can test if it was downloaded ok.
+	<h3>Checking the isos have the right MD5SUM</h3>
+	<p>After downloading the iso image, you can test if it was downloaded ok.
 	
 	<p>If you have downloaded the <strong>i386 iso</strong> then, run: </p> <pre>md5sum debian-kde4beta4-live-cd-i386.iso</pre> 
 	<p>And then check the numbers match with this: <pre>b435da69a050cfdda1785600503a20b6 </pre></p>
 	
 	<p>If you have downloaded the <strong>amd64 iso</strong> then, run: </p><pre>md5sum debian-kde4beta4-live-cd-amd64.iso</pre> 
-	<p>And then check the numbers match with this: <pre> 8637dd633dff9861b67bd01475adecee </pre></p>
-
-
-	<h3>Troubleshooting and Support</h3>
-	<p>If you run into any problem and need help, you can send a mail to the
-	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
-	The list is not moderated, so you can post without subscribing.</p>
-
+	<p>And then check the numbers match with this: <pre>8637dd633dff9861b67bd01475adecee </pre></p>
 
 	<h3>How to test the image with qemu</h3>
 	<p>You can test this live CD with qemu very easily, first install qemu.</p>
@@ -52,5 +45,13 @@
 	<p>You can read a fast qemu tutorial in <a
 	href="http://debaday.debian.net/2007/07/08/qemu-easy-and-fast-processor-emulator/">this entry of
 	debaday</a>.</p>
+
+	<h3>Troubleshooting and Support</h3>
+	<p>If you run into any problem and need help, you can send a mail to the
+	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
+	The list is not moderated, so you can post without subscribing.</p>
+
+
+
 
 
