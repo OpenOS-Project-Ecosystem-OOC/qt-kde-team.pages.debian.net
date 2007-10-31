@@ -11,7 +11,7 @@
 	 <p>Changing your keyboard layout is done by passing the following boot option to the 
      boot: <pre>live keyb=fr</pre></p>
 	 
-	 <p>Change fr for your language code ("de" for german, "en" for english,
+	 <p>Change fr to your language code ("de" for german, "en" for english,
 	 "es" for spanish, and so on.)</p>
 
 	 <h3>Locations:</h3>
@@ -27,9 +27,9 @@
      </blockquote>
 
     <h3>MD5SUM</h3>
-    <p>After download the iso image, you can test it was downloaded ok, for
+    <p>After downloading the iso image, you can test if it was downloaded ok, for
 	this, run:</p>
-	<pre>md5sum file.iso</pre> 
+	<pre>md5sum debian-kde4beta4-live-cd-amd64.iso</pre> 
 	<p>Then check the numbers match with this:</p>
 	<pre>
     8637dd633dff9861b67bd01475adecee  for debian-kde4beta4-live-cd-amd64.iso
@@ -46,7 +46,7 @@
 	<h3>How to test the image with qemu</h3>
 	<p>You can test this live CD with qemu very easily, first install qemu.</p>
 	<p>Then run the cd with the following line:</p>
-	<pre>qemu -cdrom path/to/livecd.iso -boot d</pre>
+	<pre>qemu -cdrom path/to/livecd.iso</pre>
 	
 	<p>You can read a fast qemu tutorial in <a
 	href="http://debaday.debian.net/2007/07/08/qemu-easy-and-fast-processor-emulator/">this entry of
