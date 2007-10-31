@@ -1,5 +1,15 @@
 
          <h2>KDE4 beta4 live CD </h2>
 
-         <p>We will post soon the link to download a Debian live cd with KDE4 beta 4.</p>
+         <p>We now have live CDs available with KDE4 beta4. Thanks to the <a href="http://live.debian.net">Debian Live</a>
+	 project, it is quite easy to create customizable live CDs.</p>
+	 <p>The cds is currently available for i386 and for amd64 architecture</p>
 
+	 <h3>Locations:</h3>
+	 <p>Please choose a manual roundrobin to try to load balance between the hosts</p>
+	 <table>
+	 <tr><td>amd64</td><td><a href="http://pkg-kde.alioth.debian.org/iso/foo.iso">alioth</a></td></tr>
+	 <tr><td>i386</td><td><a href="http://pkg-kde.alioth.debian.org/iso/foo.iso">alioth</a></td></tr>
+	 <tr><td>amd64</td><td><a href="http://tyge.sslug.dk/~sune/iso/foo.iso">sslug</a></td></tr>
+	 <tr><td>i386</td><td><a href="http://tyge.sslug.dk/~sune/iso/foo.iso">sslug</a></td></tr>
+	 </table>
