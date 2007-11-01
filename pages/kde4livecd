@@ -14,9 +14,9 @@
 	 <p>Change fr to your language code ("de" for german, "en" for english,
 	 "es" for spanish, and so on.)</p>
 
-	 <h3>Locations:</h3>
-	 <p>Please choose a manual roundrobin to try to load balance between the
-	 hosts:</p>
+	 <h3>Download</h3>
+
+	 <p>Please choose a manual roundrobin to try to load balance between the hosts:</p>
      <blockquote>
      <table>
      <tr>
@@ -34,6 +34,12 @@
      </table>
     </blockquote>
 
+    <h3>Download via BitTorrent</h3>
+	<ul>
+	<li><a
+	href="http://debian.netcologne.de/kdelive/debian-kde4beta4-live-cd-amd64.iso.torrent">Torrent for AMD64 iso</a></li>
+	<li><a href="http://debian.netcologne.de/kdelive/debian-kde4beta4-live-cd-i386.iso.torrent">Torrent for i386 iso</a></li>
+	</ul>
 
 	<h3>Checking the isos have the right MD5SUM</h3>
 	<p>After downloading the iso image, you can test if it was downloaded ok.
