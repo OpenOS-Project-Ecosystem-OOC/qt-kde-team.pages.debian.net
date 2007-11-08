@@ -4,6 +4,8 @@
 	<p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
 	 project, it is quite easy to create customizable live CDs. We have
 	 created live CDs with current KDE4 beta4 for i386 and amd64 architectures</p>
+	 <p>The goal of this live CD is allow users taking a look at upcoming KDE 4.0 without messing 
+	 their systems.</p>
 
 	 <h3>Technical details</h3>
 	 
