@@ -20,10 +20,15 @@
 			</ul>
 			
 			
+			<h2>Interesting information for users</h2>
+			<ul>
+				<li><a href="kde4livecd.html">KDE4 live CD</a></li>
+				<li><a href="installkdedebian.html"></a>How to install KDE on Debian</li>
+			</ul>
+
 			<h2>Working notes</h2>
 			<ul>
 				<li><a href="kde4.html">KDE4</a></li>
-				<li><a href="kde4livecd.html"><strong>KDE4 live CD</strong></a></li>
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
 				<li><a href="btslink.html">bts-link</a></li>
 				<li><a href="kde-bugzilla-survival-guide.html">Survival guide to kde bugzilla</a></li>
