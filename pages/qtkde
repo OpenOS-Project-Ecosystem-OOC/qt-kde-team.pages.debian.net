@@ -1,6 +1,8 @@
 			<h2>Debian Qt/KDE Maintainers</h2>
 			<p>This team maintains all the official <a href="http://www.kde.org">KDE</a> modules.</p>
 			<p>Mailing list: <a href="mailto:debian-qt-kde@lists.debian.org">debian-qt-kde@lists.debian.org</a></p>
-			<p>Mailing list archives: <a href="http://lists.debian.org/debian-qt-kde/">http://lists.debian.org/debian-qt-kde/</a></p>
-			<p>If you are a user and want to get in contact with us, come around in #debian-kde on OFTC, or mail <a href="mailto:debian-qt-kde@lists.debian.org">debian-kde@lists.debian.org</a>.</p>
+			<p>If you are a user and want to get in contact with us, come around in #debian-kde on OFTC, or mail <a href="mailto:debian-kde@lists.debian.org">debian-kde@lists.debian.org</a>.</p>
 			<p>If you want to discuss development/packaging questions whith us, come around in #debian-qt-kde on OFTC, or mail <a href="mailto:pkg-kde-talk@lists.alioth.debian.org">pkg-kde-talk@lists.alioth.debian.org</a>.</p>
+
+
+			<p>Mailing list archives: <a href="http://lists.debian.org/debian-qt-kde/">debian-qt-kde</a>, <a href="http://lists.debian.org/debian-kde/">debian-kde</a>, <a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/">pkg-kde-talk</a></p>
