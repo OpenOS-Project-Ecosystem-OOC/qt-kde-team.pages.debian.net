@@ -1,0 +1,18 @@
+	
+	 <h2>KDE 4 metapackages</h2>
+
+	<p>We are planning create the following metapackages to install KDE 4 easily:</p>
+
+	<h3>kde4-minimal</h3>
+	<p>Minimal set of packages to have a KDE 4 desktop running with minimal applications.
+	Contains: kde4libs, kdepimlibs, kdebase-runtime, kdebase and kdebase-workspace.
+	</p>
+	
+	<h3>kde4</h3>
+	<p>This would be like the kde-desktop task, containing: kde4-minimal, xserver-xorg, most of the kde modules (edu, games, etc), extragears-plasma and some importants applications like amarok, k3b and kaffeine... etc still need to be discussed what applictions exactly are we including.
+	</p>
+
+
+	<h3>kde4-development</h3>
+	<p>It will install the "KDE 4 development platform", it contains kde4lins, kdepimlibs, kdebase-runtime and a Suggests on kdebindings when it is finally packaged.
+
