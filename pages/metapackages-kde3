@@ -1,41 +1,43 @@
 
 	<h2>KDE 3 metapackages</h2>
 
-	<p>This is still being discussed, but we are planning to do the following:</p>
+	<p>This is still being discussed, but we are planning to do, or we have done, the following:</p>
 
 	<p>Firstly, we killed kde-extras, kde-amusements and kde-devel-extras, they are already removed from the archive.</p>
 
 	<h3>kde-core</h3>
-	<p>(We did not change this one), TODO: explain what contains
+	<p>The minimal set of packages you need to get a KDE 3 desktop, without installing any xserver. Contains: arts, kdebase and kdelibs.
 	</p>
 	
 	<h3>kde</h3>
 	<p>
+	 This metapackage includes all the official modules released with KDE that are not specific to development. In addition to the core KDE modules, this includes multimedia, networking, personal information manager (PIM), graphics, education, games, web development, system administration tools, and other artwork and utilities.
 	</p>
-
 
 	<h3>kde-devel</h3>
 	<p>
+	This metapackage includes official KDE modules that are useful to developers. It includes KDE's software development kit kdesdk, Qt3's designer tool, and all core KDE header and development packages.
 	</p>
 
-	<h3>TODO:</h3>
-* Kill kde-amusements.
-
-kde will get added xserver and maybe a media player, we have to study remove
-some apps like noatun and kboodledude*
-
-* kdeaddons: remove noatun-plugins from the Depends
-
-* kdemultimedia: Wemove kaboodle and noatun from the kdemultimedia metapackage, hiding it from the users.
-And we are installing kaffeine with kdemultimedia: Recommends.
-
-* kdenetowrk: remove from the metapackage to suggest ksirc, ktalkd, kpf. Recommends on konversation.
-
-* kdeutils: remove kdessh, does not work (look at kde4's one too) and kedit.
-
-* we keep kde-devel and adding kdevelop, and suggesting the stuff in kde-devel-extras (that we are killing)
-
-* Think about a kde-desktop task--> we need more resarch to find out what to do with this. Goals to achieve?
-
-* add k3b to the kde metapackage, besides kaffeine, konversation
+	<h3>Stuff TODO</h3>
+	<ul>
+	<li>Kill kde-amusements.</li>
+	
+	<li>kde will get added xserver and maybe a media player</li>
+	
+	<li>kdeaddons: remove noatun-plugins from the Depends</li>
+	
+	<li>kdemultimedia: Remove kaboodle and noatun from the kdemultimedia metapackage, hiding it from the users.
+	And we are installing kaffeine with kdemultimedia: Recommends.</li>
+	
+	<li>kdenetowrk: remove from the metapackage to suggest ksirc, ktalkd, kpf. Recommends on konversation.</li>
+	
+	<li>kdeutils: remove kdessh, does not work (look at kde4's one too) and kedit.</li>
+	
+	<li>we keep kde-devel and adding kdevelop, and suggesting the stuff in kde-devel-extras (that we are killing)</li>
+	
+	<li>Think about a kde-desktop task--> we need more resarch to find out what to do with this. Goals to achieve?</li>
+	
+	<li>add k3b to the kde metapackage, besides kaffeine, konversation</li>
+	</ul>
 
