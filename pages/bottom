@@ -12,7 +12,7 @@
 			
 			<br />
 			
-			<h2><img src="../images/qtkdeteam.png" align="middle" /> Debian Qt/KDE Maintainers</h2>
+			<h2 style="text-align:right;display:block;"><img src="../images/qtkdeteam.png" style="text-align:center;display:block;" /> Debian Qt/KDE Maintainers</h2>
 			<ul>
 				<li><a href="qtkde.html">General info</a></li>
 				<li><a href="http://qa.debian.org/developer.php?login=debian-qt-kde@lists.debian.org">Package list</a></li>
@@ -23,14 +23,14 @@
 					</ul></li>
 			</ul>
 			
-			<h2><img src="../images/extrasteam.png" align="middle" /> Debian KDE Extras Teams</h2>
+			<h2 style="text-align:right;display:block;"><img src="../images/extrasteam.png" style="text-align:center;display:block;" /> Debian KDE Extras Teams</h2>
 			<ul>
 				<li><a href="kdeextras.html">General info</a></li>
 				<li><a href="http://qa.debian.org/developer.php?login=pkg-kde-extras@lists.alioth.debian.org">Package list</a></li>
 			</ul>
 			
 			
-			<h2><img src="../images/worknotes.png" align="middle" /> Working notes</h2>
+			<h2 style="text-align:right;display:block;"><img src="../images/worknotes.png" style="text-align:center;display:block;" /> Working notes</h2>
 			<ul>
 				<li><a href="kde4work.html">KDE 4</a></li>
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
@@ -44,7 +44,7 @@
          </ul>
 
 
-         <h2><img src="../images/info.png" align="middle" /> Misc</h2>
+         <h2 style="text-align:right;display:block;"><img src="../images/info.png" style="text-align:center;display:block;" /> Misc</h2>
          <ul>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="https://alioth.debian.org/project/memberlist.php?group_id=30221">Current members</a></li>
