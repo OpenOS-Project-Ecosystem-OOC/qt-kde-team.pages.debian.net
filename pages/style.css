@@ -17,7 +17,7 @@ padding:0;
 
 a{
 text-decoration:none;
-color:#4088b8;
+color:#6193CF;
 font-weight:bold;
 }
 
@@ -31,15 +31,20 @@ h1{
 font-size:4.2em;
 letter-spacing:-8px;
 margin:0 0 30px 25px;
-color:#4088b8;
+/*color:#4088b8;*/
+color:#0057AE;
 }
 
-h1 a{text-transform:none; color:#4088b8;}
+h1 a{
+text-transform:none;
+/*color:#4088b8;*/
+color:#0057AE;
+}
 
 h2{
 font-size:1.4em;
-color:#4088b8;
-border-bottom:4px solid #dadada;
+color:#2C72C7;
+border-bottom:4px solid #D3D7CF;
 padding:0 2px 2px 5px;
 margin:0 0 10px 0;
 letter-spacing:-1px;
@@ -55,6 +60,12 @@ padding:1px 2px 2px 3px;
 }
 
 h5{margin:0 0 18px 10px;}
+
+hr{
+width:80%;
+color:#BABDB6;
+background-color:#BABDB6;
+}
 
 pre{margin:0 0 18px 10px;}
 
