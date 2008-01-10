@@ -43,7 +43,7 @@
          </ul>
 
 
-         <h2 style="text-align:right;display:block;"><img src="../images/info.png" style="text-align:center;display:block;" /> Misc</h2>
+         <h2 style="text-align:right;display:block;"><img src="../images/help.png" style="text-align:center;display:block;" /> Misc</h2>
          <ul>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="https://alioth.debian.org/project/memberlist.php?group_id=30221">Current members</a></li>
