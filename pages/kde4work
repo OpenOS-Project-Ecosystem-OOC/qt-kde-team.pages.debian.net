@@ -2,16 +2,3 @@
 	<h2>KDE 4</h2>
 
 	<p>### FIXME: KDE3 & KDE4 PLANS FOR LENNY ###</p>
-	 
-	<p>KDE 4 packages are currently in the experimental branch and are not intended to be installed on a production system.  We are not currently accepting bug reports against the KDE 4 packages, since they have many known problems.</p>
-
-	 <blockquote><p>"KDE 4.0.0 is our "will eat your children" release of KDE4, not the next release of KDE 3.5. The fact that many already use it daily for their desktop (including myself) shows that it really won't eat your children, but it is part of that early stage in the release system of KDE4."</p>
-	 &mdash; Aaron Seigo, KDE e.V. President</blockquote>
-
-	<p>If you want to try KDE 4, it is recommended that you use <a href="kde4livecd.html">the KDE 4 live CD</a>.</p>
-
-	<p>If you are feeling adventurous, you can install the <a href="experimental.html">KDE 4 packages from experimental</a>.</p>
-
-	<br />
-
-	<p>If you want to help us get KDE 4 ready, you're welcome to <a href="join.html">join the team</a>!</p>

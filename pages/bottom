@@ -4,9 +4,9 @@
 			
 			<h2><big>Try KDE!</big></h2>
 			<ul>
-				<li><a href="kde3.html"><img src="../images/kde3.png" align="middle" /><big>KDE 3.5</big></a></li>
+				<li><a href="getkde3.html"><img src="../images/kde3.png" align="middle" /><big>KDE 3.5</big></a></li>
 				<hr />
-				<li><a href="kde4.html"><img src="../images/kde4.png" align="middle" /><big>KDE 4.0</big> <small><em>experimental</em></small></a></li>
+				<li><a href="getkde4.html"><img src="../images/kde4.png" align="middle" /><big>KDE 4.0</big> <small><em>experimental</em></small></a></li>
 			</ul>
 			
 			<br />
