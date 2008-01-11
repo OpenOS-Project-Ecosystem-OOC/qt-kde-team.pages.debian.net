@@ -1,5 +1,5 @@
 
-	<h2>KDE 4 live CD </h2>
+	<h2>KDE 4.0 live CD </h2>
 
 	<p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
 	 project, we have created live CDs with experimental versions of KDE 4.</p>
@@ -31,22 +31,22 @@
      <table>
      <tr>
      <td>amd64</td>
-     <td><a>Coming soon!</a> | </td>
+     <td><a>Coming soon!</a></td>
      </tr>
      <tr>
      <td>i386</td>
-     <td><a>Coming soon!</a> | </td>
+     <td><a>Coming soon!</a></td>
      </tr>
      </table>
     </blockquote>
-
+<!--
 	<h3>How to use the live CD in a QEMU virtual machine</h3>
 
 	<p>To install the QEMU virtual machine software, see the tutorial at <a href="http://wiki.debian.org/QEMU">FIXME</a><p>
 	
 	<p>Run the cd with the following line:</p>
 	<pre>qemu -cdrom FIXME.iso</pre>
-	
+-->
 	<h3>Troubleshooting and Support</h3>
 	<p>If you run into any problem and need help, you can send a mail to the
 	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>

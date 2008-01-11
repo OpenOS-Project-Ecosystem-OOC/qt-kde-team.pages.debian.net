@@ -1,11 +1,12 @@
 
-	 <h2>Install KDE 4 packages from the Debian experimental distribution</h2>
+	 <h2>Install KDE 4.0 packages from the Debian experimental distribution</h2>
 
 	 <p>KDE 4.0.0 requires some software newer than is available in Debian 4.0 "etch" release, so it can only be installed on the testing & unstable branches.</p>
 	 <p>Users of the testing branch may also need to enable the unstable branch in order to meet the requirements of KDE 4.0.0.</p>
 
 	<h1>link to something about mixing testing & unstable</h1>
 
+	<h3>Enabling the experimental branch</h3>
 
 	 <p>To install the KDE 4, the experimental branch must be enabled.  Add the following to <code>/etc/apt/sources.list</code>, then update APT.</p>
 	 <pre>deb http://ftp.debian.org/debian/ experimental main non-free contrib
@@ -14,11 +15,8 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 	 <p>APT will not install packages from experimental unless specifically requested.  To install a package from experimental, run the command:</p>
 	 <pre>aptitude -t experimental install <em>package1</em> <em>package2</em> <em>package3...</em></pre>
 
-	 <p>For a basic KDE 4 desktop, install the package <code>kdebase-workspace</code>.
-	 <br />
-	 For all of KDE 4, install the packages:</p>
-	 <ul>
-	 <li>bork</li>
-	 <li>bork</li>
-	 <li>bork</li>
-	 </ul>
+	<h3>KDE 4 meta-packages</h3>
+
+	 <p>For a basic KDE 4 desktop, install the package <code>kde4-minimal</code>.</p>
+	 <p>For all of KDE 4, install the package <code>kde4</code>.</p>
+	 <p>For the KDE 4 development platform, install the package <code>kde4-development</code>.</p>
