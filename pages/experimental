@@ -18,8 +18,54 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 	 <p>APT will not install packages from experimental unless specifically requested.  To install a package from experimental, run the command:</p>
 	 <pre>aptitude -t experimental install <em>package1</em> <em>package2</em> <em>package3...</em></pre>
 
-	<h3>KDE 4 meta-packages</h3>
+	<h3>KDE 4 packages</h3>
 
-	 <p>For a basic KDE 4 desktop, install </p><code><h1>Gabba</h1></code>
-	 <p>For all of KDE 4, install </p><code><h1>Gabba</h1></code>
-	 <p>For the KDE 4 development platform, install </p><code><h1>Hey!</h1></code>
+	 <p style="margin-bottom:0.1em;">For a basic KDE 4 desktop, install</p>
+	 <table style="margin-left:5em">
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdebase-workspace"><code>kdebase-workspace</code></a></td>
+	 		<td><i>Desktop environment</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdebase"><code>kdebase</code></a></td>
+	 		<td><i>Core applications</i></td>
+	 	</tr>
+	 </table>
+
+	 <br />
+
+	 <p style="margin-bottom:0.1em;">For all of KDE 4, install</p>
+	 <table style="margin-left:5em">
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/extragear-plasma"><code>extragear-plasma</code></a></td>
+	 		<td><i>Additional Plasma applets</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeutils"><code>kdeutils</code></a></td>
+	 		<td><i>General-purpose utilities</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdenetwork"><code>kdenetwork</code></a></td>
+	 		<td><i>networking-related applications, such as the Kopete IM client</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdegraphics"><code>kdegraphics</code></a></td>
+	 		<td><i>Graphics applications, including the Okular document viewer</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdetoys"><code></code>kdetoys</a></td>
+	 		<td><i>Desktop amusments</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeartwork"><code>kdeartwork</code></a></td>
+	 		<td><i>Additional artwork and sound themes</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdesdk"><code>kdesdk</code></a></td>
+	 		<td><i>Software devlopment tools</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td style="width:15em;"></td>
+	 		<td>More packages will be available shortly</td>
+	 	</tr>
+	 </table>
