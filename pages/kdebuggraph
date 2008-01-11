@@ -1,5 +1,5 @@
 
-			<h2>Bug graph</h2>
+			<h2>Bug graph<img src="../images/graph_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 			<h3>Evolution of the numbers of bugs in the last week</h3>
 			<img src="http://users.alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL_-week.png" alt="bug graph last week"/>
 			<h3>Evolution of the numbers of bugs in the last month</h3>

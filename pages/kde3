@@ -1,0 +1,47 @@
+
+         <h2>How to install KDE on Debian<img src="../images/kde3_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
+
+	 <p><em>This page describes how to install KDE 3.5.8.</em>
+	 <br />
+	 <em>For the experimental KDE 4 packages, <a href="experimental.html">see this page</a>.</em></p>
+
+		 <p>There are several ways to get Debian with KDE:</p>
+
+
+		 <h3>Use the KDE version of the Debian Installer CD</h3>
+
+		 <p>This is the easiest way to get Debian with KDE if you are installing a new system. It installs KDE by default.<br />
+		 <a href="http://cdimage.debian.org/debian-cd/4.0_r1/i386/iso-cd/debian-40r1-i386-kde-CD-1.iso">Download KDE CD for Debian 4.0r1 "Etch" i386</a><br/>
+		 <a href="http://cdimage.debian.org/debian-cd/4.0_r1/amd64/iso-cd/debian-40r1-amd64-kde-CD-1.iso">Download KDE CD for Debian 4.0r1 "Etch" AMD64</a>
+		 </p>
+
+		 <p>To install the Debian testing branch with KDE, you can get it from <a href="http://cdimage.debian.org/cdimage/weekly-builds/">the weekly builds</a>.
+		If you don't know what 'testing' is, you probably do not want this CD.</p>
+
+
+		 <h3>Use the default Etch installer</h3>
+
+		 <p>If you are installing a new system and you have the default Etch installer, you can install KDE by typing at the boot prompt:
+		 <pre>install tasks="kde-desktop, standard"</pre>
+		 or, if you prefer to use the graphical installer:
+		 <pre>installgui tasks="kde-desktop, standard"</pre>
+		 </p>
+
+
+		 <h3>Install KDE on your existing Debian system</h3>
+
+		 <p>If you already have Debian installed and you want a complete KDE desktop, install the "kde-desktop" task:
+		 <pre>aptitude install kde-desktop</pre>
+		 </p>
+		
+		 <p>To install only a basic KDE desktop, install the "kde-core" and "kdm" packages:
+		 <pre>aptitude install kde-core kdm</pre>
+		 </p>
+
+	 <h3>Additional packages</h3>
+
+	 <p>To have KDE in your language, install the appropriate <code>kde-i18n-??</code> package, where <code>??</code> is the ISO code for your language.</p>
+
+	 <br />
+
+	 <p><em>Enjoy the KDE desktop experience!</em></p>

@@ -1,4 +1,4 @@
-			<h2>Debian Qt/KDE Maintainers</h2>
+			<h2>Debian Qt/KDE Maintainers<img src="../images/qtkdeteam_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 			<p>This team maintains all the official <a href="http://www.kde.org">KDE</a> modules.</p>
 			<p>Mailing list: <a href="mailto:debian-qt-kde@lists.debian.org">debian-qt-kde@lists.debian.org</a></p>
 			<p>If you are a user and want to get in contact with us, come around in #debian-kde on OFTC, or mail <a href="mailto:debian-kde@lists.debian.org">debian-kde@lists.debian.org</a>.</p>

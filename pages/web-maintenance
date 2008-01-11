@@ -1,4 +1,4 @@
-            <h2>Debian KDE Team Web Maintenance</h2>
+            <h2>Debian KDE Team Web Maintenance<img src="../images/webmaint_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 
             <ol>
                <li>Edit/create pages in folder `pkg-kde/www/v2/pages/'.<br />

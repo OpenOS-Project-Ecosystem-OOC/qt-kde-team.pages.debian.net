@@ -1,23 +1,49 @@
 
-	<h2>KDE 4.0 live CD </h2>
+	<h2>KDE 4.0 live CD<img src="../images/cd_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 
-	<p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
+	 <p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
 	 project, we have created live CDs with experimental versions of KDE 4.</p>
-	 <p>These live CDs allow users to try the latest KDE 4 without any risk their existing installation.</p>
+	 <p>These live CDs allow users to try the latest KDE 4 without any risk to their existing installation.</p>
 
 	 <h3>Technical details</h3>
+
+	 <p style="margin-bottom:0.1em;"> At the login screen, enter:</p>
+
+	 <table style="margin-left:5em">
+	 <tr>
+	 	<td style="width:7em;"><b>username</b></td>
+	 	<td>user</td>
+	 </tr>
+	 <tr>
+	 	<td><b>password</b></td>
+	 	<td>live</td>
+	 </tr>
+	 </table>
 	 
-	 <p><b>login</b>: user
-	 <br>
-	 <b>password</b>: live</p>
-	 <p>If you do not use an English keyboard layout, you can specify another layout by passing the following option to the boot prompt:
-	 <pre>live keyb=fr</pre></p>
-	 
-	 <p>Change "<code>fr</code>" to your ISO language code ("<code>de</code>" for German, "<code>es</code>" for Spanish, and so on.)</p>
-	 
+
+	 <br />
+
+	 <p style="margin-bottom:0.1em;">If you do not use an English keyboard layout, you can specify your two-letter ISO language code at the boot prompt:
+	 <table style="margin-left:5em">
+	 	<tr>
+	 		<td style="width:15em;"><b>live keyb=</b>fr</td>
+	 		<td><i>French AZERTY layout</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td><b>live keyb=</b>de</td>
+	 		<td><i>German QWERTZ layout</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td><b>live keyb=</b>es</td>
+	 		<td><i>Spanish QWERTY layout</i></td>
+	 	</tr>
+	 </table>
+
+	<br />
+
 	 <p>For more information on options for the Live CD, see <a href="http://live.debian.net/other/manpages/live-initramfs.7.html">the live-initramfs manual page</a>.</p>
 
-	 <h3>Download the Debian KDE 4 live CD</h3>
+	 <h3>Download the Debian KDE 4.0 live CD</h3>
 	 <p>Please use BitTorrent if possible to minimize the strain on our servers.</p>
 
 	<ul>
@@ -30,7 +56,7 @@
      <blockquote>
      <table>
      <tr>
-     <td>amd64</td>
+     <td style="width:6em;">amd64</td>
      <td><a>Coming soon!</a></td>
      </tr>
      <tr>

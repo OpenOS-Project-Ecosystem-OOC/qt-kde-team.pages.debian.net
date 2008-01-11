@@ -1,4 +1,4 @@
-<h2>Usertags</h2>
+<h2>Usertags<img src="../images/tag_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 <p>
 Usertags is a new nice feature in the bug tracking system that can be used to tag bugs how you like to do it.
 The tags are bound to a user, and a user is in this case an email address. Usertags can be used to create different views on bugs and it can also be used to track stuff across packages.

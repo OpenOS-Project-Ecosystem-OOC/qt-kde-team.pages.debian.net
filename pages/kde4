@@ -1,15 +1,19 @@
 
-	<h2>Try KDE 4.0</h2>
+	<h2>Try KDE 4.0<img src="../images/kde4_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 
-	<div style="float:left; width:48%; text-align:center;"><a href="kde4livecd.html"><img src="../images/cd.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Try out KDE 4.0<br />on a Debian Live CD</a></span></div>
-	<div style="float:right; width:48%; text-align:center;"><a href="experimental.html"><img src="../images/download.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.0<br />on your Debian system</span></a></div>
+	<div style="float:left; width:48%; text-align:center;"><a href="kde4livecd.html"><img src="../images/cd_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Try out KDE 4.0<br />on a Debian Live CD</a></span></div>
+	<div style="float:right; width:48%; text-align:center;"><a href="experimental.html"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.0<br />on your Debian system</span></a></div>
 	
-	<h3 style="clear:both; padding-top:3em;"><img src="../images/info.png" style="float:right; margin:-15px 0 0 0;" />Notes for KDE 4.0 packages</h3>
+	<h3 style="clear:both; padding-top:3em;"><img src="../images/info_48.png" style="float:right; margin:-15px 0 0 0;" />Notes for KDE 4.0 packages</h3>
 	
-	<p style="clear:both;">KDE 4 packages are currently in the experimental branch and are not intended to be installed on a production system.  We are not currently accepting bug reports against the KDE 4 packages, since they have many known problems.</p>
-
 	 <blockquote><p>"KDE 4.0.0 is our "will eat your children" release of KDE4, not the next release of KDE 3.5. The fact that many already use it daily for their desktop (including myself) shows that it really won't eat your children, but it is part of that early stage in the release system of KDE4."<div align="right"><i>&mdash; Aaron Seigo, KDE e.V. President</i></div></p>
 	 </blockquote>
+
+	<p style="clear:both;">KDE 4 packages are currently in the experimental branch and are not intended to be installed on a production system.  We are not accepting bug reports against the KDE 4 packages at the moment, since they have many known problems.</p>
+
+	<p>If you run into a problem and need help, you can send a mail to the
+	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
+	The list is not moderated, so you can post without subscribing.</p>
 
 	<br />
 
