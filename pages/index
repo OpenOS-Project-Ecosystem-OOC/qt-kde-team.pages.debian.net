@@ -11,7 +11,10 @@
          <p>We are a group of people with a common goal in mind: bringing the best KDE possible to Debian.</p>
 			
 			<h2>Latest news:</h2>
-            
+
+	    <p><strong>Feb 5, 2008</strong><br />
+	    KDE 4.0.1 released and available in experimental.</p>
+
 	    <p><strong>Jan 19, 2008</strong><br />
 	    Metapackages for KDE 4 uploaded to experimental (have to go through NEW).<br />
 	    Kde4libs and kdepimlibs uploaded to unstable.</p>

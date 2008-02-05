@@ -21,8 +21,12 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 
 	<h3>KDE 4 packages</h3>
 
-	 <p style="margin-bottom:0.1em;">For a basic KDE 4 desktop, install</p>
+	 <p style="margin-bottom:0.1em;">For a basic KDE 4 desktop, install the <a href="http://packages.debian.org/experimental/kde4-minimal"><code>kde4-minimal</code></a> package, which includes</p>
 	 <table style="margin-left:5em">
+	 	<tr>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdebase-runtime"><code>kdebase-runtime</code></a></td>
+	 		<td><i>Essential runtime components</i></td>
+	 	</tr>
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdebase-workspace"><code>kdebase-workspace</code></a></td>
 	 		<td><i>Desktop environment</i></td>
@@ -35,7 +39,7 @@ deb-src http://ftp.debian.org/debian/ experimental main non-free contrib</pre>
 
 	 <br />
 
-	 <p style="margin-bottom:0.1em;">For all of KDE 4, install</p>
+	 <p style="margin-bottom:0.1em;">For all of KDE 4, install the <a href="http://packages.debian.org/experimental/kde4"><code>kde4</code></a> package, which also includes</p>
 	 <table style="margin-left:5em">
 	 	<tr>
 	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/extragear-plasma"><code>extragear-plasma</code></a></td>

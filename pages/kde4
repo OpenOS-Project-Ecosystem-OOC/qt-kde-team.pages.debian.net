@@ -6,9 +6,6 @@
 	
 	<h3 style="clear:both; padding-top:3em;"><img src="../images/info_48.png" style="float:right; margin:-15px 0 0 0;" />Notes for KDE 4.0 packages</h3>
 	
-	 <blockquote><p>"KDE 4.0.0 is our "will eat your children" release of KDE4, not the next release of KDE 3.5. The fact that many already use it daily for their desktop (including myself) shows that it really won't eat your children, but it is part of that early stage in the release system of KDE4."<div align="right"><i>&mdash; Aaron Seigo, KDE e.V. President</i></div></p>
-	 </blockquote>
-
 	<p style="clear:both;">KDE 4 packages are currently in the experimental branch and are not intended to be installed on a production system.  We are not accepting bug reports against the KDE 4 packages at the moment, since they have many known problems.</p>
 
 	<p>If you run into a problem and need help, you can send a mail to the
