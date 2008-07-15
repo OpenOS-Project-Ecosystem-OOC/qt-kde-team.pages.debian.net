@@ -4,7 +4,7 @@
 
     <h3>Enabling the sid repository</h3>
 
-	 <p>KDE 4.1 requires some software that is not available in the Debian 4.1 "etch" release.  Therefore, it can only be installed on systems using the testing &amp; unstable branches.</p>
+	 <p>KDE 4.1 requires some software that is not available in the Debian 4.0 "etch" release.  Therefore, it can only be installed on systems using the testing &amp; unstable branches.</p>
 
 	 <p>Users of Debian testing (a.k.a. Lenny) <b>must</b> also add Debian unstable to their sources.list in order to meet the requirements of KDE 4.1.</p>
 
