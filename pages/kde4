@@ -1,8 +1,8 @@
 
 	<h2>Try KDE 4.1<img src="../images/kde4_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 
-<!--	<div style="float:left; width:48%; text-align:center;"><!--<a href="kde4livecd.html">--><img src="../images/cd_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Try out KDE 4.0<br />on a Debian Live CD</span><!--</a>--></div> -->
-	<div style="float:center; width:48%; text-align:center;"><a href="experimental.html"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.1<br />on your Debian system</span></a></div>
+<!--	<div style="float:left; width:48%; text-align:center;"><a href="kde4livecd.html"><img src="../images/cd_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Try out KDE 4.0<br />on a Debian Live CD</span></a></div> -->
+	<div style="float:center; width:100%; text-align:center;"><a href="experimental.html"><img src="../images/download_128.png" /><br /><span style="font-size:20pt; font-weight:bolder;line-height:125%;">Install KDE 4.1<br />on your Debian system</span></a></div>
 	
 	<h3 style="clear:both; padding-top:3em;"><img src="../images/info_48.png" style="float:right; margin:-15px 0 0 0;" />Notes for KDE 4.1 packages</h3>
 	
