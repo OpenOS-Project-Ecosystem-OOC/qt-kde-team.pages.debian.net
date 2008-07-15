@@ -60,7 +60,7 @@ deb-src http://ftp.de.debian.org/debian/ experimental main non-free contrib</pre
 
 	 <table style="margin-left:5em">
 	 	<tr>
-	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/extragear-plasma"><code>extragear-plasma</code></a></td>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/experimental/kdeplasma-addons"><code>kdeplasma-addons</code></a></td>
 	 		<td><i>Additional Plasma applets</i></td>
 	 	</tr>
 	 	<tr>
