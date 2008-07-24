@@ -38,7 +38,7 @@ collect2: ld returned 1 exit status<br/>
 make[2]: *** [lib/kcm_krunner_spellcheck.so] Error 1<br/>
 make[1]: *** [<b>runners/spellchecker</b>/CMakeFiles/<b>kcm_krunner_spellcheck</b>.dir/all] Error 2<br/>
 make: *** [all] Error 2<br/>
-xavier@kawet:~/tmp/compile/svn/plasma/b$</code>
+xavier@kawet:~/tmp/compile/svn/plasma/build$</code>
 <li>locate the unresolved function (here <b>KPluginFactory::create</b>)</li>
 <li>locate the failing build target (here <b>kcm_krunner_spellcheck</b> in <b>directory runners/spellchecker</b>)</li>
 <li>find the library providing it : the best way to do this is to search <a href="http://api.kde.org">api.kde.org</a>. Googling <a href="http://www.google.com/search?q=KPluginFactory+site:api.kde.org/4.1-api">KPluginFactory site:api.kde.org/4.1-api</a>, you can see it's in kdecore. For Qt modules, you can search in <a href="http://doc.trolltech.com/4.4">doc.trolltech.com/4.4</a>.</li>
