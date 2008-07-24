@@ -103,3 +103,11 @@
 			[super-user-command]
 			super-user-command=sudo
 			</pre>
+
+			<h4 id="q7">7. I can't build KDE4 software from source</h4>
+			<p>The Debian KDE packages are built with the KDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT
+			option, which alters how CMake (the build system used by KDE) links to the KDE
+			libraries. This may cause KDE4 software to fail to build from source.</p>
+
+			<p>Please read experimental_linking.html for more information.</p>
+
