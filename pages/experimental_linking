@@ -15,20 +15,24 @@
 <p>Use the autofixtll script to automatically find most linking problems and generate a patch to fix them.</p>
 <ul>
 <li>Download the script from <a href="http://svn.debian.org/viewsvn/*checkout*/pkg-kde/scripts/autofixtll"> our SVN</a></li>
-<li>Quilt is used to generate patches, it can be found in the "quilt" package.</li>
 <li>From the root of your unpacked source, run :</li>
-<code>quilt new 97_fix_expected_name.diff<br/>                                                                             autofixtl -c make -d builddir -q quilt</code>
-<li>autofixtll will modify the CMakeLists.txt files in order to add the needed libraries.</li>
+<code>$ mkdir builddir<br/>
+$ make build
+$ cd build<br/>
+$ cmake .. -DCMAKE_VERBOSE_MAKEFILE=ON<br/>
+$ cd ..<br/>
+$ autofixtll -i -c make -d build -q none</code>
 <li>If autofixtll doesn't do the trick, you can finish with the manual way below.</li>
+<li>For more help on using autofixtll, just read <tt>autofixtll --help</tt>.</li>
 </ul>
 
 <h5>3-Manually find and repair linking problems :</h5>
 <ul>
 <li>Basically, to build a KDE4 application, you need to do :</li>
-<code>mkdir build<br/>
-cd build<br/>
-cmake ..<br/>
-make
+<code>$ mkdir build<br/>
+$ cd build<br/>
+$ cmake ..<br/>
+$ make
 </code>
 <li>We assume <tt>cmake</tt> runs well, and that <tt>make</tt> fails with this kind of message :</li>
 <code>CMakeFiles/kcm_krunner_spellcheck.dir/spellcheck_config.o:(.data.rel.ro._ZTV13ConfigFactory[vtable for ConfigFactory]+0x44):
