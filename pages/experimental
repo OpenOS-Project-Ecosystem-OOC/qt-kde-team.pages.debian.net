@@ -121,7 +121,7 @@ deb-src http://ftp.de.debian.org/debian/ experimental main</pre>
      <br />
      <h3>Upgrading installed experimental KDE 4 packages automatically</h3>
      
-     <p style="margin-bottom:0.1em;">Once you have installed all KDE 4 packages you want experimental, you would probably like
+     <p style="margin-bottom:0.1em;">Once you have installed all KDE 4 packages you want from experimental, you would probably like
      to keep them up-to-date to the latest releases in experimental. It is easy to do that with the help of APT pinning. Just
      add</p>
      <p style="white-space: pre; font-family: monospace">
@@ -130,7 +130,11 @@ Pin: release a=experimental
 Pin-Priority: 101</p>
      <p style="margin-bottom:0.1em;"> to your /etc/apt/preferences file (create one if it does not exist) and simple
      <span style="font-weight:bold">aptitude (or apt-get) dist-upgrade</span> will always automatically  upgrade
-     packages you have installed from experimental to the latest versions in the experimental repository.</p>
+     <span style="text-decoration: underline">only</span> the packages <span style="text-decoration: underline">you
+      have installed from experimental</span> to the latest versions in the experimental repository. Other packages,
+      which are available in experimental but their experimental versions have not been manually installed by you,
+      won't be automatically pulled in by <span style="font-weight:bold">dist-upgrade</span>. Consult
+      <span style="font-weight:bold">apt_preferences(5)</span> for more information about pinning.</p>
 
 	 <br />
 
