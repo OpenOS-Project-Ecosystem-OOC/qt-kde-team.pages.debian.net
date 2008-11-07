@@ -114,7 +114,7 @@
 			
 			<h4 id="q9">9. When will be KDE 4 available in testing/unstable?</h4>
 			
-			<p>KDE 4 will be uploaded to unstable when Lenny is released.
+			<p>KDE 4 will be uploaded to unstable once Lenny has been released.
 			Then, after some time, it will migrate to testing. If you want to
 			use KDE 4 in unstable you can install the packages from
 			experimental. Follow <a
