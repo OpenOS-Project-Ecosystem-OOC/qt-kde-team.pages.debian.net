@@ -1,0 +1,53 @@
+
+	<h2>KDE 4.2 live CD<img src="../images/cd_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
+	 <p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
+	 project, we have created live CDs with experimental versions of KDE 4.</p>
+	 <p>These live CDs allow users to try the latest KDE 4 without any risk to their existing installation.</p>
+
+	 <p style="margin-bottom:0.1em;">If you do not use an English keyboard layout, you can specify your two-letter ISO language code at the boot prompt:
+	 <table style="margin-left:5em">
+	 	<tr>
+	 		<td style="width:15em;"><b>live keyb=</b>fr</td>
+	 		<td><i>French AZERTY layout</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td><b>live keyb=</b>de</td>
+	 		<td><i>German QWERTZ layout</i></td>
+	 	</tr>
+	 	<tr>
+	 		<td><b>live keyb=</b>es</td>
+	 		<td><i>Spanish QWERTY layout</i></td>
+	 	</tr>
+	 </table>
+
+	<br />
+
+	 <p>For more information on options for the Live CD, see <a href="http://live.debian.net/other/manpages/live-initramfs.7.html">the live-initramfs manual page</a>.</p>
+	 
+	 <h3>Bug reports</h3>
+	 <p>If you want to contribute to KDE by submitting bug reports, then this live CD is not for you. You should use the KDE4Daily CD that is designed for this purpose.</p>
+	 <ul>
+	 <li><a href="http://etotheipiplusone.com/kde4daily/docs/kde4daily.html" alt="">KDE4Daily site</a></li>
+	 <li><a href="http://dot.kde.org/1228930911/" alt="">Dot article</a></li>
+	 </ul>
+
+	 <h3>Download the Debian KDE 4.2 live CD</h3>
+
+	<ul>
+	<li><a>Torrent for AMD64 (Coming soon!)</a></li>
+	<li><a>Torrent for i386 (Coming soon!)</a></li>
+	</ul>
+
+
+<!--
+	<h3>How to use the live CD in a QEMU virtual machine</h3>
+
+	<p>To install the QEMU virtual machine software, see the tutorial at <a href="http://wiki.debian.org/QEMU">FIXME</a><p>
+	
+	<p>Run the cd with the following line:</p>
+	<pre>qemu -cdrom FIXME.iso</pre>
+-->
+	<h3>Troubleshooting and Support</h3>
+	<p>If you run into any problem and need help, you can send a mail to the
+	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
+	The list is not moderated, so you can post without subscribing.</p>
