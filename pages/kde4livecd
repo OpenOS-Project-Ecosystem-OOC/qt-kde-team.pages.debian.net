@@ -47,7 +47,6 @@
 	<p>Run the cd with the following line:</p>
 	<pre>qemu -cdrom FIXME.iso</pre>
 -->
-	<h3>Troubleshooting and Support</h3>
-	<p>If you run into any problem and need help, you can send a mail to the
-	<a href="http://lists.debian.org/debian-kde/">Debian KDE support list.</a>
-	The list is not moderated, so you can post without subscribing.</p>
+	<h3>Troubleshooting and Support (actually, lack of it)</h3>
+	<p>Reporting bugs at http://bugs.debian.org is out of question for these packages. However, you are welcome to help Debian Qt/KDE team to improve packaging by making the patch or proposing/discussing solutions (complaining does not count).</p>
+	<p>For more information on the making of the Live CD ping dpalacio on the irc channel.</p>
