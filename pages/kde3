@@ -24,19 +24,22 @@
 		 href="http://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-kde-CD-1.iso">Download KDE CD for Debian testing "Lenny" AMD64</a>
 		 </p>
 
-		 <h3>Use the default installer</h3>
+		 <h3>Use the Debian installer</h3>
 
-                  <h4>Etch installer</h4>
-		 <p>If you are installing a new system and you have the default Etch installer, you can install KDE by typing at the boot prompt:
+         <h4>Debian Etch installer</h4>
+
+		 <p>If you are installing a new system and you have the Debian Etch installer (current default), you can install KDE by typing at the boot prompt:
 		 <pre>install tasks="kde-desktop, standard"</pre>
-		 or, if you prefer to use the graphical installer:
+		 or, if you prefer to use the Debian Etch graphical installer:
 		 <pre>installgui tasks="kde-desktop, standard"</pre>
 		 </p>
 
-                  <h4>Lenny installer</h4>
-		 <p>If you are installing a new system and you have the default Lenny installer, you can install KDE by typing at the boot prompt:
+         <h4>Debian Lenny installer</h4>
+
+		 <p>If you are installing a new system and you have the Debian Lenny installer, you can install KDE by typing at the boot prompt:
 		 <pre>desktop=kde</pre>
 		 </p>
+
 		 <h3>Install KDE on your existing Debian system</h3>
 
 		 <p>If you already have Debian installed and you want a complete KDE desktop, install the "kde-desktop" task:
