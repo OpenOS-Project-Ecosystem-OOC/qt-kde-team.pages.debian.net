@@ -20,15 +20,19 @@
 		If you don't know what 'testing' is, you probably do not want this CD.</p>
 
 
-		 <h3>Use the default Etch installer</h3>
+		 <h3>Use the default installer</h3>
 
+                  <h4>Etch installer</h4>
 		 <p>If you are installing a new system and you have the default Etch installer, you can install KDE by typing at the boot prompt:
 		 <pre>install tasks="kde-desktop, standard"</pre>
 		 or, if you prefer to use the graphical installer:
 		 <pre>installgui tasks="kde-desktop, standard"</pre>
 		 </p>
 
-
+                  <h4>Lenny installer</h4>
+		 <p>If you are installing a new system and you have the default Lenny installer, you can install KDE by typing at the boot prompt:
+		 <pre>desktop=kde</pre>
+		 </p>
 		 <h3>Install KDE on your existing Debian system</h3>
 
 		 <p>If you already have Debian installed and you want a complete KDE desktop, install the "kde-desktop" task:
