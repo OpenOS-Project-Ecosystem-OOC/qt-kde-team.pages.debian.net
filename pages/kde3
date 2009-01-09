@@ -16,9 +16,13 @@
 		 <a href="http://cdimage.debian.org/debian-cd/4.0_r6/amd64/iso-cd/debian-40r6-amd64-kde-CD-1.iso">Download KDE CD for Debian 4.0r6 "Etch" AMD64</a>
 		 </p>
 
-		 <p>To install the Debian testing branch with KDE, you can get it from <a href="http://cdimage.debian.org/cdimage/weekly-builds/">the weekly builds</a>.
-		If you don't know what 'testing' is, you probably do not want this CD.</p>
-
+		 <p>To install the Debian testing branch with KDE, you can get it from <a href="http://cdimage.debian.org/cdimage/weekly-builds/">the weekly builds</a>
+		 If you don't know what 'testing' is, you probably do not want this CD.</p>
+		 <p>
+		 <a href="http://cdimage.debian.org/cdimage/weekly-builds/i386/iso-cd/debian-testing-i386-kde-CD-1.iso">Download KDE CD for Debian testing "Lenny" i386</a><br/>
+		 <a
+		 href="http://cdimage.debian.org/cdimage/weekly-builds/amd64/iso-cd/debian-testing-amd64-kde-CD-1.iso">Download KDE CD for Debian testing "Lenny" AMD64</a>
+		 </p>
 
 		 <h3>Use the default installer</h3>
 
