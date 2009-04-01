@@ -1,0 +1,46 @@
+
+			<h2>Kaboom, the Debian KDE settings migration wizard</h2>
+
+			<h3>So, what does kaboom does?</h3>
+			<p>kaboom is tool for migrating from KDE 3 to KDE 4. Depending on the options you choose, you may:</p>
+
+			<ol>
+				<li>Use you current KDE 3 settings as initial for KDE 4.</li>
+				<li>Use your existing KDE 4 settings and <strong>replace</strong> current KDE 3 settings.</li>
+				<li>Merge current KDE 4 settings with current KDE 3 settings (experimental).</li>
+				<li>Start KDE with defaults settings and data.</li>
+			</ol>
+
+			And, optionally but <strong>higly recommended</strong>, backup your existing KDE 3 settings.
+
+			<h3>Why is this needed?</h3>
+
+			<p>Debian uses the ~./kde directory (where ~ refers to the path of your Home directory) to store user settings and data. So, there are two possible different situations in which this wizard helps:</p>
+
+			<ul>
+				<li>You have been using KDE 3 and you need to migrate to KDE 4. You now may want to start with a fresh KDE 4 installation, or perhaps you may want to keep your KDE 3 settings as much as possible. Optionally, you may want to do a backup og KDE 3's config files.</li>
+				<li>You have been using KDE 4 from the experimental repositories. While in experimental, KDE 4 used ~./kde4 as the directory for data and settings. Now you may want to keep that config or start from a fresh install.</li>
+			</ul>
+
+			<h2>Description of the choices</h2>
+			<h3>1. Use you current KDE 3 settings as initial for KDE 4</h3>
+			<p>
+				The wizard will not make any changes to your current KDE&nbsp;3 settings directory. It may only optionally back this directory up if the appropriate option below is enabled. This scenario is recommended for users who have not actively used KDE&nbsp;4 or any of its applications (e.g. Okular or KTorrent which were released with Lenny) on this system previously and wish the new KDE&nbsp;4 desktop and its applications to use as much settings from the old KDE&nbsp;3 counterparts as possible.
+			</p>
+
+			<h3>2. Use your existing KDE 4 settings and <strong>replace</strong> current KDE 3 settings</h3>
+			<p>
+				The wizard will remove current KDE&nbsp;3 settings directory and move current KDE&nbsp;4 settings directory into its place. Effectively, you will lose all settings and data the KDE&nbsp;3 desktop and applications have stored unless the backup option below is enabled. This scenario should be useful for users who already actively and almost exclusively use KDE&nbsp;4 desktop and applications as previously packaged by Debian and do not care about losing settings of (a few) KDE&nbsp;3 applications anymore.
+			</p>
+
+			<h3>3. Merge current KDE 4 settings with current KDE 3 settings (experimental)</h3>
+			<p>
+				The wizard will copy contents of the current KDE&nbsp;4 settings directory on top of the current KDE&nbsp;3 settings directory giving preference to the KDE&nbsp;4 configuration files in case of filename collisions. In theory, this should let you preserve settings of both KDE&nbsp;4 and a few KDE&nbsp;3 applications you still use. The downside is that this migration path is not well tested and the resulting KDE&nbsp;4 settings directory might get polluted with useless configuration and data files which KDE&nbsp;4 ports no longer use. Use this scenario at your own risk.
+			</p>
+
+			<h3>4. Start KDE with defaults settings and data</h3>
+			<p>
+				The wizard will <strong>remove</strong> (or move to backup) existing KDE&nbsp;3 settings directory including such data as contacts, locally stored mails, accounts in KMail and Kopete, bookmarks, etc.
+			</p>
+
+
