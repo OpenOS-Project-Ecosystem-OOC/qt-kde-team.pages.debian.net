@@ -1,15 +1,15 @@
 		</div>
 
 		<div id="sidebar">
-			
+
 			<h2><big>Try KDE!</big></h2>
 			<ul>
 				<li><a href="kde3.html"><img src="../images/kde3_64.png" style="float:left; margin:0 0 16px;" alt="KDE 3" /><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;">KDE 3.5</span></div></a></li>
 				<li style="clear:both;"><a href="kde4.html"><img src="../images/kde4_64.png" style="float:left;" alt="KDE 4" /><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;">KDE 4.2</span> <!--<span style="font-size:x-small;"><em>experimental</em></span>--></div></a></li>
 			</ul>
-			
+
 			<br />
-			
+
 			<h2 style="text-align:center;"><img src="../images/qtkdeteam_48.png" style="float:right; margin:-8px 0 0 0;" alt="Qt KDE Debian Team" />Debian Qt/KDE Maintainers</h2>
 			<ul>
 				<li><a href="qtkde.html">General info</a></li>
@@ -19,15 +19,16 @@
 					<li><a href="usertags.html">Use of usertags</a></li>
 					<li><a href="kdebuggraph.html">Bugs graphs</a></li>
 					</ul></li>
+				<li><a href="kaboom.html" title="Kaboom, the Debian KDE settings migration wizard">Kaboom, the settings migration wizard</a></li>
 			</ul>
-			
+
 			<h2 style="text-align:center;"><img src="../images/extrasteam_48.png" style="float:right; margin:-8px 0 0 0;" alt="KDE Extras Debian Team" />Debian KDE Extras Teams</h2>
 			<ul>
 				<li><a href="kdeextras.html">General info</a></li>
 				<li><a href="http://qa.debian.org/developer.php?login=pkg-kde-extras@lists.alioth.debian.org">Package list</a></li>
 			</ul>
-			
-			
+
+
 			<h2 style="text-align:center;"><img src="../images/worknotes_48.png" style="float:right; margin:-8px 0 0 0;" alt="Working notes" />Working notes</h2>
 			<ul>
 				<li><a href="descriptions.html">Descriptions policy draft</a></li>
@@ -50,12 +51,12 @@
 			</ul>
 
 		</div>
-	
+
 		<div id="footer">
 			<p><a href="mailto:pkg-kde-talk@lists.alioth.debian.org">Contact us</a> | <a href="#header">Back to top</a><br />Design by <a href="http://andreasviklund.com/">Andreas Viklund</a>
 			</p>
 		</div>
-	
+
 	</div>
 </body>
 </html>
