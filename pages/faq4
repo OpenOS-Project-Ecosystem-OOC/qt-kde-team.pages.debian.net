@@ -6,11 +6,16 @@
 			You can ask in the <a href="http://lists.debian.org/debian-kde">Debian KDE users mailing list.</a><br />
 			Please, before asking, check the last topics discussed in the mailing list archive.
 			</p>
-               
-			<h4 id="q2">2. What is "kaboom"?</h4>
+
+			<h4 id="q1">1. What is "kaboom"?</h4>
 
 			<p>
 			Read <a href="kaboom.html">kaboom's information page</a>
 			</p>
-           
-			
+
+			<h4 id="q2">2. Does kaboom erases <tt>.kde4</tt>?</h4>
+
+			<p>
+			No, it doesn't.
+			</p>
+
