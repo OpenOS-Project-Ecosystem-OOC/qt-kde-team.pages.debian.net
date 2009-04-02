@@ -15,12 +15,15 @@
 			<p>Pick your KDE version:</p>
 
          <ul>
-            <li><a href="kde3.html">KDE 3.5</a></li>
-            <li><a href="kde4.html">KDE 4.2</a></li>
+            <li><a href="kde3.html">KDE 3.5 (Debian stable)</a></li>
+            <li><a href="kde4.html">KDE 4.2 (Debian unstable)</a></li>
          </ul>
 
 	
 			<h2>Latest news:</h2>
+	<p><strong>April 2, 2009</strong><br />
+        Read about <a href="http://lists.debian.org/debian-kde/2009/03/msg00157.html">status of KDE 4 to unstable</a>.
+    </p>
 
 	<p><strong>January 27, 2009</strong><br />
         <a href="http://www.kde.org/announcements/4.2/">KDE 4.2</a> has been released and is available in <a href="experimental.html">experimental</a>. Enjoy!

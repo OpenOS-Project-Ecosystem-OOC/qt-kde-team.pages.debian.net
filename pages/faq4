@@ -3,13 +3,14 @@
 
 			<h4 id="q0">0. I have a question and it is not in the FAQ. Where I do ask?</h4>
 			<p>
-			You can ask in the <a href="http://lists.debian.org/debian-kde">Debian KDE users mailing list.</a></br />
+			You can ask in the <a href="http://lists.debian.org/debian-kde">Debian KDE users mailing list.</a><br />
 			Please, before asking, check the last topics discussed in the mailing list archive.
 			</p>
-                        <!--
-			<h4 id="q2">2. ...</h4>
+               
+			<h4 id="q2">2. What is "kaboom"?</h4>
 
 			<p>
+			Read <a href="kaboom.html">kaboom's information page</a>
 			</p>
-                        -->
+           
 			
