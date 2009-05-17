@@ -16,15 +16,19 @@
 
          <ul>
             <li><a href="kde3.html">KDE 3.5 (Debian stable)</a></li>
-            <li><a href="kde4.html">KDE 4.2 (Debian unstable)</a></li>
+            <li><a href="kde4.html">KDE 4.2 (Debian testing)</a></li>
          </ul>
 
 
 			<h2>Latest news:</h2>
 
+  <p><strong>May 17, 2009</strong><br />
+     KDE 4 has reached testing. Enjoy!
+  </p>
+
 	<p><strong>April 6, 2009</strong><br />
-        KDE 4 has reached unstable. Enjoy!
-    </p>
+     KDE 4 has reached unstable. Enjoy!
+  </p>
 
 	<p><strong>April 2, 2009</strong><br />
         Read about <a href="http://lists.debian.org/debian-kde/2009/03/msg00157.html">status of KDE 4 to unstable</a>.

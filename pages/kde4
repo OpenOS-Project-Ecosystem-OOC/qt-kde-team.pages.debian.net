@@ -5,13 +5,10 @@
 
 	 <p>KDE 4.2 requires some software that is not available in the Debian 5.0
 	 "lenny" release.  Therefore, it can only be installed on systems using
-	 the unstable branches. Also, we recommend you to keep testing branch, it
-	 will ease you the pain with broken installations when there is
-	 transitions going on in unstable.</p>
+	 the testing branches.</p>
 
      <blockquote>
-     <pre style="margin-bottom:0;">deb http://ftp.de.debian.org/debian/ sid main
-deb-src http://ftp.de.debian.org/debian/ sid main
+     <pre style="margin-bottom:0;">
 deb http://ftp.de.debian.org/debian/ testing main
 deb-src http://ftp.de.debian.org/debian/ testing main</pre>
     </blockquote>
@@ -19,8 +16,10 @@ deb-src http://ftp.de.debian.org/debian/ testing main</pre>
      <p>You should replace ftp.de.debian.org by a
      <a href="http://www.debian.org/mirror/list">mirror</a> near you.</p>
 
+     <!--
      <p>To enable unstable without upgrading your entire system,
      <a href="http://wiki.debian.org/AptPinning">see this page</a>.</p>
+     -->
 
 	<h3>KDE 4 packages</h3>
 
