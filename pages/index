@@ -1,18 +1,19 @@
 
-			<h2>Welcome!</h2>
+<h2>Welcome!</h2>
 
-			<p><img src="images/konqui.jpg" width="152" height="184" alt="Konqui" class="right photo" />This is the home page of two closely related teams:</p>
+	<p><img src="images/konqui.jpg" width="152" height="184" alt="Konqui" class="right photo" />This is the home page of two closely related teams:</p>
 
-         <ul>
-            <li><a href="qtkde.html">Debian Qt/KDE Maintainers</a></li>
-            <li><a href="kdeextras.html">Debian KDE Extras Team</a></li>
-         </ul>
+	<ul>
+		<li><a href="qtkde.html">Debian Qt/KDE Maintainers</a></li>
+		<li><a href="kdeextras.html">Debian KDE Extras Team</a></li>
+	</ul>
 
-         <p>We are a group of people with a common goal in mind: bringing the best KDE possible to Debian.</p>
+	<p>We are a group of people with a common goal in mind: bringing the best KDE possible to Debian.</p>
 
-			<h2>Get KDE in Debian</h2>
 
-			<p>Pick your KDE version:</p>
+<h2>Get KDE in Debian</h2>
+
+<p>Pick your KDE version:</p>
 
          <ul>
             <li><a href="kde3.html">KDE 3.5 (Debian stable)</a></li>
@@ -20,28 +21,27 @@
          </ul>
 
 
-			<h2>Latest news:</h2>
+<h2>Latest news:</h2>
 
-  <p><strong>May 28, 2009</strong><br />
+<p><strong>May 28, 2009</strong><br />
      KOffice 2.0.0 available in experimental.
-  </p>
+</p>
 
-  <p><strong>May 17, 2009</strong><br />
+<p><strong>May 17, 2009</strong><br />
      KDE 4 has reached testing. Enjoy!
-  </p>
+</p>
 
-	<p><strong>April 6, 2009</strong><br />
+<p><strong>April 6, 2009</strong><br />
      KDE 4 has reached unstable. Enjoy!
-  </p>
+</p>
 
-	<p><strong>April 2, 2009</strong><br />
+<p><strong>April 2, 2009</strong><br />
         Read about <a href="http://lists.debian.org/debian-kde/2009/03/msg00157.html">status of KDE 4 to unstable</a>.
-    </p>
+</p>
 
-	<p><strong>January 27, 2009</strong><br />
+<p><strong>January 27, 2009</strong><br />
         <a href="http://www.kde.org/announcements/4.2/">KDE 4.2</a> has been released and is available in <a href="experimental.html">experimental</a>. Enjoy!
-    </p>
+</p>
 
-
-			<p>See <a href="oldnews.html">old news.</a></p>
+<p>See <a href="oldnews.html">old news.</a></p>
 
