@@ -1,7 +1,7 @@
 
-	<h2>KDE 4.2 live CD<img src="../images/cd_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
+	<h2>KDE 4.3 live CD<img src="../images/cd_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 	 <p>Thanks to the efforts of the <a href="http://debian-live.alioth.debian.org/">Debian Live</a> 
-	 project, we have created live CDs with experimental versions of KDE 4.</p>
+	 project, we have created live CDs with of KDE 4.</p>
 	 <p>These live CDs allow users to try the latest KDE 4 without any risk to their existing installation.</p>
 
 	 <p style="margin-bottom:0.1em;">If you do not use an English keyboard layout, you can specify your two-letter ISO language code at the boot prompt:
@@ -28,16 +28,11 @@
 	 <p>If you want to contribute to KDE by submitting bug reports, then this live CD is not for you. You should use the KDE4Daily CD that is designed for this purpose.</p>
 	 <ul>
 	 <li><a href="http://etotheipiplusone.com/kde4daily/docs/kde4daily.html" alt="">KDE4Daily site</a></li>
-	 <li><a href="http://dot.kde.org/1228930911/" alt="">Dot article</a></li>
+	 <li><a href="http://dot.kde.org/2009/08/04/kde-430-released-caizen" alt="">Dot article</a></li>
 	 </ul>
 
-	 <h3>Download the Debian KDE 4.2 live CD</h3>
-
-	<ul>
-	<li><a>Torrent for AMD64 (Coming soon!)</a></li>
-	<li><a href="http://linuxtracker.org/index.php?page=torrent-details&id=e9cad4bb690e047a81d165176fa7063d54a55313">Torrent for i386</a></li>
-	</ul>
-
+	 <h3>Download the Debian KDE 4.3 live CD</h3>
+   Torrent download at Torrentbox: <a href="http://torrentbox.com/torrent_details?id=568209">info</a> - <a href="http://torrentbox.com/download/568209/debian-live-kde_4.3.0-i386.torrent">download link</a>.
 
 <!--
 	<h3>How to use the live CD in a QEMU virtual machine</h3>
@@ -49,4 +44,3 @@
 -->
 	<h3>Troubleshooting and Support (actually, lack of it)</h3>
 	<p>Reporting bugs at http://bugs.debian.org is out of question for these packages. However, you are welcome to help Debian Qt/KDE team to improve packaging by making the patch or proposing/discussing solutions (complaining does not count).</p>
-	<p>For more information on the making of the Live CD ping dpalacio on the irc channel.</p>
