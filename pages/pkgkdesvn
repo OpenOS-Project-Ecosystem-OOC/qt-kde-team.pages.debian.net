@@ -1,26 +1,47 @@
 
 			<h2>pkg-kde SVN quick guide</h2>
-			<h3>anonymous access</h3>
-			<p>If you do not have write acces or your want to download a copy without write permissions (so you do not need your password), you only need to execute:</p>
-				
-	<pre>
-	svn co svn://svn.debian.org/pkg-kde/
-	</pre>
-			<p>This will download the whole repository, so if you only need a module or a specific directory, you only have to add the path to the order. For example, to download kile that is placed in kde-extras:</p>
-	<pre>
-	 svn co svn://svn.debian.org/pkg-kde/kde-extras/kile
-	</pre>
+
+			<h3>Anonymous access</h3>
+
+			<p>If you do not have write acces or your want to download a copy
+         without write permissions (so you do not need your password), you only
+         need to execute:</p>
+         <pre>
+         svn co svn://svn.debian.org/pkg-kde/
+         </pre>
+
+			<p>This will download the whole repository, so if you only need a
+         module or a specific directory, you only have to add the path to the 
+         order. For example, to download kile that is placed in kde-extras:</p>
+         <pre>
+         svn co svn://svn.debian.org/pkg-kde/kde-extras/kile
+         </pre>
+
 	
 			<h3>Identified access</h3>
-			<p>If you have write permissions in the repository, you can download a copy with this order:</p>
 
-	<pre>
-	svn co svn+ssh://ana@svn.debian.org/svn/pkg-kde/
-	</pre>
+			<p>If you have write permissions in the repository, you can download a
+         copy with this order:</p>
+         <pre>
+         svn co svn+ssh://ana@svn.debian.org/svn/pkg-kde/
+         </pre>
 
-			<p>You need to replace ana with your login name (user or user-guest).</p>
-			<p>And if you only want a specific directory, append it to the path:</p>
-	<pre>
-	svn co svn+ssh://ana@svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
-	</pre>
+			<p>You need to replace ana with your login name (user or
+         user-guest).</p>
+			<p>And if you only want a specific directory, append it to the
+         path:</p>
+         <pre>
+         svn co
+svn+ssh://ana@svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
+         </pre>
 
+
+         <h3>Web access</h3>
+
+         <p>You can also browse the repository using your web browser:</p>
+            
+         <ul>
+            <li><a href="http://svn.debian.org/wsvn/pkg-kde">Via WebSVN</a></li>
+            <li><a href="http://svn.debian.org/viewsvn/pkg-kde/">Via
+            ViewVC</a></li>
+         </ul>
