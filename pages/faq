@@ -5,7 +5,7 @@
 			<p>
 			The K Desktop Environment (KDE) is the leading Open Source desktop software for Linux and UNIX.<br />
 			The homepage for the project is at <a href="http://www.kde.org">www.kde.org</a><br />
-			 
+
 			An official introduction is found at <a href="http://www.kde.org/whatiskde/">www.kde.org/whatiskde/</a>
 			</p>
 
@@ -19,34 +19,34 @@
 
 			<h4 id="q3">3. I can't compile Qt/KDE applications! I get this: configure error:
 			Qt not found</h4>
-			
+
 			<p>A very common problem when compiling KDE programs (or other ones which use
 			Qt), is that the configure script, is unable to find where Qt is, and failing
 			with a message like this:
-			
+
 			<p><samp>checking for Qt... configure: error: Qt (&gt;= Qt 3.1.0) (headers and
 			libraries) not found. Please check your installation!</samp></p>
-			
+
 			<p>This problem can mean different things:</p>
-			
+
 			<ul>
 			<li>You don't have the necessary Qt packages installed.</li>
 			<li>The packages are installed, but configure is unable to find them.</li>
 			</ul>
-			
+
 			<p>First, make sure you have (at least) <strong>libqt3-mt-dev</strong>
             and <strong>qt3-dev-tools</strong>. If configure is successful, but
             during compilation, the build fails because a file
 			is missing (for example, qlist.h), this means this software is using obsolete
 			headers. Please, report this fact to the developers of this software, and to
 			complete the build, install libqt3-compat-headers.</p>
-			
+
 			<p>If configure still fails with the same error, this means is failing to
 			find where Qt is installed. You can pass the exact path to the configure script
 			this way:
-			
+
 			<p><kbd>--with-qt-dir=/usr/share/qt3</kbd></p>
-			
+
 			<p>Since this is a bit annoying if you are compiling lots of times, you can
 			set the environment variable QTDIR, pointing to /usr/share/qt3 (in bash:
 			export QTDIR=/usr/share/qt3).</p>
@@ -54,40 +54,47 @@
             <p>If you wist to compile Qt4 applications, please install the
             <strong>libqt4-dev</strong> and <strong>qt4-dev-tools</strong>
             packages.</p>
-			
+
 			<h4 id="q4">4. When I remove one application, my whole KDE is deleted!</h4>
-			
-			<p>If you installed all KDE, for example, running <kbd>apt-get install kde</kbd>, 
+
+			<p>The example below is done with KDE 3, actually only available in the current stable
+			release (Lenny), but the same concepts apply for KDE 4 in testing (Squeeze) and unstable
+			(Sid), thought the packages differ. Please reffer to <a href="kde4.html">this page</a> for
+			the available KDE 4 metapackages.</p>
+
+			<p>If you installed all KDE, for example, running <kbd>apt-get install kde</kbd>,
 			you have installed a metapackage, and all its dependencies (kdebase, kdenetwork, kdegraphics, etc.),
 			but the metapackage itself is empty.</p>
-			
+
 			<p>If after this, you remove, for example, kfloppy, you will see that two more
 			packages will be removed: kdeutils, and kde. This doesn't means that all your
 			utils and all your desktop will be removed, just means that you no longer have
 			your <em>complete</em> set of utils, and the whole KDE applications.</p>
-			
+
 			<p>Using aptitude it's a bit different. If you installed the kde metapackage
 			using aptitude, the rest of packages installed as dependencies of kde, are
 			marked as automatically installed. Then, if you remove one of this dependencies
 			(for example, kfloppy), it will remove kdeutils and kde, and the rest of
 			packages that those packages depend on (because they are marked as
 			automatically installed).</p>
-			
+
 			<p>If you don't want those packages removed, mark them as manually installed
 			(with aptitude unmarkauto or pressing <kbd>m</kbd> (lowercase) in GUI mode when
 			the package name is highlighted).</p>
-			
-			
-			
+
+
+
 			<h4 id="q5">5. How do I install KDE?</h4>
-			
-			<p>If you want the desktop, and the basic applications, install <strong>kde-core</strong>, and
+
+			<p>For KDE 3 in stable, if you want the desktop, and the basic applications, install <strong>kde-core</strong>, and
 			<strong>x-window-system-core</strong>. If you want the complete desktop, and all applications,
 			install <strong>kde</strong> instead.</p>
-			
-			
+
+			<p>For KDE 4, please refer to <a href="kde4.html">this page</a>.</p>
+
+
 			<h4 id="q6">6. I can't decrypt some messages with KMail</h4>
-			
+
 			<p>You probably are missing the gnupg-agent package. Read the document about <a
 			href="http://kmail.kde.org/kmail-pgpmime-howto.html">using OpenPGP and
 			PGP/MIME</a> in the KMail website. Using Debian you don't need to build
@@ -104,19 +111,6 @@
 			super-user-command=sudo
 			</pre>
 
-			<h4 id="q8">8. I can't build KDE4 software from source</h4>
-			<p>The Debian KDE packages are built with the KDE4_ENABLE_EXPERIMENTAL_LIB_EXPORT
-			option, which alters how CMake (the build system used by KDE) links to the KDE
-			libraries. This may cause KDE4 software to fail to build from source.</p>
+			<h4 id="q8">8. When will be KDE 4 available in testing/unstable?</h4>
 
-			<p>Please read experimental_linking.html for more information.</p>
-
-			
-			<h4 id="q9">9. When will be KDE 4 available in testing/unstable?</h4>
-			
-			<p>KDE 4 will be uploaded to unstable once Lenny has been released.
-			Then, after some time, it will migrate to testing. If you want to
-			use KDE 4 in unstable you can install the packages from
-			experimental. Follow <a
-			href="http://pkg-kde.alioth.debian.org/experimental.html">these instructions</a>
-			and you won't have any problem.</p>
+			<p>It's already there! Please reffer to <a href="kde4.html">this page</a> for more info.</p>
