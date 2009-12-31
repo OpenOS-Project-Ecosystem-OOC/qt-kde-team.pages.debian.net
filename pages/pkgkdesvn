@@ -31,8 +31,7 @@
 			<p>And if you only want a specific directory, append it to the
          path:</p>
          <pre>
-         svn co
-svn+ssh://ana@svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
+         svn co svn+ssh://ana@svn.debian.org/svn/pkg-kde/trunk/packages/koffice-l10n
          </pre>
 
 
