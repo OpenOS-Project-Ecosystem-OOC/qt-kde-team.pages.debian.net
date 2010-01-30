@@ -3,10 +3,18 @@
 
 			<h4 id="q1">1. What is KDE?</h4>
 			<p>
-			The K Desktop Environment (KDE) is the leading Open Source desktop software for Linux and UNIX.<br />
-			The homepage for the project is at <a href="http://www.kde.org">www.kde.org</a><br />
+                        KDE is an umbrella brand encompassing technologies
+                        created by the KDE community. KDE SC (KDE Software
+                        Compilation) is the leading desktop environment for
+                        Linux and UNIX platforms. It is comprised of a
+                        workspace, a collection of programs and supporting
+                        technologies.</p>
 
-			An official introduction is found at <a href="http://www.kde.org/whatiskde/">www.kde.org/whatiskde/</a>
+			<p>The homepage for the project is at <a
+                        href="http://www.kde.org">www.kde.org</a></p>
+
+			<p>An official introduction is found at <a
+                        href="http://www.kde.org/whatiskde/">www.kde.org/whatiskde/</a>
 			</p>
 
 			<h4 id="q2">2. I can't install KDE because of package dependency problems.</h4>

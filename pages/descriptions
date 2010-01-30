@@ -80,7 +80,7 @@
 			
 			<h5>kde</h5>
 	<pre>
-	Description: The K Desktop Environment official modules
+	Description: The KDE Software Compilation official modules
 	KDE is a powerful Open Source graphical desktop environment
 	for Unix workstations. It combines ease of use, contemporary
 	functionality, and outstanding graphical design with the
@@ -97,7 +97,7 @@
 			
 			<h5>kde-core</h5>
 	<pre>
-	Description: The K Desktop Environment core modules
+	Description: The KDE Software Compilation core modules
 	KDE is a powerful Open Source graphical desktop environment
 	for Unix workstations. It combines ease of use, contemporary
 	functionality, and outstanding graphical design with the
