@@ -1,0 +1,93 @@
+
+<h2>pkg-kde git quick guide</h2>
+
+<p>As of the end of January 2010, there are no KDE packages maintained in git
+and few kde-extras packages maintained in git.</p>
+
+<p>To obtain a list of these packages, please see the <a
+href="http://git.debian.org/?s=pkg-kde">pkg-kde git index</a>.</p>
+
+<h3>Anonymous access</h3>
+
+<p>If you do not have write acces to the remote git repository you only
+need to execute:</p>
+<pre>
+git clone git://git.debian.org/BRANCH_PATH
+</pre>
+
+<p>where <tt>BRANCH_PATH</tt> is the path to the branch given on the git index.
+For example, to fetch the <tt>pkg-kde/kde-extras/bangarang.git</tt> branch, you
+would run:</p>
+
+<pre>
+git clone git://git.debian.org/pkg-kde/kde-extras/bangarang.git
+</pre>
+
+<h3>Identified access</h3>
+
+<p>If you have write permissions in the repository, you can download a
+copy with this order:</p>
+<pre>
+git clone git+ssh://YOUR-ALIOTH-USERNAME@git.debian.org/git/BRANCH_PATH
+</pre>
+
+<p>You need to replace <tt>YOUR-ALIOTH-USERNAME</tt> with your login name (user
+or user-guest) and <tt>BRANCH_PATH</tt> with the appropriate path, as described
+above.</p>
+
+<h3>Creating a packaging branch</h3>
+
+<p>ssh to git.debian.org and run:</p>
+
+<pre>
+/git/pkg-kde/setup-repository sourcepackagename
+</pre>
+
+<p>This will setup the branch with commit hooks that will send commit mail to
+the <a
+href="http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-commits">pkg-kde-commits</a>
+mailing list and to sourcepackagename_cvs<tt>@</tt>packages.qa.debian.org.</p>
+
+<p>You can then procede to import the upstream tarball as described below and
+start adding your packaging, or you can import an existing source package,
+replacing the text in capitals as required:</p>
+
+<pre>
+cd /path/to/debian/sources
+git-import-orig PACKAGE_VERSION.dsc
+cd PACKAGE
+git remote add origin git+ssh://YOUR-ALIOTH-USERNAME@git.debian.org/git/BRANCH_PATH
+git push origin master upstream pristine-tar --tags
+</pre>
+
+<h3>Using the packaging branch</h3>
+
+<p>Upstream tarballs are nearly always stored in the <tt>pristine-tar</tt> branch
+and upstream code in the <tt>upstream</tt> branch.</p>
+
+<p>After cloning the remote repository, you'll need to checkout these branches
+in order to access them:</p>
+
+<pre>
+git checkout --track origin/pristine-tar
+git checkout --track origin/upstream
+</pre>
+
+<h4>Importing a new upstream release</h4>
+
+<p>To import a new upstream tarball, run:</p>
+
+<pre>
+git-import-orig --pristine-tar [-u version] /path/to/upstream-version.tar.gz
+</pre>
+
+<h4>More information</h4>
+
+<p>You can find more information on how to use git with packaging branches <a
+href="http://wiki.debian.org/PkgKde/GitPackaging">here</a> on the Debian
+wiki.</p>
+
+<h3>Web access</h3>
+
+<p>You can also browse the repository using your web browser by visiting the
+<a href="http://git.debian.org/?s=pkg-kde">pkg-kde git index</a>.</p>

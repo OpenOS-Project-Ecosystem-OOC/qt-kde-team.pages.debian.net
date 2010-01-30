@@ -53,6 +53,7 @@
 				<li><a href="#">How to package kde applications</a></li>
 				-->
 				<li><a href="pkgkdesvn.html">pkg-kde SVN quick guide</a></li>
+				<li><a href="pkgkdegit.html">pkg-kde git quick guide</a></li>
 				<li><a href="experimental_linking.html">Fixing link errors</a></li>
 			        <li><a href="web-maintenance.html">Web maintenance</a></li>
 				<li><a href="todo.html">ToDo-List</a></li>
