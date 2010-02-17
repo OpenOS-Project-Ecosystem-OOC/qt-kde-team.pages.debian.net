@@ -40,6 +40,7 @@
 <li>Help with "Gift" bugs. These are bugs that would be nice to fix but we do not consider high priority, most of them are quite easy to do, but time consuming :(</li>
 </ul>
 
+<!--
 <h4>Join the project</h4>
 
 <p>If you like what we do, and intend to work on KDE for Debian for a somewhat longer time, you should become a member of the <a href="https://alioth.debian.org/projects/pkg-kde/">Debian Qt/KDE Maintainers</a> project on Alioth.</p>
@@ -49,3 +50,4 @@
 <p>One of the team administrators will (probably ;-) approve your request. If you are not a member of any other project, you might have to wait up to 24 hours in order your account be granted the appropiate permissions.  The administrador will also give you writing access to the repository areas you need (by editing <tt>pkg-kde/scripts/svn-hooks/commit-access-control.cfg</tt> and then <tt>svn up</tt>'ing <tt>/svn/pkg-kde/hooks</tt> on Alioth).</p>
 
 <p>Have a lot of fun!</p>
+-->
