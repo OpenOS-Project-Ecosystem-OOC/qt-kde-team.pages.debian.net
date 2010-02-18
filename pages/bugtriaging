@@ -1,0 +1,77 @@
+
+<h2>Bug triaging cheatsheet</h2>
+
+
+<p>
+<pre>
+XXXXXX = the bug number
+Y.Y-Y  = version where it is fixed
+http://b.k.o = bug url in the KDE bugzilla
+</pre>
+</p>
+
+<h3>Some previous advice</h3>
+<p>
+<ul>
+<li>Look at bugs of apps you know and you regularly use.</li>
+<li>When you have a doubt, ask in IRC.</li>
+<li>...</li>
+</ul>
+</p>
+
+<h3>Possibles cases</h3>
+
+<h4> Close bug using version</h4>
+You close the bug with a quick note to the reporter.
+<p>
+<pre>
+To: XXXXXX-done@bugs.debian.org
+Subject: Bug fixed
+
+Version: Y.Y-Y
+
+Hi!
+
+The bug you reported has been fixed in the version Y.Y-Y
+
+Cheers.
+</pre>
+</p>
+
+
+
+<h4> Bug forwarded in the KDE bugzilla</h4>
+You send a control email to mark the bug as forwarded so bts-link learns about it.
+
+<p>
+<pre>
+To: control@bugs.debian.org
+Subject: bug forwarding
+
+forward XXXXX http://b.k.o
+thanks
+</pre>
+</p>
+
+
+<h4> Bug forwarded in the KDE bugzilla</h4>
+You send a control email to mark the bug as forwarded so bts-link learns about it.
+
+<p>
+<pre>
+To: control@bugs.debian.org
+Subject: bug forwarding
+
+forward XXXXX http://b.k.o
+thanks
+</pre>
+</p>
+
+
+
+<h4> Bug forwarded thas has been *fixed* in the KDE bugzilla</h4>
+
+<p>
+Check if it is really fixed for you, and if it is, close the bug using version.
+</p>
+
