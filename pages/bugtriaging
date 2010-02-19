@@ -6,7 +6,7 @@
 <pre>
 XXXXXX = the bug number
 Y.Y-Y  = version where it is fixed
-http://b.k.o = bug url in the KDE bugzilla
+https://bugs.kde.org/show_bug.cgi?id=nnnnnn = bug url in the KDE bugzilla, nnnnnn is the bug number
 </pre>
 </p>
 
@@ -61,7 +61,7 @@ You send a control email to mark the bug as forwarded so bts-link learns about i
 To: control@bugs.debian.org
 Subject: bug forwarding
 
-forward XXXXX http://b.k.o
+forward XXXXX https://bugs.kde.org/show_bug.cgi?id=nnnnnn
 thanks
 </pre>
 </p>
