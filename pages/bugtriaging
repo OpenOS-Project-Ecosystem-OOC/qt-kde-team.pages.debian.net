@@ -61,7 +61,7 @@ You send a control email to mark the bug as forwarded so bts-link learns about i
 To: control@bugs.debian.org
 Subject: bug forwarding
 
-forward XXXXXX https://bugs.kde.org/show_bug.cgi?id=nnnnnn
+forwarded XXXXXX https://bugs.kde.org/show_bug.cgi?id=nnnnnn
 thanks
 </pre>
 </p>
