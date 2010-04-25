@@ -12,7 +12,7 @@
 
 		 <p>This is the easiest way to get Debian with KDE if you are installing a new system. It installs KDE by default.<br />
 		 <a href="http://cdimage.debian.org/debian-cd/5.0.4/i386/iso-cd/debian-504-i386-kde-CD-1.iso">Download KDE CD for Debian 5.0.4 "Lenny" i386</a><br/>
-		 <a href=""http://cdimage.debian.org/debian-cd/5.0.4/amd64/iso-cd/debian-504-i386-kde-CD-1.iso">Download KDE CD for Debian 5.0.4 "Lenny" AMD64</a>
+		 <a href="http://cdimage.debian.org/debian-cd/5.0.4/amd64/iso-cd/debian-504-i386-kde-CD-1.iso">Download KDE CD for Debian 5.0.4 "Lenny" AMD64</a>
 		 </p>
 
 		 <p>To install the Debian testing branch with KDE, you can get it from <a href="http://cdimage.debian.org/cdimage/weekly-builds/">the weekly builds</a>
@@ -27,9 +27,9 @@
 
          <h4>Debian Lenny installer</h4>
 
-		 <p>If you are installing a new system and you have the Debian Etch installer (current default), you can install KDE by typing at the boot prompt:
+		 <p>If you are installing a new system and you have the Debian Lenny installer (current default), you can install KDE by typing at the boot prompt:
 		 <pre>install tasks="kde-desktop, standard"</pre>
-		 or, if you prefer to use the Debian Etch graphical installer:
+		 or, if you prefer to use the Debian Lenny graphical installer:
 		 <pre>installgui tasks="kde-desktop, standard"</pre>
 		 </p>
 
