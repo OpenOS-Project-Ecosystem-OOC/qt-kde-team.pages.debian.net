@@ -2,9 +2,9 @@
 
 		<div id="sidebar">
 
-			<h2><big>KDE SC 4 in testing or unstable</big></h2>
+			<h2><big>KDE SC in testing or unstable</big></h2>
 			<ul>
-				<li style="clear:both;"><a href="kde4.html"><img src="../images/kde4_64.png" style="float:left;" alt="KDE SC 4" /><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;">KDE SC 4.3/4.4</span> <!--<span style="font-size:x-small;"><em>experimental</em></span>--></div></a></li>
+				<li style="clear:both;"><a href="kde4.html"><img src="../images/kde4_64.png" style="float:left;" alt="KDE SC 4" /><div style="margin-top:auto; margin-bottom:auto; text-align:center;padding-top:0.5em;"><span style="font-size:x-large; font-weight:bolder;line-height: 1.1em">KDE SC 4.3/4.4</span> <!--<span style="font-size:x-small;"><em>experimental</em></span>--></div></a></li>
 				<br />
 				<br />
 				<li><a href="kaboom.html" title="Kaboom, the Debian KDE settings migration wizard">Kaboom, the settings migration wizard</a></li>
