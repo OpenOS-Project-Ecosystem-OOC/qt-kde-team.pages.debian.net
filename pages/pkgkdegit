@@ -1,7 +1,7 @@
 
 <h2>pkg-kde git quick guide</h2>
 
-<p>As of the end of January 2010, there are no KDE packages maintained in git
+<p>As of the end of August 2010, KDE packages are maintained in git
 and few kde-extras packages maintained in git.</p>
 
 <p>To obtain a list of these packages, please see the <a
