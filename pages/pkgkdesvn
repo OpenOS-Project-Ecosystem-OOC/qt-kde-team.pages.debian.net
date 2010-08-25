@@ -1,6 +1,11 @@
 
 			<h2>pkg-kde SVN quick guide</h2>
 
+                        Please note that as of the end of August 2010, KDE 
+                        packages are mostly maintained in git. Check the 
+                        <a href="pkgkdegit.html">pkg-kde git quick guide</a>
+                        fir more info.
+
 			<h3>Anonymous access</h3>
 
 			<p>If you do not have write acces or your want to download a copy
