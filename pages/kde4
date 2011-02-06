@@ -1,31 +1,10 @@
-	 <h2>Install KDE 4 packages from the Debian testing or unstable branch<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
-
-
-    <h3>Enabling the sid repository</h3>
-
-	 <p>KDE 4 requires some software that is not available in the Debian 5.0
-	 "lenny" release.  Therefore, it can only be installed on systems using
-	 the testing branches.</p>
-
-     <blockquote>
-     <pre style="margin-bottom:0;">
-deb http://ftp.de.debian.org/debian/ testing main
-deb-src http://ftp.de.debian.org/debian/ testing main</pre>
-    </blockquote>
-
-     <p>You should replace ftp.de.debian.org by a
-     <a href="http://www.debian.org/mirror/list">mirror</a> near you.</p>
-
-     <!--
-     <p>To enable unstable without upgrading your entire system,
-     <a href="http://wiki.debian.org/AptPinning">see this page</a>.</p>
-     -->
+	 <h2>Install KDE 4 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 
 	<h3>KDE 4 packages</h3>
 
 	 <p style="margin-bottom:0.1em;">
 		For a basic KDE 4 desktop, install <a href="http://packages.debian.org/unstable/kde-plasma-desktop"><code>kde-plasma-desktop</code></a>,
-		<a href="http://packages.debian.org/unstable/kde-plasma-netbook"><code>kde-plasma-netbook</code></a> or both packages 
+		<a href="http://packages.debian.org/unstable/kde-plasma-netbook"><code>kde-plasma-netbook</code></a> or both packages
 		(they are co-installable), which includes</p>
 
 	 <table style="margin-left:5em">
@@ -105,8 +84,8 @@ deb-src http://ftp.de.debian.org/debian/ testing main</pre>
 		<br />
 
 	<p style="margin-bottom:0.1em;">
-		For what a random user would expect in a desktop environment, install the 
-		<a href="http://packages.debian.org/unstable/kde-standard"><code>kde-standard</code></a> package. 
+		For what a random user would expect in a desktop environment, install the
+		<a href="http://packages.debian.org/unstable/kde-standard"><code>kde-standard</code></a> package.
 		<!--<br/><strong>Note:</strong> this package will be the same as installing kde-minimal until we decide exactly what to ship here :-) -->
 	</p>
 
@@ -142,7 +121,7 @@ deb-src http://ftp.de.debian.org/debian/ testing main</pre>
 
 	<h3>Co-installable packages</h3>
 
-	 <p>You can co-install along your KDE 3 packages the following KDE 4 packages: <em>kdelibs5, kdepimlibs5, kdebase-runtime</em></p>
+	 <p>In Debian Squeeze, you can co-install along your KDE 3 packages the following KDE 4 packages: <em>kdelibs5, kdepimlibs5, kdebase-runtime</em>.</p>
 
 	<p>This is useful if you want to keep your KDE 3 enviroment but want to use a KDE 4 application like okular or even konsole. But remember KDE 4 apps will not integrate in your KDE 3 desktop so well as the current KDE 3 do.</p>
 	<br />
