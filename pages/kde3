@@ -6,25 +6,22 @@
 
 		 <p>There are several ways to get Debian with KDE:</p>
 
-
-		 <h3>Use the KDE version of the Debian Installer CD</h3>
+	<h3>Use the KDE version of the Debian Installer CD</h3>
 
 		 <p>This is the easiest way to get Debian with KDE if you are installing a new system. It installs KDE by default.<br />
-		 <a href="http://cdimage.debian.org/debian-cd/5.0.4/i386/iso-cd/debian-504-i386-kde-CD-1.iso">Download KDE CD for Debian 5.0.4 "Lenny" i386</a><br/>
-		 <a href="http://cdimage.debian.org/debian-cd/5.0.4/amd64/iso-cd/debian-504-i386-kde-CD-1.iso">Download KDE CD for Debian 5.0.4 "Lenny" AMD64</a>
+		 <a href="http://ftp.at.debian.org/debian-cd/5.0.8/i386/iso-cd/debian-508-i386-kde-CD-1.iso">Download KDE CD for Debian 5.0.8 "Lenny" i386</a><br/>
+		 <a href="http://ftp.at.debian.org/debian-cd/5.0.8/amd64/iso-cd/debian-508-i386-kde-CD-1.iso">Download KDE CD for Debian 5.0.8 "Lenny" AMD64</a>
 		 </p>
 
-		 <h3>Use the Debian installer</h3>
+	 <h3>Using the Debian Lenny installer</h3>
 
-         <h4>Debian Lenny installer</h4>
-
-		 <p>If you are installing a new system and you have the Debian Lenny installer (old stable), you can install KDE by typing at the boot prompt:
+		 <p>If you are installing a new system and you have the Debian Lenny installer (old stable), you can install KDE by typing at the boot prompt:</p>
 		 <pre>install tasks="kde-desktop, standard"</pre>
-		 or, if you prefer to use the Debian Lenny graphical installer:
+		 <p>or, if you prefer to use the Debian Lenny graphical installer:
 		 <pre>installgui tasks="kde-desktop, standard"</pre>
 		 </p>
 
-		 <h3>Install KDE on your existing Debian system</h3>
+	 <h3>Install KDE on your existing Debian system</h3>
 
 		 <p>If you already have Debian Lenny installed and you want a complete KDE desktop, install the "kde-desktop" task:
 		 <pre>aptitude install kde-desktop</pre>
@@ -36,8 +33,5 @@
 
 	 <h3>Additional packages</h3>
 
-	 <p>To have KDE in your language, install the appropriate <code>kde-i18n-??</code> package, where <code>??</code> is the ISO code for your language.</p>
-
-	 <br />
-
-	 <p><em>Enjoy the KDE desktop experience!</em></p>
+		 <p>To have KDE in your language, install the appropriate <code>kde-i18n-??</code> package, where <code>??</code> is the ISO code for your language.</p>
+		 <p><em>Enjoy the KDE desktop experience!</em></p>
