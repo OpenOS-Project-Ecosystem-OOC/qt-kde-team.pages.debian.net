@@ -33,9 +33,7 @@ margin:4px 0 6px;
 }
 
 h1 a{
-text-transform:none;
-/*color:#4088b8;*/
-color:#0057AE;
+text-shadow: #FFF 1px 1px 0px;
 }
 
 h2{
