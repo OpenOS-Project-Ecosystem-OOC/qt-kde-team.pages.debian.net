@@ -6,7 +6,7 @@
 	</p>
 
 <h2>Latest news:</h2>
-
+<!--RSS_START-->
 <p><strong>May 27, 2011</strong><br />
   KDE SC 4.6.3 was <a href="http://lists.debian.org/debian-kde/2011/05/msg00034.html">uploaded to
   unstable</a>. Enjoy!
@@ -49,5 +49,6 @@
      KDE 4.4.0 is being worked on but it will take some time until it lands on your Debian mirror.
 </p>
 
+<!--RSS_END-->
 <p>See <a href="oldnews.html">old news.</a></p>
 
