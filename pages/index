@@ -5,7 +5,7 @@
 	   We are a group of people with a common goal in mind: bringing the best KDE possible to Debian.
 	</p>
 
-<h2>Latest news:</h2>
+<h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"></a>Latest news:</h2>
 <!--RSS_START-->
 <p><strong>May 27, 2011</strong><br />
   KDE SC 4.6.3 was <a href="http://lists.debian.org/debian-kde/2011/05/msg00034.html">uploaded to
