@@ -1,4 +1,13 @@
-	 <h2>Install KDE 4 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
+	 <h2>Install KDE 4.7 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
+
+	 <p style="margin-bottom:0.1em;">
+		There are 4.7.2 packages available in <a href="http://qt-kde.debian.net/"><code>qt-kde.debian.net</code></a>,
+		click on the link to see the installation instructions. Note that these packages are experimental and not official, 
+		so please do <b>NOT</b> report bugs in the Debian Bug Tracking System (BTS) against them. To report problems with
+		these packages use the IRC support channel (#debian-kde@irc.debian.org) or the 
+		<a href="http://lists.debian.org/debian-kde/"><code>debian-kde</code></a> mailing list instead.</p>
+
+	 <br />
 
 	 <p style="margin-bottom:0.1em;">
 		For a basic KDE 4 desktop, install <a href="http://packages.debian.org/unstable/kde-plasma-desktop"><code>kde-plasma-desktop</code></a>,
@@ -7,15 +16,15 @@
 
 	 <table style="margin-left:5em">
 	 	<tr>
-	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase-runtime"><code>kdebase-runtime</code></a></td>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase-runtime"><code>kde-runtime</code></a></td>
 	 		<td><i>Essential runtime components</i></td>
 	 	</tr>
 	 	<tr>
-	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase-workspace"><code>kdebase-workspace</code></a></td>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase-workspace"><code>kde-workspace</code></a></td>
 	 		<td><i>Desktop environment</i></td>
 	 	</tr>
 	 	<tr>
-	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase-apps"><code>kdebase-apps</code></a></td>
+	 		<td style="width:15em;"><a href="http://packages.debian.org/unstable/kdebase-apps"><code>kde-baseapps</code></a></td>
 	 		<td><i>Core applications</i></td>
 	 	</tr>
 		<tr>
