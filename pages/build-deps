@@ -1,3 +1,62 @@
 	<div align="center">
 	     <img alt="Build Dependency of source packages" src="../images/build_deps.png"/>
 	</div>
+	<br>
+	<p>Some source packages have been split in KDE SC 4.7 into multiple source packages.</p>
+	<table>
+	  <tr>
+	    <td><b>(*) kdegraphics</b></td>
+	    <td><b>(**) kdeedu</b></td>
+	    <td><b>(***) kdebindings</b></td>
+	  </tr>
+	  <tr>
+	  <td style="vertical-align: top;">
+	    kdegraphics-strigi-plugins<br> 
+	    gwenview<br>
+ 	    kamera<br>
+	    kcolorchooser<br>
+	    kgamma<br>
+	    kolourpaint<br>
+	    kruler<br>
+	    libksane<br>
+	    ksnapshot<br>
+	    okular<br>
+	    libkdcraw<br>
+	    libkexiv2<br>
+	    libkipi
+	  </td>
+	  <td style="vertical-align: top;">
+	    blinken<br>
+	    cantor<br>
+	    kalgebra<br>
+	    kalgebramobile<br>
+	    kalzium<br>
+	    kanagram<br>
+	    kbruch<br>
+	    kgeography<br>
+	    khangman<br>
+	    kig<br>
+	    kiten<br>
+	    klettres<br>
+	    kmplot<br>
+	    kstars<br>
+	    ktouch<br>
+	    kturtle<br>
+	    kwordquiz<br>
+	    libkdeedu<br>
+	    marble<br>
+	    parley<br>
+	    rocs<br>
+	    step
+	  </td>
+	  <td style="vertical-align: top;">
+	    pykde4<br> 
+	    kross-interpreters<br> 
+	    smokegen<br> 
+	    smokeqt<br> 
+	    smokekde<br> 
+	    qtruby<br>
+	    korundum
+	  </td>
+	  </tr>
+	</table>
