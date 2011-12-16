@@ -1,13 +1,13 @@
 
 			<h2>Bug graph<img alt="bug_icon" src="../images/graph_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
 			<h3>Evolution of the numbers of bugs in the last week</h3>
-			<img src="http://users.alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL__week.png" alt="bug graph last week"/>
+			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL__week.png" alt="bug graph last week"/>
 			<h3>Evolution of the numbers of bugs in the last month</h3>
-			<img src="http://users.alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL__month.png" alt="bug graph last month" />
+			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL__month.png" alt="bug graph last month" />
 			<h3>Evolution of the numbers of bugs in the last year</h3>
-			<img src="http://users.alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL__year.png" alt="bug graph last year" />
+			<img src="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/_ALL__year.png" alt="bug graph last year" />
 			<h3>More graphs</h3>
 			<p>
-			More graphs located at <a href="http://users.alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/">http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/</a>
+			More graphs located at <a href="http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/">http://alioth.debian.org/~pusling-guest/pkg-kde-buggraphs/</a>
 			</p>
 
