@@ -1,0 +1,260 @@
+Package: akonadi-server libakonadiprotocolinternals1 libakonadi-dev akonadi-backend-mysql akonadi-backend-postgresql akonadi-backend-odbc akonadi-backend-sqlite akonadi-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: blinken
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: cantor cantor-backend-kalgebra cantor-backend-maxima cantor-backend-octave cantor-backend-r cantor-backend-sage cantor-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: gwenview gwenview-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kalgebra kalgebramobile kalgebra-common kalgebra-dev libanalitza4 libanalitzagui4 kalgebra-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kalzium kalzium-data kalzium-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kamera kamera-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kanagram
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kate katepart kate-data libkatepartinterfaces4 libkateinterfaces4 kwrite kate-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kbruch kbruch-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kcolorchooser
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kde-baseapps kdebase-apps dolphin kde-baseapps-bin kdebase-bin kde-baseapps-data kdepasswd kfind konqueror konqueror-nsplugins konq-plugins libkonq5abi1 libkonq-common libkonq5-templates libkonq5-dev libkonqsidebarplugin4a libkonqsidebarplugin-dev plasma-widget-folderview kde-baseapps-dbg kdebase-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kde-l10n-ar kde-l10n-bg kde-l10n-bs kde-l10n-ca kde-l10n-cavalencia kde-l10n-cs kde-l10n-da kde-l10n-de kde-l10n-el kde-l10n-engb kde-l10n-es kde-l10n-et kde-l10n-eu kde-l10n-fi kde-l10n-fr kde-l10n-ga kde-l10n-gl kde-l10n-he kde-l10n-hr kde-l10n-hu kde-l10n-ia kde-l10n-id kde-l10n-is kde-l10n-it kde-l10n-ja kde-l10n-kk kde-l10n-km kde-l10n-kn kde-l10n-ko kde-l10n-lv kde-l10n-lt kde-l10n-nb kde-l10n-nds kde-l10n-nl kde-l10n-nn kde-l10n-pa kde-l10n-pl kde-l10n-pt kde-l10n-ptbr kde-l10n-ro kde-l10n-ru kde-l10n-sk kde-l10n-sl kde-l10n-sr kde-l10n-sv kde-l10n-th kde-l10n-tr kde-l10n-ug kde-l10n-uk kde-l10n-wa kde-l10n-zhcn kde-l10n-zhtw
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kde-runtime kdebase-runtime kde-runtime-data khelpcenter4 kde-config-phonon-xine plasma-scriptengine-javascript kde-runtime-dbg kdebase-runtime-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kde-wallpapers kde-wallpapers-default
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kde-workspace kdebase-workspace plasma-desktop plasma-netbook kde-workspace-bin kdebase-workspace-bin kde-workspace-data kde-workspace-dev kdebase-workspace-dev plasma-dataengines-workspace plasma-widgets-workspace plasma-scriptengines plasma-scriptengine-ruby plasma-scriptengine-python plasma-scriptengine-webkit plasma-scriptengine-googlegadgets freespacenotifier kdm kinfocenter klipper ksysguardd ksysguard kde-window-manager libkdecorations4 libkwineffects1abi2 systemsettings kde-workspace-kgreet-plugins kde-style-oxygen kmenuedit libkephal4abi1 libkscreensaver5 libksgrd4 libksignalplotter4 libkworkspace4 liblsofui4 libplasmaclock4abi2 libplasma-geolocation-interface4 libplasmagenericshell4 libprocesscore4abi1 libprocessui4a libsolidcontrol4abi2 libsolidcontrolifaces4abi2 libtaskmanager4abi2 libweather-ion6 kde-workspace-dbg kdebase-workspace-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: libkdecore5 libkdeui5 libkpty4 libkdesu5 libkjsapi4 libkjsembed4 libkio5 libkntlm4 libsolid4 libkde3support4 libkfile4 libknewstuff2-4 libknewstuff3-4 libkparts4 libkutils4 libthreadweaver4 libkhtml5 libkimproxy4 libkmediaplayer4 libktexteditor4 libknotifyconfig4 libkdnssd4 libkrosscore4 libkrossui4 libnepomuk4 libnepomukutils4 libnepomukquery4a libplasma3 libkunitconversion4 libkdewebkit5 libkcmutils4 libkemoticons4 libkidletime4 libkprintutils4 libkdeclarative5 kdelibs-bin kdelibs5-plugins kdelibs5-data kdoctools kdelibs5-dev kdelibs5-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdeaccessibility kmag kmouth jovie kttsd kmousetool kaccessible kdeaccessibility-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdeadmin kcron kde-config-cron ksystemlog kuser system-config-printer-kde kdeadmin-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdeartwork kdeartwork-emoticons kdewallpapers kdeartwork-theme-icon kde-icons-nuvola nuvola-icon-theme kde-icons-mono kdeartwork-theme-window kdeartwork-style kscreensaver kscreensaver-xsavers kscreensaver-xsavers-webcollage plasma-desktopthemes-artwork kdeartwork-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdegames libkdegames5a libkggzgames4 libkggzmod4 libkggznet4 libkmahjongglib4 libkdegames-dev kdegames-card-data kdegames-mahjongg-data bomber bovo kapman katomic kbattleship kblackbox kbounce kdiamond kgoldrunner killbots kiriki kjumpingcube klines kmahjongg kmines knetwalk kolf kollision konquest kpat kreversi klickety ksame kshisen kspaceduel ksquares ksudoku ktuberling kfourinline kubrick kblocks lskat kbreakout ksirk ktron palapeli palapeli-data granatier kigo kajongg kdegames-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdegraphics-mobipocket
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdegraphics-strigi-analyzer
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdegraphics-thumbnailers
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdemultimedia kdemultimedia-kio-plugins juk kmix kscd libkcddb4 libkcddb-dev dragonplayer mplayerthumbs ffmpegthumbs kde-config-cddb kdemultimedia-dev kdemultimedia-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdenetwork kdenetwork-filesharing kget libkopete4 kopete libkopete-dev kppp krdc krfb kdenetwork-dbg kde-zeroconf
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdepimlibs5-dev kdepimlibs-kio-plugins libakonadi-contact4 libakonadi-kabc4 libakonadi-kcal4 libakonadi-kde4 libakonadi-kmime4 libgpgme++2 libkabc4 libkblog4 libkcal4 libkcalcore4 libkcalutils4 libkholidays4 libkimap4 libkldap4 libkmbox4 libakonadi-calendar4 libkmime4 libkontactinterface4 libkpimidentities4 libkpimtextedit4 libkpimutils4 libkresources4 libktnef4 libkxmlrpcclient4 libmailtransport4 libmicroblog4 libqgpgme1 libsyndication4 kdepimlibs-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdeplasma-addons plasma-widgets-addons plasma-containments-addons plasma-dataengines-addons plasma-runners-addons plasma-wallpapers-addons plasma-widget-lancelot kdeplasma-addons-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdesdk cervisia kapptemplate kcachegrind kcachegrind-converters kdesdk-dolphin-plugins kdesdk-kio-plugins kdesdk-misc kdesdk-scripts kdesdk-strigi-plugins kmtrace kompare kuiviewer cvsservice poxml umbrello lokalize kpartloader okteta okteta-dev libkastencontrollers4 libkastencore4 libkastengui4 liboktetacore4 liboktetagui4 liboktetakastencontrollers4abi1 liboktetakastencore4 liboktetakastengui4 kdesdk-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdetoys amor kteatime ktux kdetoys-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdeutils kdeutils-dbg ark kcalc kcharselect kremotecontrol kdelirc kdf kfloppy kgpg ktimer kwalletmanager plasma-scriptengine-superkaramba sweeper printer-applet filelight
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kdewebdev kfilereplace kimagemapeditor klinkstatus kommander kdewebdev-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kgamma
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kgeography kgeography-data
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: khangman
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kig
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kiten libkiten4 libkiten-dev kiten-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: klettres klettres-data
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kmplot
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kolourpaint4
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: konsole konsole-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kruler
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: ksaneplugin
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: ksnapshot
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kstars kstars-data
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: ktouch ktouch-data
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kturtle
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kwordquiz
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: libkdcraw20 libkdcraw-dev libkdcraw-data libkdcraw20-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: libkdeedu-data kdeedu-kvtml-data libkeduvocdocument4 libkdeedu-dev libkdeedu-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: libkexiv2-10 libkexiv2-data libkexiv2-dev libkexiv2-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: libkipi-dev libkipi8 libkipi-data libkipi-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: libksane0 libksane-data libksane-dev libksane-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: marble marble-data marble-plugins libmarblewidget12 libmarble-dev marble-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: kde-plasma-desktop kde-plasma-netbook kde-standard kde-full kdeedu kdegraphics kde-sc-dev-latest kdegraphics-libs-data
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: libokularcore1 okular okular-dev okular-extra-backends okular-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: oxygen-icon-theme
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: parley parley-data
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: python-kde4 python-kde4-dev python-kde4-doc python-kde4-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: rekonq rekonq-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: rocs
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: shared-desktop-ontologies
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: soprano-daemon libsoprano4 libsoprano-dev libsoprano-doc libsoprano-dbg
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: step
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+
+Package: svgpart
+Pin: release o=Debian,a=experimental
+Pin-Priority: 500
+

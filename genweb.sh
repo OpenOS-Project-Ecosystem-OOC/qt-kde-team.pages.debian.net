@@ -7,6 +7,7 @@ FILES=`ls pages/ | grep -v "style.css\|top\|bottom"`
 
 cp pages/style.css $OUTPUT/style.css
 cp -a images $OUTPUT/
+cp -a files $OUTPUT/
 cp images/KDEbian2.ico $OUTPUT/favicon.ico
 
 
