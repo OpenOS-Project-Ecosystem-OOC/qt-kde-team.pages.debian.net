@@ -1,19 +1,21 @@
-	<h2>Build dependency graph for 4.7</h2>
+	<h2>Build dependency graph for 4.8</h2>
 	<div align="center">
-	     <img alt="Build Dependency of source packages" src="../images/build_deps.png"/>
+	     <img alt="Build Dependency of source packages" src="../images/build_deps_48.png"/>
 	</div>
 	<br>
 	<p>Some source packages have been split in KDE SC 4.7 into multiple source packages.</p>
-	<table>
+	<table border="1px">
 	  <tr>
-	    <td><b>(*) kdegraphics</b></td>
-	    <td><b>(**) kdeedu</b></td>
-	    <td><b>(***) kdebindings</b></td>
+	    <td><b>(1) kdegraphics</b></td>
+	    <td><b>(2) kdeedu</b></td>
+	    <td><b>(3) kdebindings</b></td>
+	    <td><b>(4) kdeaccessibility</b></td>
+	    <td><b>(5) kdeutils</b></td>
 	  </tr>
 	  <tr>
 	  <td style="vertical-align: top;">
 	    gwenview<br>
- 	    kamera<br>
+	    kamera<br>
 	    kcolorchooser<br>
 	    kdegraphics-strigi-analyzer<br> 
 	    kdegraphics-thumbnailers<br> 
@@ -62,6 +64,26 @@
 	    smokekde<br> 
 	    smokeqt
 	  </td>
+	  <td style="vertical-align: top;">
+	    kmag<br>
+	    kmouth<br>
+	    jovie<br>
+	    kmousetool<br>
+	    kaccessible<br>
+	  </td>
+	  <td style="vertical-align: top;">
+	    ark<br>
+	    kcalc<br>
+	    kcharselect<br>
+	    kremotecontrol<br>
+	    kdf<br>
+	    kgpg<br>
+	    ktimer<br>
+	    kwalletmanager<br>
+	    plasma-scriptengine-superkaramba<br>
+	    sweeper<br>
+	    filelight
+	  </td>
 	  </tr>
 	</table>
 	<h3>Renamed source packages</h3>
@@ -70,8 +92,3 @@
 	  <b>kde4libs</b> is <b>kdelibs</b> upstream<br>
 	  <b>kdegraphics-mobipocket</b> is <b>mobipocket</b> upstream
 	</p>
-
-        <h2>Build dependency graph for 4.8</h2>
-        <div align="center">
-             <img alt="Build Dependency of source packages" src="../images/build_deps_48.png"/>
-        </div>
