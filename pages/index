@@ -8,6 +8,10 @@
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
 
+<p><strong>April 7, 2012</strong><br />
+  Users of the Debian testing can also enjoy KDE SC 4.7.4 for quiet a while.
+</p>
+
 <p><strong>March 8, 2012</strong><br />
   KDE SC 4.7.4 has successfully been uploaded to unstable.<br />
   Delete <tt>/etc/apt/preferences.d/kde-experimental</tt>, if you have used that to install 4.7.4 from experimental. 
