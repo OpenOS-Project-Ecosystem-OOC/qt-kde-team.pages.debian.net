@@ -65,7 +65,7 @@
 
 			<h4 id="q4">4. When I remove one application, my whole KDE is deleted!</h4>
 
-			<p>Please refer to the <a href="kde4.html">KDE 4 page</a> for the available testing/unstable
+			<p>Please refer to the <a href="kde47.html">KDE 4 page</a> for the available testing/unstable
 			metapackages.</p>
 
 			<p>If you installed all KDE, for example, running <kbd>apt-get install kde</kbd>,
@@ -87,12 +87,6 @@
 			<p>If you don't want those packages removed, mark them as manually installed
 			(with aptitude unmarkauto or pressing <kbd>m</kbd> (lowercase) in GUI mode when
 			the package name is highlighted).</p>
-
-
-			<h4 id="q5">5. How do I install KDE?</h4>
-
-			<p>See <a href="kde4.html">this page</a>.</p>
-
 
 			<h4 id="q6">6. I can't decrypt some messages with KMail</h4>
 
