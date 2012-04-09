@@ -53,6 +53,15 @@
 				<li><a href="todo.html">ToDo-List</a></li>
          </ul>
 
+	<h2><img src="../images/help_48.png" style="float:right; margin:-8px 0 0 0;" alt="Question mark"/>Get help</h2>
+        <ul>
+	  <li><b>IRC:</b> #debian-kde at oftc.net</li>
+	  <li><b>Mailinglist:</b>
+	    <script type="text/javascript">
+	      a="debian-kde"; b="list"; c="debian"; d="org";
+	      document.write("<a style=\"font-size:0.9em\;\" href=\"http://lists.debian.org/debian-kde\">"+a+"@"+b+"."+c+"."+d+"<"+"/a>");
+	    </script>
+	</ul>
 
          <h2><img src="../images/info_48.png" style="float:right; margin:-8px 0 0 0;" alt="Explaination mark"/>Misc</h2>
          <ul>
