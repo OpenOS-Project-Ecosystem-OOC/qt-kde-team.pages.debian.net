@@ -15,7 +15,7 @@
 			  <li><a href="kaboom.html" title="Kaboom, the Debian KDE settings migration wizard">Kaboom, the settings migration wizard</a></li>
 			  <li><a href="faq4.html">FAQ about the migration to KDE 4</a></li>
 			</ul>
- 			<br />
+
 
 			<h2><img src="../images/qtkdeteam_48.png" style="float:right; margin:-8px 0 0 0;" alt="Qt KDE Debian Team" />Debian Qt/KDE Maintainers</h2>
 			<ul>
@@ -33,7 +33,6 @@
 				<li><a href="kdeextras.html">General info</a></li>
 				<li><a href="http://qa.debian.org/developer.php?login=pkg-kde-extras@lists.alioth.debian.org">Package list</a></li>
 			</ul>
-
 
 			<h2><img src="../images/worknotes_48.png" style="float:right; margin:-8px 0 0 0;" alt="Working notes" />Working notes</h2>
 			<ul>
