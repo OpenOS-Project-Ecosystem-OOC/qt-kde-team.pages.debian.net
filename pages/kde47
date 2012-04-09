@@ -1,35 +1,3 @@
-<!--	 <h2>Upgrade to KDE SC 4.7.4 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
-
-	 <p style="margin-bottom:0.1em;">
-		There are 4.7.4 packages available in experimental, you can upgrade your KDE SC to 4.7.4 both from the 4.6.5 packages in Debian sid and 
-		from the KDE SC 4.7.2 packages formerly available at <a href="http://qt-kde.debian.net/"><code>qt-kde.debian.net</code></a>, you can
-		do the upgrade thusly:
-	 <br /><br />
-
-	 <p style="margin-bottom:0.1em;">
-		1. Add the experimental repository to your sources.list:
-	 <br />
-
-	 <p style="margin-bottom:0.1em;">
-		# Replace 'xx' or the whole url to use your local mirror.
-	 <br />
-		deb http://ftp.xx.debian.org/debian/ experimental main
-	 <br />
-		deb-src http://ftp.xx.debian.org/debian/ experimental main
-	 <br /><br />
-
-	 <p style="margin-bottom:0.1em;">
-		2. Download <a href="files/kde-experimental"><code>this file</code></a> and save it as /etc/apt/preferences.d/kde-experimental, beware if you
-		already have an /etc/apt/preferences or you have other files in /etc/apt/preferences.d/, if that's your case you should read you apt
-		preferences files and understand well what you are doing. In any case, you can do "man apt_preferences" to find more information 
-		about apt pinning.
-	 <br /><br />
-
-	 <p style="margin-bottom:0.1em;">
-		3. Just upgrade your system with "apt-get update && apt-get dist-upgrade" or "aptitude update && aptitude dist-upgrade".
-	 <br /><br /> -->
-
-
 	 <h2>Install KDE 4.7 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
 	 <p style="margin-bottom:0.1em;">
 		For a basic KDE 4 desktop, install <a href="http://packages.debian.org/unstable/kde-plasma-desktop"><code>kde-plasma-desktop</code></a>,
