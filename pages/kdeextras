@@ -1,4 +1,10 @@
 			<h2>Debian KDE Extras Team<img alt="extrasteam_icon" src="../images/extrasteam_64.png" style="float:right; margin:-8px 0 0 0;" /></h2>
-			<p>This team maintains KDE applications.</p>
-			<p>Mailing list: <a href="mailto:pkg-kde-extras@lists.alioth.debian.org">pkg-kde-extras@lists.alioth.debian.org</a></p>
-			<p>Mailing list archives: <a href="http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras">http://lists.alioth.debian.org/mailman/listinfo/pkg-kde-extras</a></p>
+			<p>The KDE Extras team maintains KDE applications that are not part of the KDE software collection.<br />
+			<br />
+			<b>Mailing lists:</b>
+			<table style="margin-left:2em">
+			  <tr>
+			  <td><a href="mailto:pkg-kde-extras@lists.debian.org"><code>pkg-kde-talk@lists.alioth.debian.org</code></a></td>
+			    <td style="padding-right:16px;">[<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-extras/">Archives</a>]</td>
+			  </tr>
+			</table>
