@@ -6,8 +6,14 @@
 
 			<h2><img src="../images/download_48.png" style="float:right; margin:-8px 0 0 0;" alt="Download icon" />Install instructions</h2>
 			<ul>
-			<li><a href="kde47.html">KDE SC 4.7</a> in <b>unstable</b> / <b>testing</b></h2></li>
-			<li><a href="kde44.html">KDE SC 4.4</a> in <b>squeeze</b></h2></li>
+			<li><b>unstable / testing</b></li>
+			  <ul>
+			    <li><a href="kde47.html">KDE SC 4.7</a></li>
+			  </ul>
+			<li><b>squeeze (stable)</b></li>
+			  <ul>
+			    <li><a href="kde44.html">KDE SC 4.4</a></li>
+			  </ul>
 			</ul>
 
 			<h2>Migrating KDE 3 to KDE 4</h2>
