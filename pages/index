@@ -8,6 +8,10 @@
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
 
+<p><strong>May 14, 2012</strong><br />
+  Latest KDE Plasma Workspaces 4.8.3 is partially available from qt-kde mirrors, see <a href="http://lists.debian.org/12049316.zkkVjlsQi6@xoi">this email</a> for further information.
+</p>
+
 <p><strong>April 7, 2012</strong><br />
   Users of Debian testing can also enjoy KDE SC 4.7.4 for quiet a while now.
 </p>
