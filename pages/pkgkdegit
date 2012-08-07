@@ -39,10 +39,11 @@ Don't forget to read the <a href="gitguidelines.html">git guidelines</a>.
 
 <h3>Creating a packaging branch</h3>
 
-<p>ssh to git.debian.org and run:</p>
+<p>ssh to git.debian.org and cd to <tt>/git/pkg-kde/</tt> or
+an appropriate subfolder thereof, like <tt>/git/pkg-kde/kde-extras</tt>. Then run:</p>
 
 <pre>
-/git/pkg-kde/setup-repository sourcepackagename
+/git/pkg-kde/setup-git-repository sourcepackagename
 </pre>
 
 <p>This will setup the branch with commit hooks that will send commit mail to
@@ -52,7 +53,9 @@ mailing list and to sourcepackagename_cvs<tt>@</tt>packages.qa.debian.org.</p>
 
 <p>You can then procede to import the upstream tarball as described below and
 start adding your packaging, or you can import an existing source package,
-replacing the text in capitals as required:</p>
+replacing the text in capitals as required. The <tt>BRANCH_PATH</tt> of the fresh repository
+is <tt>pkg-kde/sourcepackagename.git</tt>, or, if you chose a subfolder,
+something like <tt>pkg-kde/kde-extras/sourcepackagename.git</tt>.</p>
 
 <pre>
 cd /path/to/debian/sources
