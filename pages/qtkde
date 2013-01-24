@@ -5,7 +5,7 @@
 			<b>Mailing lists:</b>
 			<table style="margin-left:2em">
 			  <tr>
-               		    <td><a href="mailto:pkg-kde-talk@lists.debian.org"><code>pkg-kde-talk@lists.alioth.debian.org</code></a></td>
+               		    <td><a href="mailto:pkg-kde-talk@lists.alioth.debian.org"><code>pkg-kde-talk@lists.alioth.debian.org</code></a></td>
 			    <td style="padding-right:16px;">[<a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/">Archives</a>]</td>
                		    <td><i>Discuss package related topics</i></td>
              		  </tr>
