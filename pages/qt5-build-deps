@@ -1,0 +1,9 @@
+	<h2>Build dependency graph for Qt 5.0.2</h2>
+	<div align="center">
+		<a href="../images/qt5_build_deps.png"> <img alt="Build Dependency of source packages" src="../images/qt5_build_deps.png" width=700 /> </a></br>
+		Click on the image to see it in it's original size.
+	</div>
+	<br>
+	The dot file for generating this graph can be found <a href="../files/qt5-build-deps.dot">here</a>.
+	<br>
+
