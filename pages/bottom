@@ -56,7 +56,7 @@
 			  <li>
 			    <ul>
 			      <!--<li><a href="#">How to package kde applications</a></li>-->
-			      <li><a href="build-deps.html">Build dependencies graph</a></li>
+			      <li><a href="kde-build-deps.html">KDE build dependencies graph</a></li>
 			      <li><a href="descriptions.html">Descriptions policy draft</a></li>
 			      <li><a href="pkgkdegit.html">git quick guide</a></li>
 			      <li><a href="gitguidelines.html">git guidelines</a></li>
