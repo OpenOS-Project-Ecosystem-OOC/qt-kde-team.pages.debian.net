@@ -3,74 +3,66 @@ digraph qt5 {
     rankdir = "BT"
   ]
 
+  qt3d [ color = red ]
   qtbase
   qtdeclarative
-  qtdoc [ color = red ]
+  qtdoc
+  qtfeedback [ color = red ]
   qtgraphicaleffects
-  qtimageformats [ color = yellow ]
+  qtimageformats
   qtjsbackend
   qtmultimedia
-  qtquick1 [ color = red ]
-  qtscript [ color = yellow ]
-  qtsvg
-//   qtsystems [ color = red ]
-  qttools
-  qttranslations [ color = yellow ]
-  qtwebkit [ color = red ]
-  qtwebkit_examples [ color = red ]
-  qtxmlpatterns
   qtquick1
-  qtquickcontrols
+  qtquickcontrols [ color = yellow ]
+  qtscript
+  qtsensors [ color = red ]
+  qtserialport [ color = red ]
+  qtsvg
+  qtsystems [ color = red ]
+  qttools
+  qttranslations
+  qtwebkit
   qtx11extras
-  qtserialport
+  qtxmlpatterns
 
   qtdeclarative -> qtbase
   qtdeclarative -> qtjsbackend
   qtdeclarative -> qtxmlpatterns
-  qtdeclarative -> qttools [ color = blue ]
+  qtdoc -> qtbase
+  qtdoc -> qttools
   qtgraphicaleffects -> qtbase
   qtgraphicaleffects -> qtdeclarative
-  qtgraphicaleffects -> qttools [ color = blue ]
-  qtimageformats -> qtbase [ color = yellow ]
+  qtimageformats -> qtbase
   qtjsbackend -> qtbase
   qtmultimedia -> qtbase
   qtmultimedia -> qtdeclarative
-  qtmultimedia -> qttools [ color = blue ]
-  qtscript -> qtbase [ color = yellow ]
-  qtscript -> qttools [ color = blue ]
+  qtquick1 -> qtbase
+  qtquick1 -> qtdeclarative
+  qtquick1 -> qtscript
+  qtquick1 -> qtwebkit
+  qtquickcontrols -> qtbase [ color = yellow ]
+  qtquickcontrols -> qtdeclarative [ color = yellow ]
+  qtquickcontrols -> qtjsbackend [ color = yellow ]
+  qtscript -> qtbase
   qtsvg -> qtbase
-  qtsvg -> qttools [ color = blue ]
   qttools -> qtbase
-  qttools -> qttools [ color = blue ]
+  qttranslations -> qttools
+  qtwebkit -> qtbase
+  qtwebkit -> qtdeclarative
+  qtwebkit -> qtscript
+  qtwebkit -> qtxmlpatterns
+  qtx11extras -> qtbase
   qtxmlpatterns -> qtbase
-  qtxmlpatterns -> qttools [ color = blue ]
-  qttranslations -> qtbase [ color = yellow ]
-  qttranslations -> qttools [ color = yellow ]
 
   // unsure/not-uploaded
-  qtdoc -> qtbase [ color = red ]
-  qtdoc -> qttools [ color = red ]
-  qtquick1 -> qtbase [ color = red ]
-  qtquick1 -> qtdeclarative [ color = red ]
-  qtquick1 -> qtjsbackend [ color = red ]
-  qtquick1 -> qtscript [ color = red ]
-  qtquick1 -> qtwebkit [ color = red ]
-//   qtsystems -> qtbase [ color = red ]
-//   qtsystems -> qtdeclarative [ color = red ]
-  qtwebkit -> qtbase [ color = red ]
-  qtwebkit -> qtdeclarative [ color = red ]
-  qtwebkit -> qtjsbackend [ color = red ]
-  qtwebkit -> qtscript [ color = red ]
-  qtwebkit -> qtxmlpatterns [ color = red ]
-  qtwebkit -> qttools [ color = blue ]
-  qtwebkit_examples -> qtbase
-  qtwebkit_examples -> qttools [ color = blue ]
-  qtwebkit_examples -> qtwebkit
-  qtquickcontrols -> qtbase
-  qtquickcontrols -> qtdeclarative
-  qtquickcontrols -> qtjsbackend
-  qtx11extras -> qtbase
-  qtx11extras -> qttools [ color = blue ]
-  qtserialport -> qtbase
-  qtserialport -> qttools [ color = blue ]
+  qt3d -> qtbase [ color = red ]
+  qt3d -> qtdeclarative [ color = red ]
+  qtfeedback -> qtbase [ color = red ]
+  qtfeedback -> qtdeclarative [ color = red ]
+  qtfeedback -> qtmultimedia [ color = red ]
+  qtsensors -> qtbase [ color = red ]
+  qtsensors -> qtdeclarative [ color = red ]
+  qtserialport -> qtbase [ color = red ]
+  qtsystems -> qtbase [ color = red ]
+  qtsystems -> qtdeclarative [ color = red ]
 }
