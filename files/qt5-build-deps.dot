@@ -16,7 +16,7 @@ digraph qt5 {
   qtquickcontrols [ color = yellow ]
   qtscript
   qtsensors [ color = red ]
-  qtserialport [ color = red ]
+  qtserialport [ color = yellow ]
   qtsvg
   qtsystems [ color = red ]
   qttools
@@ -62,7 +62,7 @@ digraph qt5 {
   qtfeedback -> qtmultimedia [ color = red ]
   qtsensors -> qtbase [ color = red ]
   qtsensors -> qtdeclarative [ color = red ]
-  qtserialport -> qtbase [ color = red ]
+  qtserialport -> qtbase [ color = yellow ]
   qtsystems -> qtbase [ color = red ]
   qtsystems -> qtdeclarative [ color = red ]
 }
