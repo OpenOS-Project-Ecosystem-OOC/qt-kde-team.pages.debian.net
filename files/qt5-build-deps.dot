@@ -13,16 +13,16 @@ digraph qt5 {
   qtjsbackend
   qtmultimedia
   qtquick1
-  qtquickcontrols [ color = yellow ]
+  qtquickcontrols
   qtscript
   qtsensors [ color = red ]
-  qtserialport [ color = yellow ]
+  qtserialport
   qtsvg
   qtsystems [ color = red ]
   qttools
   qttranslations
   qtwebkit
-  qtwebkit_examples [ color = yellow ]
+  qtwebkit_examples
   qtx11extras
   qtxmlpatterns
 
@@ -41,10 +41,10 @@ digraph qt5 {
   qtquick1 -> qtdeclarative
   qtquick1 -> qtscript
   qtquick1 -> qtwebkit
-  qtquickcontrols -> qtbase [ color = yellow ]
-  qtquickcontrols -> qtdeclarative [ color = yellow ]
-  qtquickcontrols -> qtjsbackend [ color = yellow ]
-  qtserialport -> qtbase [ color = yellow ]
+  qtquickcontrols -> qtbase
+  qtquickcontrols -> qtdeclarative
+  qtquickcontrols -> qtjsbackend
+  qtserialport -> qtbase
   qtscript -> qtbase
   qtsvg -> qtbase
   qttools -> qtbase
@@ -53,7 +53,7 @@ digraph qt5 {
   qtwebkit -> qtdeclarative
   qtwebkit -> qtscript
   qtwebkit -> qtxmlpatterns
-  qtwebkit_examples -> qtwebkit [ color = yellow ]
+  qtwebkit_examples -> qtwebkit
   qtx11extras -> qtbase
   qtxmlpatterns -> qtbase
 
