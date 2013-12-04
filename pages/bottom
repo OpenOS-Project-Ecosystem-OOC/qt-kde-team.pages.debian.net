@@ -11,17 +11,17 @@
 			    <ul>
 			      <li><a href="http://lists.debian.org/debian-kde/2013/01/msg00060.html">KDE SC 4.9.5</a></li>
 			    </ul>
-			  </li> --> 
+			  </li> -->
 			  <li><b>unstable</b></li>
 			  <li>
 			    <ul>
-			      <li><a href="kde48.html">KDE SC 4.10</a></li>
+			      <li><a href="kde411.html">KDE SC 4.11</a></li>
 			    </ul>
 			  </li>
 			  <li><b>testing</b></li>
 			  <li>
 			    <ul>
-			      <li><a href="kde48.html">KDE SC 4.8</a></li>
+			      <li><a href="kde410.html">KDE SC 4.10</a></li>
 			    </ul>
 			  </li>
 			  <li><b>wheezy (stable)</b></li>

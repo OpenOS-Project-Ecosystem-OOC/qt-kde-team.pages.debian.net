@@ -1,0 +1,98 @@
+
+	 <h2>Install KDE 4.11 packages<img src="../images/download_64.png" style="float:right; margin:-8px 0 0 0;" alt="Install KDE 4 Debian packages in your hard disk" /></h2>
+	 <p style="margin-bottom:0.1em;">
+	   There are meta-packages to get you a different subset of preselected KDE packages:<br/>
+	   <br/>
+	   <table style="margin-left:5em">
+	     <tr>
+	       <td style="padding-right:32px;"><code>kde-standard</code></td>
+	       <td><i>Default applications covering most user's needs</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><code>kde-full</code></td>
+	       <td><i>All KDE applications (huge)</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><code>plasma-desktop</code></td>
+	       <td><i>Basic desktop for desktops/laptops</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><code>plasma-netbook</code></td>
+	       <td><i>Basic desktop optimized for netbooks</i></td>
+	     </tr>
+	   </table>
+	   <br/>
+
+	   For those who want a more individual installation, here is a list of important packages:
+
+	   <table style="margin-left:5em">
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdm"><code>kdm</code></a></td>
+	       <td><i>KDE's display manager (most users will want this)</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/search?keywords=kde-l10n"><code>kde-l10n-XX</code></a></td>
+	       <td><i>Translations packages, where XX is your language code</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kde-runtime"><code>kde-runtime</code></a></td>
+	       <td><i>Essential runtime components</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kde-workspace"><code>kde-workspace</code></a></td>
+	       <td><i>Desktop environment</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kde-baseapps"><code>kde-baseapps</code></a></td>
+	       <td><i>Core applications</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdeplasma-addons"><code>kdeplasma-addons</code></a></td>
+	       <td><i>Additional Plasma applets</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdegraphics"><code>kdegraphics</code></a></td>
+	       <td><i>Graphics applications, including Okular, the famous document viewer</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdegames"><code>kdegames</code></a></td>
+	       <td><i>Assortment of fun games</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdemultimedia"><code>kdemultimedia</code></a></td>
+	       <td><i>Multimedia players and utilities</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdenetwork"><code>kdenetwork</code></a></td>
+	       <td><i>networking-related applications, such as the Kopete IM client</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdepim"><code>kdepim</code></a></td>
+	       <td><i>Personal Information Management apps, such as kmail,akregator or korganizer</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdeutils"><code>kdeutils</code></a></td>
+	       <td><i>General-purpose utilities like ark (kde's archive utility), kgpg or kate (advanced editor)</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdeedu"><code>kdeedu</code></a></td>
+	       <td><i>Educational applications</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdeadmin"><code>kdeadmin</code></a></td>
+	       <td><i>System administration tools</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdeartwork"><code>kdeartwork</code></a></td>
+	       <td><i>Additional artwork, like wallpapers and emoticons</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdetoys"><code>kdetoys</code></a></td>
+	       <td><i>Desktop amusements</i></td>
+	     </tr>
+	     <tr>
+	       <td style="padding-right:32px;"><a href="http://packages.debian.org/unstable/kdesdk"><code>kdesdk</code></a></td>
+	       <td><i>Software development tools</i></td>
+	     </tr>
+	   </table>
+	   <br />
