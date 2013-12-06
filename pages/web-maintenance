@@ -4,7 +4,7 @@
                <li>Edit/create pages (without .html suffix) in folder './pages/'.<br />
                    These pages must only include its very own content.<br />
                    Header, sidebar and footer are in files 'top' and 'bottom' and will be appended <br />
-		   by running genweb.sh Skript in next step.</li>
+		   by running genweb.sh script in the next step.</li>
 
                <li>Run script './genweb.sh'. It will create full-fledged pages in folder './output/'.</li>
 
