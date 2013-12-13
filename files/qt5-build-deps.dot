@@ -15,7 +15,7 @@ digraph qt5 {
   qtquick1
   qtquickcontrols
   qtscript
-  qtsensors [ color = red ]
+  qtsensors
   qtserialport
   qtsvg
   qtsystems [ color = red ]
