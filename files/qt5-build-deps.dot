@@ -10,7 +10,6 @@ digraph qt5 {
   qtfeedback [ color = red ]
   qtgraphicaleffects
   qtimageformats
-  qtjsbackend
   qtmultimedia
   qtquick1
   qtquickcontrols
@@ -27,14 +26,13 @@ digraph qt5 {
   qtxmlpatterns
 
   qtdeclarative -> qtbase
-  qtdeclarative -> qtjsbackend
+  qtdeclarative -> qtdeclarative
   qtdeclarative -> qtxmlpatterns
   qtdoc -> qtbase
   qtdoc -> qttools
   qtgraphicaleffects -> qtbase
   qtgraphicaleffects -> qtdeclarative
   qtimageformats -> qtbase
-  qtjsbackend -> qtbase
   qtmultimedia -> qtbase
   qtmultimedia -> qtdeclarative
   qtquick1 -> qtbase
@@ -43,7 +41,7 @@ digraph qt5 {
   qtquick1 -> qtwebkit
   qtquickcontrols -> qtbase
   qtquickcontrols -> qtdeclarative
-  qtquickcontrols -> qtjsbackend
+  qtquickcontrols -> qtdeclarative
   qtsensors -> qtbase
   qtsensors -> qtdeclarative
   qtserialport -> qtbase
