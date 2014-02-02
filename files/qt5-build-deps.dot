@@ -68,7 +68,8 @@ digraph qt5 {
   qtfeedback -> qtbase [ color = red ]
   qtfeedback -> qtdeclarative [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
-  qtlocation -> qt3d [color = red]
+  qtlocation -> qt3d [color = red style = dashed]
+  qtlocation -> qtdeclarative
   qtsystems -> qtbase [ color = red ]
   qtsystems -> qtdeclarative [ color = red ]
 }
