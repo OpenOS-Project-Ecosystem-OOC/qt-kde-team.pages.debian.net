@@ -30,26 +30,15 @@ digraph qt5 {
   qtconnectivity -> qtdeclarative
   qtdeclarative -> qtbase
   qtdeclarative -> qtxmlpatterns
-  qtdoc -> qtbase
   qtdoc -> qttools
-  qtgraphicaleffects -> qtbase
   qtgraphicaleffects -> qtdeclarative
   qtimageformats -> qtbase
-  qtmultimedia -> qtbase
   qtmultimedia -> qtdeclarative
-  qtquick1 -> qtbase
-  qtquick1 -> qtdeclarative
-  qtquick1 -> qtscript
   qtquick1 -> qtwebkit
-  qtquickcontrols -> qtbase
   qtquickcontrols -> qtdeclarative
-  qtquickcontrols -> qtdeclarative
-  qtsensors -> qtbase
   qtsensors -> qtdeclarative
   qtserialport -> qtbase
-  qtscript -> qtbase
   qtscript -> qttools
-  qtsvg -> qtbase
   qtsvg -> qttools
   qttools -> qtbase
   qttranslations -> qttools
@@ -57,15 +46,12 @@ digraph qt5 {
   qtwebkit -> qtscript
   qtwebkit_examples -> qtwebkit
   qtx11extras -> qtbase
-  qtxmlpatterns -> qtbase
   qtxmlpatterns -> qttools
 
   // unsure/not-uploaded
-  qt3d -> qtbase [ color = red ]
   qt3d -> qtdeclarative [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
   qtlocation -> qt3d [color = red style = dashed]
   qtlocation -> qtdeclarative
-  qtsystems -> qtbase [ color = red ]
   qtsystems -> qtdeclarative [ color = red ]
 }
