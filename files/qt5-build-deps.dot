@@ -28,7 +28,6 @@ digraph qt5 {
   qtxmlpatterns
 
   qtconnectivity -> qtdeclarative [ color = yellow ]
-  qtdeclarative -> qtbase
   qtdeclarative -> qtxmlpatterns
   qtdoc -> qttools
   qtgraphicaleffects -> qtdeclarative
