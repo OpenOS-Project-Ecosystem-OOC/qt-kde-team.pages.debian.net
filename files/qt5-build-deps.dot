@@ -11,7 +11,7 @@ digraph qt5 {
   qtfeedback [ color = red ]
   qtgraphicaleffects
   qtimageformats
-  qtlocation [color = red]
+  qtlocation
   qtmultimedia
   qtquick1
   qtquickcontrols
