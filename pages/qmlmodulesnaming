@@ -1,3 +1,31 @@
 <h2>QML modules packaging guidelines</h2>
 
-This guidelines are meant to provide consistent naming for QML modules. The reasoning behind this scheme can be found <a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/2014-March/001889.html" alt="Mail to pkg-kde-talk">here</a>.
+This guidelines are meant to provide consistent naming for QML modules. The reasoning behind this scheme can be found <a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/2014-March/001889.html" alt="Mail to pkg-kde-talk">here</a>.<br/>
+<br/>
+
+<h3>Previous notes</h3>
+
+<ul>
+  <li>There are legacy modules whose specification qmldir file does not contain a module identifier directive. These are deprecated.</li>
+The rest of the modules are versioned.
+  <li>QML modules are installed in $QT_INSTALL_QML which in Debian is /usr/lib/&lt;arch triplet&gt;/qt5/qml</li>
+  <li>They can be nested. As an example, QtQuick.Controls is installed in $QT_INSTALL_QML/QtQuick/Controls</li>
+  <li>Versioning can be defined either in the path or in the qmldir file itself. Multiple versions can exist in the same qmlfile, although this is not preferred by the documentation. They can even be combined.</li>
+</ul>
+
+<h3>Naming scheme</h3>
+
+The naming scheme should follow the following template:<br/>
+<br/>
+<pre>
+  qml-module-{module-name}[version]
+</pre>
+
+Where <strong>module-name</strong> is the lower-cased path replacing slashes with '-'. The <strong>version</strong> is optional if the version is not part of the module path, but required if it's part of it.
+
+<h3>Examples</h3>
+
+$QT_INSTALL_QML/foo/var/ would be packaged as qml-module-foo-var<br/>
+$QT_INSTALL_QML/foo/var.2/ would be packaged as qml-module-foo-var2<br/>
+$QT_INSTALL_QML/foo.2/var/ would be packaged as qml-module-foo2-var<br/>
+$QT_INSTALL_QML/foo2/var.2/ would be packaged as qml-module-foo2-var2<br/>
