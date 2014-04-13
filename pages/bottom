@@ -57,6 +57,7 @@
 			    <ul>
 			      <!--<li><a href="#">How to package kde applications</a></li>-->
 			      <li><a href="qt5-build-deps.html">Qt5 build dependencies graph</a></li>
+			      <li><a href="qmlmodulesnaming.html">QML modules naming guidelines</a></li>
 			      <li><a href="kde-build-deps.html">KDE build dependencies graph</a></li>
 			      <li><a href="descriptions.html">Descriptions policy draft</a></li>
 			      <li><a href="pkgkdegit.html">git quick guide</a></li>
