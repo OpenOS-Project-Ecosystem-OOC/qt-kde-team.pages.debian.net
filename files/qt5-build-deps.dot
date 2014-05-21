@@ -34,7 +34,7 @@ digraph qt5 {
   qtimageformats -> qtbase
   qtmultimedia -> qttools
   qtquick1 -> qtwebkit
-  qtquickcontrols -> qtdeclarative
+  qtquickcontrols -> qttools
   qtsensors -> qtdeclarative
   qtserialport -> qttools
   qtscript -> qtbase
