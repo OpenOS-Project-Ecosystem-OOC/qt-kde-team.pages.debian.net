@@ -46,11 +46,11 @@ digraph qt5 {
   qtwebkit_examples -> qtwebkit
   qtx11extras -> qttools
   qtxmlpatterns -> qtbase
+  qtlocation -> qttools
 
   // unsure/not-uploaded
   qt3d -> qtdeclarative [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
   qtlocation -> qt3d [color = red style = dashed]
-  qtlocation -> qtdeclarative
   qtsystems -> qtdeclarative [ color = red ]
 }
