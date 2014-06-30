@@ -56,7 +56,7 @@ digraph qt5 {
   qtwebkit -> qtscript
   qtwebkit -> qtdeclarative
   qtwebkit_examples -> qtwebkit
-  qtwebsockets -> qttools
+  qtwebsockets -> qttools [ color = red ]
   qtx11extras -> qttools
   qtxmlpatterns -> qtbase
   qtlocation -> qttools
