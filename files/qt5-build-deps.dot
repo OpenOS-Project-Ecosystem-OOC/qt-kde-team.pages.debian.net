@@ -6,6 +6,7 @@ digraph qt5 {
   qt3d [ color = red ]
   qtbase
   qtconnectivity
+  qtcreator
   qtdeclarative
   qtdoc
   qtfeedback [ color = red ]
@@ -28,6 +29,8 @@ digraph qt5 {
   qtxmlpatterns
 
   qtconnectivity -> qtdeclarative
+  qtcreator -> qtx11extras
+  qtcreator -> qtquick1
   qtdeclarative -> qtxmlpatterns
   qtdoc -> qttools
   qtgraphicaleffects -> qttools
