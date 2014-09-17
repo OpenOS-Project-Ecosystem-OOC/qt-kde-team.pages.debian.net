@@ -22,7 +22,7 @@ done
 bash genrss.sh > $OUTPUT/rss.xml
 
 # Generate Qt5 build dependencies graph. Needs dot.
-dot -T png -o images/qt5_build_deps.png files/qt5-build-deps.dot
+dot -T png -o images/qt5_build_deps.png $OUTPUT/qt5-build-deps.dot
 
 # find $OUTPUT/ -name ".svn" -exec rm -rf {} \; || true
 chmod -R g+w $OUTPUT/*
