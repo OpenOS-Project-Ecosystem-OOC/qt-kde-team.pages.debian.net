@@ -1,0 +1,96 @@
+<h2>Packaging with Qt5</h2>
+
+<h3>Some background</h3>
+<p>
+  When Qt5 was near the corner a member of our team took the time to consult
+  upstream for a sane way to allow both Qt4 and Qt5 SDKs to coexist without us
+  distros having to reinvent the wheel choosing which tools have to be in use in
+  each case.
+</p>
+
+<p>
+  After a long discussion, upstream decided to write
+  <a href="https://packages.debian.org/search?keywords=qtchooser">qtchooser</a>
+  to be able to select between Qt4, Qt5 and even special user's cases
+  like own or cross-platform builds.
+</p>
+
+<p>
+  So instead of going trough Debian's alternatives as we did with Qt3/Qt4, we
+  will make use of this new tool.
+</p>
+
+<h3>Packaging with Qt4, Qt5 or both of them</h3>
+
+<p>
+  If your package only uses Qt4 you just need to depend on libqt4-dev.
+  That's all.
+</p>
+
+<p>
+  If your package uses Qt5 or both Qt4 and Qt5 you need to take a look at
+  <a href="https://packages.debian.org/search?keywords=qtchooser">qtchooser</a>'s
+  man page, which basically boils down to:
+</p>
+<ul>
+  <li>Exporting QT_SELECT with 4, qt4, 5 or qt5 as value in debian/rules.</li>
+  <li>Call the tool using the '-qtx' parameter, where x can be replaced with any
+      of the options above.</li>
+</ul>
+
+<p>
+  We have also provided qt4-[arch-triplet] and qt5-[arch-triplet] options for
+  special cases, in case you might need them. Beware this should not be used to
+  build packages for the Debian archive.
+</p>
+
+<h3>Notes on using both Qt4 and Qt5 in the same source package</h3>
+
+<p>
+  Please note there is no point in shipping an application built with both
+  flavours, please use Qt5 whenever possible. This double compilation should be
+  left only for libraries.
+</p>
+
+<p>
+  You can't mix Qt4 and Qt5 in the same binary, but you may provide libraries
+  compiled against one or the other. For example, your source package foo could
+  provide both libqt4foo1 and libqt5foo1. You need to mangle your debian/rules
+  and/or build system accordingly to achieve this.
+</p>
+
+<p>
+  A good example both for upstream code allowing both styles of compilation and
+  debian packaging is phonon. Take a look at the CMakeLists.txt files for seeing
+  how a source can be built against both flavours and another
+  to <a href="http://anonscm.debian.org/cgit/pkg-kde/kde-req/phonon.git/tree/debian/rules">
+  debian/rules</a> to see an example of how to handle the compilation. Just bare
+  in mind to replace $(overridden_command) with the command itself, that
+  variable substitution comes from internal stuff from our team and you should
+  not be using it without a very good reason. If in doubt, feel free to ask us
+  on IRC or on the mailing lists.
+</p>
+
+<h3>Choosing the right tool at runtime</h3>
+
+<p>
+  If your application needs to call a tool, like for example qdbus,
+  <a href="https://packages.debian.org/sid/amd64/qtchooser/filelist">
+    masked by qtchooser
+  </a>
+  then beware that by default the Qt4 version will be used. If you need to use
+  the Qt5 version you need to use any of the methods qtchooser provides.
+  Two simple solutions (although both with their drawbacks) are:
+</p>
+
+<ul>
+  <li>
+    Patch the source code to add -qt5 to every external Qt5 tool invocation.
+    For example, if the code calls "moc --parameter1 --parameter2" then use
+   "moc -qt=5 --parameter1 --parameter2".
+  </li>
+  <li>
+    Replace the binary with a script that sets the environment variable
+    QT_SELECT to qt5 and then call the binary.
+  </li>
+</ul>
