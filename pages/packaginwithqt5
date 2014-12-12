@@ -23,14 +23,9 @@
 <h3>Packaging with Qt4, Qt5 or both of them</h3>
 
 <p>
-  If your package only uses Qt4 you just need to depend on libqt4-dev.
-  That's all.
-</p>
-
-<p>
-  If your package uses Qt5 or both Qt4 and Qt5 you need to take a look at
-  <a href="https://packages.debian.org/search?keywords=qtchooser">qtchooser</a>'s
-  man page, which basically boils down to:
+  The selection method is based on
+  <a href="https://packages.debian.org/search?keywords=qtchooser">qtchooser</a>.
+  Take a look at it's man page for full details, but basically boils down to:
 </p>
 <ul>
   <li>Exporting QT_SELECT with 4, qt4, 5 or qt5 as value in debian/rules.</li>
@@ -42,6 +37,12 @@
   We have also provided qt4-[arch-triplet] and qt5-[arch-triplet] options for
   special cases, in case you might need them. Beware this should not be used to
   build packages for the Debian archive.
+</p>
+
+<p>
+  Please also note that the above is not really required for Qt4. In other words
+  your current Qt4 packages won't break if you don't do it, but we recommend
+  doing so non the less.
 </p>
 
 <h3>Notes on using both Qt4 and Qt5 in the same source package</h3>
