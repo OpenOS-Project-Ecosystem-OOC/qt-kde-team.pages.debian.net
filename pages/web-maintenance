@@ -16,6 +16,6 @@
 
                <li>Commit the modifications you did inside 'pages/'.</li>
 
-	       <li>For publishing the changes, move over to wagner, pull in the changes and run
-		   genweb.sh (located in .git/hooks/) and copy the content from output to ../htdocs/</li>
+	       <li>For publishing the changes, run genweb.sh from the git repository root and copy
+		   the content from output to moszumanska:/home/groups/pkg-kde/htdocs/.</li>
             </ol>
