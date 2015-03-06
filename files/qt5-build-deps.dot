@@ -20,7 +20,7 @@ digraph qt5 {
   qtscript
   qtsensors
   qtserialport
-  qtstyleplugins [ color = yellow ]
+  qtstyleplugins
   qtsvg
   qtsystems [ color = red ]
   qttools
