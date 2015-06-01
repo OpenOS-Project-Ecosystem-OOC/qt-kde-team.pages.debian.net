@@ -4,7 +4,6 @@
 		Click on the image to see it in it's original size.
 	</div>
 	<br>
-        The first two packages that need compiling are qtbase and qttools.<br>
         Packages in black are already available in the archive.<br>
         Packages in yellow are waiting for being accepted in the <a href="http://ftp-master.debian.org/new.html">NEW queue</a>.<br>
         Packages in red have either not been packaged or have no stable release yet.<br>
