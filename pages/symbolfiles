@@ -86,21 +86,32 @@ the appropriate diffs, as in the above section.
 </p>
 
 <p>
-You can get the symbols for different archs all at once by running inside the
-top-level source directory:
+You can get the symbols for different archs including those from
+<a href="http://www.ports.debian.org/">www.ports.debian.org</a> all at once by running
+inside the top-level source directory the getbuildlog script as provided by the
+<a href="https://packages.debian.org/sid/devscripts">devscripts</a> package:
 </p>
 
 <pre>
-pkgkde-getbuildlogs
+getbuildlog &#60;source&#62; &#60;version&#62;
 </pre>
 
 <p>
-After that you will find the directory foo_unstable_logs containing the
-buildlogs for each arch. To patch the symbols files at once, run:
+For example let's suppose you want to get the build logs for qtbase-opensource-src's
+last upload:
 </p>
 
 <pre>
-pkgkde-symbolshelper batchpatch -v 1.8 foo_unstable_logs/foo_1.8-1*.build
+getbuildlog qtbase-opensource-src last
+</pre>
+
+<p>
+After that you will find the buildlogs for each arch in the same directory.
+To patch the symbols files at once, run:
+</p>
+
+<pre>
+pkgkde-symbolshelper batchpatch -v 1.8 foo_1.8-1*.build
 </pre>
 
 <h3>Handling missing symbols</h3>
