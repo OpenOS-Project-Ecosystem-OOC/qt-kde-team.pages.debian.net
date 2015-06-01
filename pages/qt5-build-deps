@@ -7,6 +7,7 @@
         Packages in black are already available in the archive.<br>
         Packages in yellow are waiting for being accepted in the <a href="http://ftp-master.debian.org/new.html">NEW queue</a>.<br>
         Packages in red have either not been packaged or have no stable release yet.<br>
-        The dot file for generating this graph can be found <a href="../files/qt5-build-deps.dot">here</a>.
+        The dot file for generating this graph can be found <a href="../files/qt5-build-deps.dot">here</a>.<br>
+        QtWebEngine <a href="https://lwn.net/Articles/643423/">will not get packaged</a>.
 	<br>
 
