@@ -44,6 +44,10 @@ digraph qt5 {
   qtdoc -> qtserialport
   qtdoc -> qtsvg
   qtdoc -> qtx11extras
+  qtdoc -> qtwebkit_examples
+  qtdoc -> qtwebsockets
+  qtdoc -> qtconnectivity
+  qtdoc -> qtenginio
   qtenginio -> qttools
   qtgraphicaleffects -> qttools
   qtimageformats -> qtbase
