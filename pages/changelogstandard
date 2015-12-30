@@ -20,7 +20,7 @@ and assuming the previous changelog entry is properly 'released', the following 
 
 <h4>1) The first commit should be the new changelog entry.</h4>
 
-This should be created using the team's name and e-mail. The reason for this is that it helps ensuring that no one mistakenly uploads the package without first issuing `dch -r` before (read below for context). If someone attempts this [s]he will have to force the GPG key to be used at signing time. This can be thought as a las warning for the packager to comply with the policy.<br/>
+This should be created using the team's name and e-mail. The reason for this is that it helps ensuring that no one mistakenly uploads the package without first issuing `dch -r` before (read below for context). If someone attempts this [s]he will have to force the GPG key to be used at signing time. This can be thought as a last warning for the packager to comply with the policy.<br/>
 <br/>
 For example you might add to your ~/.bashrc the following line:</br>
 <br/>
