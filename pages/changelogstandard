@@ -1,0 +1,96 @@
+<h2>Standard style for changelog entries</h2>
+
+Adopting a common standard for changelog entires not only helps improve their readability but also helps in reducing manual editing as much as possible, thus avoiding wasting development time in simple formatting issues.<br/>
+<br/>
+The contents of this standard and a rationale for them have been proposed by Modestas Vainius <a href="http://lists.alioth.debian.org/pipermail/pkg-kde-talk/2009-December/001431.html" alt="Original proposal">on our maintainer discussion mailing list</a>. The following notes are a summary of that proposal plus some little modifications done in order to update the workflow to make them respect Debian's policy.<br/>
+<br/>
+
+<h3>The standard</h3>
+
+Givein the following debchange settings in <i>/etc/devscripts.conf</i>:</br>
+</br>
+<pre>
+DEBCHANGE_RELEASE_HEURISTIC=changelog
+DEBCHANGE_MULTIMAINT_MERGE=yes
+DEBCHANGE_MAINTTRAILER=yes
+</pre>
+
+and assuming the previous changelog entry is properly 'released', the following will work:<br/>
+<br/>
+
+<h4>1) The first commit should be the new changelog entry.</h4>
+
+This should be created using the team's name and e-mail.<br/>
+<br/>
+For example you might add to your ~/.bashrc the following line:</br>
+<br/>
+<pre>alias pkgkde-dch='DEBFULLNAME="Debian Qt/KDE Maintainers" DEBEMAIL=debian-qt-kde@lists.debian.org dch'</pre>
+
+And then simply call <i>pkgkde-dch -i</i>.
+
+<h4>2) Every new changelog entry should be done with plain dch.</h4>
+
+There is nothing else to worry about. For example, assuming that DEBFULLNAME defaults to '1st committer':<br/>
+<br/>
+<pre>
+$ dch "First change."
+$ dch "Second change."
+$ DEBFULLNAME="2nd committer" DEBEMAIL="example at example.org" dch "Third 
+change."
+$ dch "Fourth change."
+$ DEBFULLNAME="3nd commiter" DEBEMAIL="example2 at example2.org" dch "Fifth 
+change."
+</pre>
+
+Will result into this:<br/>
+<br/>
+<pre>
+package (4:4.3.4-2) UNRELEASED; urgency=low
+
+  [ 1st committer ]
+  * First change.
+  * Second change.
+  * Fourth change.
+
+  [ 2nd committer ]
+  * Third change.
+
+  [ 3nd committer ]
+  * Fifth change.
+
+ -- Debian Qt/KDE Maintainers &lt;debian-qt-kde at lists.debian.org&gt;  Sun, 13 Dec 2009 00:49:13 +0200
+</pre>
+
+<strong>DEBCHANGE_RELEASE_HEURISTIC=changelog</strong> will make the use of UNRELEASED mandatory for not-yet-released changes.<br/>
+<strong>DEBCHANGE_MULTIMAINT_MERGE=yes</strong> will make changelog entries be merged with other's maintainers ones.<br/>
+<strong>DEBCHANGE_MAINTTRAILER=yes</strong> will make the trailer of the first committer to be maintained when others add changes. That's typically a more VCS friendly behaviour<br/>
+<br/>
+<strong>Notes:</strong>
+
+<ul>
+  <li>"* New upstream release." can still be put above the [ first maintainer ] as needed. However, this will have to be done manually in some cases.</li>
+  <li>"* Team upload." should be put above the [ first maintainer ] to let lintian properly detect it.
+</ul>
+
+<h4>3) At release time, `dch -r` MUST be used</h4>
+
+There are two reasons for this: it will update the trailer and distribution (UNRELEASED to the previously used one) and it will update the mainttrailer to whoever uploads the package (who might even not be listed as a committer in the changelog).<br/>
+<br/>
+The final result should then be:<br/>
+<br/>
+<pre>
+package (4:4.3.4-2) unstable; urgency=low
+
+  [ 1st committer ]
+  * First change.
+  * Second change.
+  * Fourth change.
+
+  [ 2nd committer ]
+  * Third change.
+
+  [ 3nd committer ]
+  * Fifth change.
+
+ -- Mike the uploader &lt;mikeup at debian.org&gt;  Tue, 30 Dec 2015 00:07:13 -0300
+</pre>
