@@ -1,4 +1,4 @@
-	<h2>Build dependency graph for Qt 5.3.0</h2>
+	<h2>Build dependency graph for Qt 5.7.0</h2>
 	<div align="center">
 		<a href="../images/qt5_build_deps.png"> <img alt="Build Dependency of source packages" src="../images/qt5_build_deps.png" width=700 /> </a></br>
 		Click on the image to see it in it's original size.

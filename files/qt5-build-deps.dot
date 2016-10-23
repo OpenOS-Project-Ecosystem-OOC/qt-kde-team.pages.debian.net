@@ -55,7 +55,7 @@ digraph qt5 {
   qtsvg -> qttools
   qttools -> qtwebkit
   qttranslations -> qttools
-  qtwayland -> "qtbase 5.6"
+  qtwayland -> qtdeclarative
   qtwebkit -> qtscript
   qtwebkit -> qtdeclarative
   qtwebkit_examples -> qttools
@@ -68,5 +68,4 @@ digraph qt5 {
   qt3d -> qttools [ color = red ]
   qtfeedback -> qtmultimedia [ color = red ]
   qtsystems -> qtdeclarative [ color = red ]
-  qtwayland -> qtdeclarative [ color = red style = dashed ]
 }
