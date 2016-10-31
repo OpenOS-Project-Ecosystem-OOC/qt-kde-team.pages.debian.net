@@ -8,6 +8,16 @@
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
 
+
+<p><strong>Oct 31, 2016</strong><br />
+<a href="https://release.debian.org/transitions/html/qtbase-abi-5-7-1.html">Transition to Qt 5.7.1</a> is <a href="https://bugs.debian.org/842574">requested</a>.
+</p>
+
+<p><strong>October 2016</strong><br />
+  KDE Applications 16.04 is in strech/testing and parts of KDE Applications 16.08.<br />
+  KDE Frameworks 5.27 is in strech/testing.
+</p>
+
 <p><strong>Aug 26, 2013</strong><br />
   KDE SC 4.10.5 is in jessie/testing.
 </p>
