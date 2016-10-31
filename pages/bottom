@@ -15,17 +15,28 @@
 			  <li><b>unstable</b></li>
 			  <li>
 			    <ul>
-			      <li><a href="kde411.html">KDE SC 4.11</a></li>
+			      <li>KDE Applications 16.04 and parts of 16.08</li>
 			    </ul>
 			  </li>
 			  <li><b>testing</b></li>
 			  <li>
 			    <ul>
-			      <li><a href="kde410.html">KDE SC 4.10</a></li>
+			      <li>KDE Applications 16.04 and part of 16.08</li>
+			    </ul>
+			  <li><b>stable</b></li>
+			  <li>
+			    <ul>
+			      <li>KDE SC 4.14</li>
 			    </ul>
 			  </li>
-			  <li><b>wheezy (stable)</b></li>
+			  <li><b>oldstable</b></li>
 			  <li>
+			    <ul>
+			      <li><a href="kde411.html">KDE SC 4.11</a></li>
+			    </ul>
+			    <ul>
+			      <li><a href="kde410.html">KDE SC 4.10</a></li>
+			    </ul>
 			    <ul>
 			      <li><a href="kde48.html">KDE SC 4.8</a></li>
 			    </ul>
