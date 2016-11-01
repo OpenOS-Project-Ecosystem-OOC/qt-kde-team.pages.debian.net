@@ -35,7 +35,6 @@ digraph qt5 {
   qtconnectivity -> qttools
   qtcreator -> qtx11extras
   qtdeclarative -> qtxmlpatterns
-  qtdoc -> qtgraphicaleffects
   qtdoc -> qtmultimedia
   qtdoc -> qtlocation
   qtdoc -> qtquickcontrols
