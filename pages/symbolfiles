@@ -8,10 +8,30 @@ binary compatibility. You can find more information about the nature of symbols 
 </p>
 
 <p>
-This page explains how to use symbols files in packages maintained by the KDE team. It requires
+This page explains how to use symbols files, that in packages maintained by the KDE team. It requires
 that you use pkg-kde-tools, which provides all the mentioned pkgkde-* utilities.
 </p>
 
+<p>
+Not only KDE packages can benefit from handling symbolsfiles with pkgkde-symbolshelper.
+If the package is written in C++ and has arch dependend symbols pkgkde-symbolshelper will help you
+handling those.
+</p>
+
+<h3>Using symbolshelper in your package</h3>
+
+<p>
+To use symbolshelper for your package, you simply have to add pkg-kde-tools to your Build-Depends.
+</p>
+
+<p>
+If you use dh you can simply add to your rules file:
+</p>
+
+<pre>
+%:
+	dh $@ --with pkgkde_symbolshelper
+</pre>
 
 <h3>Creating a symbols file</h3>
 
@@ -151,7 +171,6 @@ from the symbols file. If at least one symbol is not safe to be removed, then yo
 all the MISSING lines from the symbols file <b>and</b> bump the SONAME of the library.
 </p>
 
-
 <h3>Notes on binary compatibility checking</h3>
 
 <p>
@@ -161,4 +180,3 @@ stays binary compatible. There can be other kinds of binary incompatible changes
 the sizes of classes/structs, adding/removing virtual methods, etc, which cannot be catched by
 checking the symbols.
 </p>
-
