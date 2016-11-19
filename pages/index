@@ -8,6 +8,14 @@
 <h2><a href="rss.xml"><img alt="RSS Icon" src="../images/rssicon.png" style="float:right"/></a>Latest news:</h2>
 <!--RSS_START-->
 
+<p><strong>Nov 19, 2016</strong><br />
+  Uploading of KDE Frameworks 5.28 has started.
+</p>
+
+<p><strong>Nov 18, 2016</strong><br />
+  Transition to Qt 5.7.1 is finisched and moved to testing.
+</p>
+
 <p><strong>Nov 1, 2016</strong><br />
   <a href="https://release.debian.org/transitions/html/qtbase-abi-5-7-1.html">Transition to Qt 5.7.1</a> has been accpeted.
 </p>
