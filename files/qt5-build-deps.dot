@@ -4,7 +4,7 @@ digraph qt5 {
   ]
 
   qt3d
-  "qtbase 5.7"
+  "qtbase 5.9"
   qtcharts
   qtconnectivity
   qtcreator
