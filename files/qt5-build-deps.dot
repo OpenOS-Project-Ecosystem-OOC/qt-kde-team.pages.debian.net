@@ -9,7 +9,6 @@ digraph qt5 {
   qtconnectivity
   qtcreator
   qtdeclarative
-  "qtdeclarative-render-2d"
   qtdoc
   qtgraphicaleffects
   qtimageformats
@@ -39,7 +38,6 @@ digraph qt5 {
   qtconnectivity -> qttools
   qtcreator -> qtx11extras
   qtdeclarative -> qtxmlpatterns
-  "qtdeclarative-render-2d" -> qtdeclarative
   qtdoc -> qtconnectivity
   qtdoc -> qtlocation
   qtdoc -> qtmultimedia
