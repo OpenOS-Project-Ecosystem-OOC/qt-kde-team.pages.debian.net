@@ -63,7 +63,6 @@ digraph qt5 {
   qtsvg -> qttools
   qttools -> qtwebkit
   qttranslations -> qttools
-  qtvirtualkeyboard -> qtdeclarative
   qtvirtualkeyboard -> qtsvg
   qtwayland -> qttools
   qtwebchannel -> qttools
