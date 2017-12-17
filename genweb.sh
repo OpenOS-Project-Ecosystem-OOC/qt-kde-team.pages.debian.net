@@ -25,7 +25,10 @@ bash genrss.sh > $OUTPUT/rss.xml
 dot -T png -o $OUTPUT/images/qt5_build_deps.png files/qt5-build-deps.dot
 
 # Generate Pim5 build dependencies graph. Needs dot.
-dot -T png -o $OUTPUT/images/pim-build-deps.png files/pim-build-deps.dot
+for i in files/pim-build-deps*dot
+do
+	dot -T png -o $OUTPUT/images/`basename $i .dot`.png $i
+done
 
 # find $OUTPUT/ -name ".svn" -exec rm -rf {} \; || true
 chmod -R g+w $OUTPUT/*
