@@ -4,7 +4,7 @@ digraph qt5 {
   ]
 
   qt3d
-  "qtbase 5.9"
+  "qtbase 5.10"
   qtcharts
   qtconnectivity
   qtcreator
@@ -49,17 +49,18 @@ digraph qt5 {
   qtdoc -> qtwebkit_examples
   qtdoc -> qtwebsockets
   qtdoc -> qtx11extras
+  qtgamepad -> "qtbase 5.10"
   qtgraphicaleffects -> qttools
-  qtimageformats -> "qtbase 5.9"
+  qtimageformats -> "qtbase 5.10"
   qtlocation -> qttools
   qtmultimedia -> qttools
   qtquickcontrols -> qtgraphicaleffects
   qtquickcontrols2 -> qttools
-  qtscript -> "qtbase 5.9"
+  qtscript -> "qtbase 5.10"
   qtsensors -> qttools
   qtserialport -> qttools
   qtspeech -> qttools
-  qtstyleplugins -> "qtbase 5.9"
+  qtstyleplugins -> "qtbase 5.10"
   qtsvg -> qttools
   qttools -> qtwebkit
   qttranslations -> qttools
@@ -74,5 +75,5 @@ digraph qt5 {
   qtwebkit_examples -> qttools
   qtwebsockets -> qttools
   qtx11extras -> qttools
-  qtxmlpatterns -> "qtbase 5.9"
+  qtxmlpatterns -> "qtbase 5.10"
 }
