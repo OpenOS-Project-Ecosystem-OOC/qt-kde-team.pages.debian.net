@@ -4,7 +4,7 @@
 			<h2><a href="index.html">Home/News</a></h2>
 			<br />
 
-			<h2><img src="../images/download_48.png" style="float:right; margin:-8px 0 0 0;" alt="Download icon" />Install instructions</h2>
+			<h2><img src="images/download_48.png" style="float:right; margin:-8px 0 0 0;" alt="Download icon" />Install instructions</h2>
 			<ul>
 			  <!--<li><b>qt-kde.debian.net <br /> or qt-kde2.debian.net</b></li>
 			  <li>
