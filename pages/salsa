@@ -10,9 +10,9 @@
 
 <h3>Repository layouts</h3>
 <ul>
-  <li><strong>qt/</strong>: everything from qt.io.</li>
-  <li><strong>kde/</strong>: frameworks/plasma/apps.</li>
-  <li><strong>3rdparty/</strong>: non-Qt stuff that needs to be packaged
+  <li><strong>qt/</strong> everything from qt.io.</li>
+  <li><strong>kde/</strong> frameworks/plasma/apps.</li>
+  <li><strong>3rdparty/</strong> non-Qt stuff that needs to be packaged
   because it is used by something packaged (and not already in Debian).</li>
   <li><strong>extras</strong>: everything else.</li>
 </ul>
