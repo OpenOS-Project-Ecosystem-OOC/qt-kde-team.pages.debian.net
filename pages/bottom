@@ -15,8 +15,8 @@
 			  <li><b>unstable</b></li>
 			  <li>
 			    <ul>
-			      <li>KDE Applications 17.08</li>
-			      <li><a href="applications-17.08-build-deps.html">KDE Applications 17.08 build dependencies graph</a></li>
+			      <li>KDE Applications 18.08</li>
+			      <li><a href="applications-18.08-build-deps.html">KDE Applications 18.08 build dependencies graph</a></li>
 			      <li>KDE Frameworks 5.42</li>
 			      <li>Qt 5.9.2</li>
 			    </ul>
@@ -70,6 +70,7 @@
 			      <li><a href="changelogstandard.html">Standard style for changelog entries</a></li>
 			      <li><a href="qt5-build-deps.html">Qt5 build dependencies graph</a></li>
 			      <li><a href="applications-17.12-build-deps.html">KDE Applications 17.12 build dependencies graph</a></li>
+			      <li><a href="applications-17.08-build-deps.html">KDE Applications 17.08 build dependencies graph</a></li>
 			      <li><a href="qmlmodulesnaming.html">QML modules naming guidelines</a></li>
 			      <li><a href="packagingqtbasedstuff.html">Packaging Qt-based stuff</a></li>
 			      <li><a href="descriptions.html">Descriptions policy draft</a></li>
