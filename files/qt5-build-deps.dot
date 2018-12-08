@@ -43,7 +43,6 @@ digraph qt5 {
   qtdoc -> qtconnectivity
   qtdoc -> qtmultimedia
   qtdoc -> qtquickcontrols
-  qtdoc -> qtsensors
   qtdoc -> qtserialport
   qtdoc -> qtsvg
   qtdoc -> qtwebkit_examples
@@ -57,7 +56,7 @@ digraph qt5 {
   qtquickcontrols -> qtgraphicaleffects
   qtquickcontrols2 -> qttools
   qtscript -> "qtbase 5.11"
-  qtsensors -> qttools
+  qtsensors ->qtdeclarative
   qtserialport -> qttools
   qtspeech -> qttools
   qtstyleplugins -> "qtbase 5.11"
@@ -69,8 +68,9 @@ digraph qt5 {
   qtwebchannel -> qttools
   qtwebengine -> qtwebchannel
   qtwebview -> qtwebengine
-  qtwebkit -> qtscript
   qtwebkit -> qtlocation
+  qtwebkit -> qtscript
+  qtwebkit -> qtsensors
   qtwebkit_examples -> qttools
   qtwebsockets -> qttools
   qtx11extras -> qttools
