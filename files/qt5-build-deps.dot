@@ -65,14 +65,16 @@ digraph qt5 {
   qttranslations -> qttools
   qtvirtualkeyboard -> qtsvg
   qtwayland -> qttools
-  qtwebchannel -> qttools
+  qtwebchannel -> qtwebsockets
   qtwebengine -> qtwebchannel
   qtwebview -> qtwebengine
+  qtwebkit -> qtdeclarative
   qtwebkit -> qtlocation
   qtwebkit -> qtscript
   qtwebkit -> qtsensors
+  qtwebkit -> qtwebchannel
   qtwebkit_examples -> qttools
-  qtwebsockets -> qttools
+  qtwebsockets -> qtdeclarative
   qtx11extras -> qttools
   qtxmlpatterns -> "qtbase 5.11"
 }
