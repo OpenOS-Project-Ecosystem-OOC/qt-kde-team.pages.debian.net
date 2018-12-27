@@ -112,7 +112,7 @@
 		</div>
 
 		<div id="footer">
-		  <p><a href="mailto:debian-kde@lists.debian.org">Contact us</a> | <a href="#header">Back to top</a><br />Based on <a href="http://andreasviklund.com/">Andreas Viklund</a>'s Design
+		  <p><a href="mailto:debian-kde@lists.debian.org">Contact us</a> | <a href="https://salsa.debian.org/qt-kde-team/qt-kde-team.pages.debian.net">Web page source code</a> | <a href="#header">Back to top</a><br />Based on <a href="http://andreasviklund.com/">Andreas Viklund</a>'s Design
 		  </p>
 		</div>
 	</div>
