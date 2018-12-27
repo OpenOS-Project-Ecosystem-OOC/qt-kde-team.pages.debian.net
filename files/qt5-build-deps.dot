@@ -3,8 +3,8 @@ digraph qt5 {
     rankdir = "BT"
   ]
 
-  qt3d
   "qtbase 5.11"
+  qt3d
   qtcharts
   qtconnectivity
   qtcreator
@@ -68,13 +68,13 @@ digraph qt5 {
   qtwayland -> qttools
   qtwebchannel -> qtwebsockets
   qtwebengine -> qtwebchannel
-  qtwebview -> qtwebengine
   qtwebkit -> qtdeclarative
   qtwebkit -> qtlocation
   qtwebkit -> qtscript
   qtwebkit -> qtsensors
   qtwebkit -> qtwebchannel
   qtwebsockets -> qtdeclarative
+  qtwebview -> qtwebengine
   qtx11extras -> qttools
   qtxmlpatterns -> "qtbase 5.11"
 }
