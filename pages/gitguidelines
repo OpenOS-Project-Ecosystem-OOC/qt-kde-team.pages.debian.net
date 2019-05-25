@@ -28,7 +28,9 @@ section above.
   <li> Other members of packaging group should request permission of the current
   co-maintainers (via IRC or mailing list) before adding yourself to the list of
   Uploaders or pushing any other kind of changes.</li>
-  <li> Occasional contributors may send patches. Preferably, patches should be
+  <li> Occasional contributors may create merge request in
+  <a href="https://salsa.debian.org/qt-kde-team" alt="Qt-KDE's salsa project">salsa</a>
+  (preferred) or optionally send patches. This last option should preferably be
   formatted with `git format-patch` in order to retain commit authorship
   information.</li>
   <li> Pushed commits and patches must not violate repository policy as defined
