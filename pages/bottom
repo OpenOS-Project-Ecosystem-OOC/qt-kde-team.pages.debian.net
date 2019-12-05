@@ -9,36 +9,30 @@
 			  <!--<li><b>qt-kde.debian.net <br /> or qt-kde2.debian.net</b></li>
 			  <li>
 			    <ul>
-			      <li><a href="http://lists.debian.org/debian-kde/2013/01/msg00060.html">KDE SC 4.9.5</a></li>
+			      <li><a href="https://lists.debian.org/debian-kde/2013/01/msg00060.html">KDE SC 4.9.5</a></li>
 			    </ul>
 			  </li> -->
 			  <li><b>unstable</b></li>
 			  <li>
 			    <ul>
-			      <li>KDE Applications 18.08</li>
-			      <li><a href="applications-18.08-build-deps.html">KDE Applications 18.08 build dependencies graph</a></li>
-			      <li>KDE Frameworks 5.42</li>
-			      <li>Qt 5.9.2</li>
+			      <li>KDE Applications 19.08</li>
+			      <li>KDE Frameworks 5.62</li>
+			      <li>Qt 5.12.5</li>
 			    </ul>
 			  </li>
-			  <li><b>stretch (stable)</b></li>
+			  <li><b>Buster (stable)</b></li>
+			  <li>
+			    <ul>
+			      <li>KDE Applications 18.08</li>
+                              <li><a href="applications-18.08-build-deps.html">KDE Applications 18.08 build dependencies graph</a></li>
+                              <li>KDE Frameworks 5.54</li>
+                              <li>Qt 5.11.3</li>
+			    </ul>
+			  </li>
+			  <li><b>stretch (oldstable)</b></li>
 			  <li>
 			    <ul>
 			      <li>KDE Applications 16.04 and part of 16.08</li>
-			    </ul>
-			  </li>
-			  <li><b>jessie (oldstable)</b></li>
-			  <li>
-			    <ul>
-			      <li>KDE SC 4.14</li>
-			    </ul>
-			  </li>
-			  <li><b>oldstable</b></li>
-			  <li>
-			    <ul>
-			      <li><a href="kde411.html">KDE SC 4.11</a></li>
-			      <li><a href="kde410.html">KDE SC 4.10</a></li>
-			      <li><a href="kde48.html">KDE SC 4.8</a> <a href="kde48-build-deps.html">(build dependencies)</a></li>
 			    </ul>
 			  </li>
 			</ul>
@@ -49,7 +43,7 @@
 			  <li>
 			    <ul>
 			      <li><a href="qtkde.html">General information</a></li>
-			      <li><a href="http://qa.debian.org/developer.php?login=debian-qt-kde@lists.debian.org">Package list</a></li>
+			      <li><a href="https://qa.debian.org/developer.php?login=debian-qt-kde@lists.debian.org">Package list</a></li>
 			    </ul>
 			  </li>
 			  <li><b>KDE Extras Team</b></li>
@@ -66,7 +60,7 @@
 			  <li><b>Packaging</b></li>
 			  <li>
 			    <ul>
-			      <!--<li><a href="#">How to package kde applications</a></li>-->
+			      <!--<li><a href="#">How to package KDE applications</a></li>-->
 			      <li><a href="changelogstandard.html">Standard style for changelog entries</a></li>
 			      <li><a href="qt5-build-deps.html">Qt5 build dependencies graph</a></li>
 			      <li><a href="applications-17.12-build-deps.html">KDE Applications 17.12 build dependencies graph</a></li>
@@ -88,7 +82,7 @@
 			      <li><a href="usertags.html">Use of usertags</a></li>
 			      <li><a href="kdebuggraph.html">graphs</a></li>
 			      <li><a href="btslink.html">bts-link</a></li>
-			      <li><a href="kde-bugzilla-survival-guide.html">KDE bugzilla survival guide</a></li>
+			      <li><a href="kde-bugzilla-survival-guide.html">KDE Bugzilla survival guide</a></li>
 			    </ul>
 			  </li>
 			  <li><a href="web-maintenance.html">Web maintenance</a></li>
@@ -100,7 +94,7 @@
 			  <li><b>IRC:</b> #debian-kde at oftc.net</li>
 			  <li>
 			    <b>Mailing list:</b>
-			    <a style="font-size:0.9em;" href="http://lists.debian.org/debian-kde">debian-kde@lists.debian.org</a>
+			    <a style="font-size:0.9em;" href="https://lists.debian.org/debian-kde">debian-kde@lists.debian.org</a>
 			  </li>
 			</ul>
 
