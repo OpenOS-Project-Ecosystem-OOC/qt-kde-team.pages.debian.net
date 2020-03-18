@@ -19,7 +19,9 @@ digraph qt5 {
   qtnetworkauth
   qtquickcontrols
   qtquickcontrols2
+  qtremoteobjects
   qtscript
+  qtscxml
   qtsensors
   qtserialbus
   qtserialport
@@ -57,7 +59,9 @@ digraph qt5 {
   qtnetworkauth -> qttools
   qtquickcontrols -> qtgraphicaleffects
   qtquickcontrols2 -> qttools
+  qtremoteobjects -> qtdeclarative
   qtscript -> "qtbase 5.14"
+  qtscxml -> qtdeclarative
   qtsensors ->qtdeclarative
   qtserialbus -> qtserialport
   qtserialport -> qttools
